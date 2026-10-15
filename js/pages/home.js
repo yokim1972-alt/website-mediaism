@@ -10,7 +10,7 @@ export async function renderHomePage() {
         <div class="home-page">
             <!-- Hero Section -->
             <section class="hero-section">
-                <video class="hero-video" autoplay muted loop playsinline>
+                <video class="hero-video" autoplay muted loop playsinline poster="./assets/img/hero-poster.jpg">
                     <source src="./assets/video/video.mp4" type="video/mp4">
                 </video>
                 <div class="hero-overlay"></div>
