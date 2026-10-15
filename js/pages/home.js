@@ -1,6 +1,6 @@
 // Home Page
-import { render } from '../main.js?v=202610151009';
-import { getIcon } from '../icons.js?v=202610151009';
+import { render } from '../main.js?v=202610151014';
+import { getIcon } from '../icons.js?v=202610151014';
 
 export async function renderHomePage() {
     const companyData = await window.loadData('company');
@@ -44,56 +44,6 @@ export async function renderHomePage() {
                                 <p class="card-description">${value.description}</p>
                             </div>
                         `).join('') || ''}
-                    </div>
-                </div>
-            </section>
-
-            <!-- Solutions Accordion Section -->
-            <section class="section solutions-section">
-                <div class="container">
-                    <h2 class="section-title">솔루션</h2>
-                    <p class="section-subtitle">6가지 핵심 기술로 최적의 솔루션을 제공합니다</p>
-                    <div class="accordion-container">
-                        ${solutionsData?.solutions?.map((solution, index) => `
-                            <div class="accordion-item ${index === 0 ? 'active' : ''}" data-solution="${solution.id}">
-                                <button class="accordion-header" onclick="toggleAccordion(this)">
-                                    <span class="accordion-title">
-                                        <span class="accordion-icon">${getIconSVG(solution.icon)}</span>
-                                        ${solution.title}
-                                    </span>
-                                    <span class="accordion-arrow">
-                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                    </span>
-                                </button>
-                                <div class="accordion-content">
-                                    <div class="accordion-body">
-                                        <p class="solution-subtitle">${solution.subtitle}</p>
-                                        <p class="solution-description">${solution.description}</p>
-                                        <div class="solution-details">
-                                            <div class="solution-column">
-                                                <h4>주요 특징</h4>
-                                                <ul>
-                                                    ${solution.features?.map(feature => `<li>${feature}</li>`).join('') || ''}
-                                                </ul>
-                                            </div>
-                                            <div class="solution-column">
-                                                <h4>활용 분야</h4>
-                                                <ul>
-                                                    ${solution.applications?.map(app => `<li>${app}</li>`).join('') || ''}
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        `).join('') || ''}
-                    </div>
-                    <div class="section-cta">
-                        <button class="btn btn-primary" onclick="window.location.hash='#/solutions'">
-                            모든 솔루션 보기
-                        </button>
                     </div>
                 </div>
             </section>

@@ -1,6 +1,6 @@
 // Cases Page
-import { render } from '../main.js?v=202610151009';
-import { getIcon } from '../icons.js?v=202610151009';
+import { render } from '../main.js?v=202610151014';
+import { getIcon } from '../icons.js?v=202610151014';
 
 export async function renderCasesPage() {
     const casesData = await window.loadData('cases');
@@ -11,7 +11,6 @@ export async function renderCasesPage() {
                 <!-- Page Header -->
                 <div class="page-header">
                     <h1 class="page-title">사례</h1>
-                    <p class="page-subtitle">다양한 프로젝트 경험과 성공 사례를 확인하세요</p>
                 </div>
 
                 <!-- Filters -->

@@ -1,6 +1,6 @@
 // Solutions Page
-import { render } from '../main.js?v=202610151009';
-import { getIcon } from '../icons.js?v=202610151009';
+import { render } from '../main.js?v=202610151014';
+import { getIcon } from '../icons.js?v=202610151014';
 
 export async function renderSolutionsPage() {
     const solutionsData = await window.loadData('solutions');
@@ -11,31 +11,7 @@ export async function renderSolutionsPage() {
                 <!-- Page Header -->
                 <div class="page-header">
                     <h1 class="page-title">솔루션</h1>
-                    <p class="page-subtitle">최첨단 기술로 구현하는 6가지 핵심 솔루션</p>
                 </div>
-
-                <!-- PDF Download Section -->
-                <section class="pdf-download-section">
-                    <h3>소개서 다운로드</h3>
-                    <div class="pdf-download-grid">
-                        <div class="pdf-download-card">
-                            <div class="pdf-icon">${getIcon('document', 40)}</div>
-                            <h4>모션 시뮬레이터 및 플랫폼 소개서</h4>
-                            <p>첨단 모션 시뮬레이터 기술과 플랫폼에 대한 상세 정보</p>
-                            <a href="assets/pdf/motion-simulator-platform.pdf" download class="btn btn-outline btn-small">
-                                ${getIcon('download', 20)} PDF 다운로드
-                            </a>
-                        </div>
-                        <div class="pdf-download-card">
-                            <div class="pdf-icon">${getIcon('document', 40)}</div>
-                            <h4>4D 시스템 토탈 솔루션 소개서</h4>
-                            <p>통합 4D 시스템 솔루션의 모든 것을 담은 종합 안내서</p>
-                            <a href="assets/pdf/4d-solution.pdf" download class="btn btn-outline btn-small">
-                                ${getIcon('download', 20)} PDF 다운로드
-                            </a>
-                        </div>
-                    </div>
-                </section>
 
                 <!-- Solutions Grid -->
                 <div class="solutions-grid">

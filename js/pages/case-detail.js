@@ -1,6 +1,6 @@
 // Case Detail Page
-import { render } from '../main.js?v=202610151009';
-import { getIcon } from '../icons.js?v=202610151009';
+import { render } from '../main.js?v=202610151014';
+import { getIcon } from '../icons.js?v=202610151014';
 
 export async function renderCaseDetailPage(params) {
     const caseId = params[0];
@@ -138,7 +138,7 @@ export async function renderCaseDetailPage(params) {
                     <!-- Admin Section -->
                     <section class="detail-section admin-section" style="border-top: 2px solid var(--color-border); padding-top: var(--spacing-xl); margin-top: var(--spacing-xl);">
                         <button id="adminBtn" class="btn btn-small btn-outline" style="float: right;">
-                            관리자
+                            레퍼런스
                         </button>
                         <div style="clear: both;"></div>
                         
@@ -146,7 +146,7 @@ export async function renderCaseDetailPage(params) {
                         <div id="adminModal" class="admin-modal" style="display: none;">
                             <div class="admin-modal-content">
                                 <span class="admin-modal-close">&times;</span>
-                                <h3>관리자 인증</h3>
+                                <h3>레퍼런스 보기</h3>
                                 <input type="password" id="adminPassword" class="admin-password-input" placeholder="비밀번호를 입력하세요" />
                                 <button id="adminSubmit" class="btn btn-primary">확인</button>
                                 <p id="adminError" class="admin-error" style="display: none; color: #ff5252; margin-top: 10px;">비밀번호가 올바르지 않습니다.</p>
@@ -240,7 +240,7 @@ export async function renderCaseDetailPage(params) {
             if (password === 'media123') {
                 adminModal.style.display = 'none';
                 beforeAfterSection.style.display = 'block';
-                adminBtn.textContent = '관리자 ✓';
+                adminBtn.textContent = '레퍼런스 ✓';
                 adminBtn.style.color = 'var(--color-primary)';
             } else {
                 adminError.style.display = 'block';
