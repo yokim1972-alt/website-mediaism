@@ -28,7 +28,17 @@ class Router {
 
     init() {
         window.addEventListener('hashchange', () => this.route());
-        window.addEventListener('load', () => this.route());
+        // 페이지가 이미 다 열린 뒤에 불러와진 경우(버전 로더)에는 load 이벤트가 다시 오지 않으므로
+        // 라우트 등록이 끝난 뒤 start()에서 직접 첫 화면을 그린다.
+        if (document.readyState !== 'complete') {
+            window.addEventListener('load', () => this.route());
+        }
+    }
+
+    start() {
+        if (document.readyState === 'complete') {
+            this.route();
+        }
     }
 
     register(path, handler) {
@@ -69,11 +79,11 @@ class Router {
 const router = new Router();
 
 // Import Pages
-import { renderHomePage } from './pages/home.js?v=202610151014';
-import { renderAboutPage } from './pages/about.js?v=202610151014';
-import { renderSolutionsPage } from './pages/solutions.js?v=202610151014';
-import { renderCasesPage } from './pages/cases.js?v=202610151014';
-import { renderCaseDetailPage } from './pages/case-detail.js?v=202610151014';
+import { renderHomePage } from './pages/home.js?v=202610151020';
+import { renderAboutPage } from './pages/about.js?v=202610151020';
+import { renderSolutionsPage } from './pages/solutions.js?v=202610151020';
+import { renderCasesPage } from './pages/cases.js?v=202610151020';
+import { renderCaseDetailPage } from './pages/case-detail.js?v=202610151020';
 
 // Register Routes
 router.register('/', renderHomePage);
@@ -81,6 +91,7 @@ router.register('/about', renderAboutPage);
 router.register('/solutions', renderSolutionsPage);
 router.register('/cases', renderCasesPage);
 router.register('/case', renderCaseDetailPage);
+
 
 // Data Loading
 async function loadData(type) {
@@ -150,3 +161,6 @@ export function formatDate(dateString) {
 export function truncate(text, length) {
     return text.length > length ? text.substring(0, length) + '...' : text;
 }
+
+// 첫 화면 그리기 — 모듈 안의 함수(loadData 등)가 모두 준비된 뒤에 실행
+router.start();

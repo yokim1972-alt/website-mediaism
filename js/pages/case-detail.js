@@ -1,6 +1,6 @@
 // Case Detail Page
-import { render } from '../main.js?v=202610151014';
-import { getIcon } from '../icons.js?v=202610151014';
+import { render } from '../main.js?v=202610151020';
+import { getIcon } from '../icons.js?v=202610151020';
 
 export async function renderCaseDetailPage(params) {
     const caseId = params[0];
