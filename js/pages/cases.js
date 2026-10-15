@@ -1,6 +1,6 @@
 // Cases Page
-import { render } from '../main.js';
-import { getIcon } from '../icons.js';
+import { render } from '../main.js?v=202610151006';
+import { getIcon } from '../icons.js?v=202610151006';
 
 export async function renderCasesPage() {
     const casesData = await window.loadData('cases');
@@ -121,18 +121,19 @@ function renderCaseCards(cases) {
             <div class="case-card-content">
                 <div class="case-meta">
                     <span class="case-category">${getCategoryName(caseItem.category)}</span>
-                    <span class="case-year">${caseItem.year}</span>
+                    ${isRealValue(caseItem.year) ? `<span class="case-year">${caseItem.year}</span>` : ''}
                 </div>
                 <h3 class="case-title">${caseItem.title}</h3>
+                ${isRealValue(caseItem.location) ? `
                 <p class="case-location">
                     <span class="location-icon">${getIcon('location', 16)}</span>
                     ${caseItem.location}
-                </p>
-                <p class="case-description">${truncate(caseItem.description, 100)}</p>
+                </p>` : ''}
+                ${isRealValue(caseItem.description) ? `<p class="case-description">${truncate(caseItem.description, 100)}</p>` : ''}
                 <div class="case-tags">
-                    ${caseItem.tags?.slice(0, 3).map(tag => `
+                    ${(caseItem.tags || []).filter(isRealValue).slice(0, 3).map(tag => `
                         <span class="tag">${tag}</span>
-                    `).join('') || ''}
+                    `).join('')}
                 </div>
             </div>
         </div>
@@ -140,8 +141,17 @@ function renderCaseCards(cases) {
 }
 
 function getYears(cases) {
-    const years = [...new Set(cases?.map(c => c.year) || [])];
+    const years = [...new Set(cases?.map(c => c.year).filter(isRealValue) || [])];
     return years.sort((a, b) => b - a);
+}
+
+// 임시값(1234, 위치, 설명, tag1 등)은 화면에 표시하지 않음
+function isRealValue(v) {
+    if (v === undefined || v === null) return false;
+    const t = String(v).trim();
+    if (!t || t === '-' || t === '1234' || t === '위치' || t === '설명') return false;
+    if (/^tag\s*\d+$/i.test(t)) return false;
+    return true;
 }
 
 function getCategoryIcon(category) {

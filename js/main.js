@@ -43,6 +43,10 @@ class Router {
         // Update active nav link
         this.updateActiveNav(fullPath);
         
+        // 페이지 이동 시 팝업이 걸어 둔 스크롤 잠금 해제 (팝업을 닫지 않고 이동해도 스크롤되게)
+        document.body.style.overflow = '';
+        document.documentElement.style.overflow = '';
+        
         // Scroll to top
         window.scrollTo(0, 0);
         
@@ -65,13 +69,13 @@ class Router {
 const router = new Router();
 
 // Import Pages
-import { renderHomePage } from './pages/home.js';
-import { renderAboutPage } from './pages/about.js';
-import { renderSolutionsPage } from './pages/solutions.js';
-import { renderCasesPage } from './pages/cases.js';
-import { renderCaseDetailPage } from './pages/case-detail.js';
-import { renderContactPage } from './pages/contact.js';
-import { renderPrivacyPage } from './pages/privacy.js';
+import { renderHomePage } from './pages/home.js?v=202610151006';
+import { renderAboutPage } from './pages/about.js?v=202610151006';
+import { renderSolutionsPage } from './pages/solutions.js?v=202610151006';
+import { renderCasesPage } from './pages/cases.js?v=202610151006';
+import { renderCaseDetailPage } from './pages/case-detail.js?v=202610151006';
+import { renderContactPage } from './pages/contact.js?v=202610151006';
+import { renderPrivacyPage } from './pages/privacy.js?v=202610151006';
 
 // Register Routes
 router.register('/', renderHomePage);
@@ -89,7 +93,8 @@ async function loadData(type) {
     }
     
     try {
-        const response = await fetch(`./data/${type}.json`);
+        const v = new URL(import.meta.url).searchParams.get('v') || '0';
+        const response = await fetch(`./data/${type}.json?v=${v}`);
         const data = await response.json();
         window.AppState.data[type] = data;
         return data;

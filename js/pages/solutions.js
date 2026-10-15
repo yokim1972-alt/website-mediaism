@@ -1,6 +1,6 @@
 // Solutions Page
-import { render } from '../main.js';
-import { getIcon } from '../icons.js';
+import { render } from '../main.js?v=202610151006';
+import { getIcon } from '../icons.js?v=202610151006';
 
 export async function renderSolutionsPage() {
     const solutionsData = await window.loadData('solutions');
@@ -40,7 +40,7 @@ export async function renderSolutionsPage() {
                 <!-- Solutions Grid -->
                 <div class="solutions-grid">
                     ${solutionsData?.solutions?.map(solution => `
-                        <div class="card solution-card" data-solution="${solution.id}">
+                        <div class="card solution-card" data-solution="${solution.id}" onclick="openSolutionDetail('${solution.id}')" role="button" tabindex="0">
                             <div class="solution-card-icon">${getIconSVG(solution.icon)}</div>
                             <h2 class="solution-card-title">${solution.title}</h2>
                             <p class="solution-card-subtitle">${solution.subtitle}</p>
@@ -52,24 +52,10 @@ export async function renderSolutionsPage() {
                                     ${solution.features?.slice(0, 3).map(feature => `<li>${feature}</li>`).join('') || ''}
                                 </ul>
                             </div>
-                            
-                            <button class="btn btn-outline btn-small" onclick="openSolutionDetail('${solution.id}')">
-                                자세히 보기
-                            </button>
                         </div>
                     `).join('') || ''}
                 </div>
 
-                <!-- CTA -->
-                <section class="section-cta">
-                    <div class="cta-box">
-                        <h2>어떤 솔루션이 필요하신가요?</h2>
-                        <p>전문가와 상담하여 프로젝트에 최적화된 솔루션을 찾아보세요</p>
-                        <button class="btn btn-secondary btn-large" onclick="window.location.hash='#/contact'">
-                            상담 신청
-                        </button>
-                    </div>
-                </section>
             </div>
         </div>
 
@@ -119,9 +105,6 @@ export async function renderSolutionsPage() {
                 </div>
                 
                 <div class="solution-detail-actions">
-                    <button class="btn btn-primary" onclick="window.location.hash='#/contact'; closeSolutionDetail();">
-                        상담 신청
-                    </button>
                     <button class="btn btn-outline" onclick="window.location.hash='#/cases'; closeSolutionDetail();">
                         관련 사례 보기
                     </button>

@@ -1,6 +1,6 @@
 // Contact Page
-import { render } from '../main.js';
-import { getIcon } from '../icons.js';
+import { render } from '../main.js?v=202610151006';
+import { getIcon } from '../icons.js?v=202610151006';
 
 export async function renderContactPage() {
     const contactData = await window.loadData('contact');
@@ -90,21 +90,6 @@ export async function renderContactPage() {
                     </div>
                 </div>
 
-                <!-- CTA Section -->
-                <section class="section">
-                    <div class="cta-box">
-                        <h2>프로젝트를 시작할 준비가 되셨나요?</h2>
-                        <p>전화 또는 이메일로 문의주시면 빠르게 답변드리겠습니다</p>
-                        <div class="cta-actions">
-                            <a href="tel:${company?.phone?.replace(/-/g, '')}" class="btn btn-primary btn-large">
-                                전화 문의
-                            </a>
-                            <a href="mailto:${company?.email}" class="btn btn-outline btn-large">
-                                이메일 문의
-                            </a>
-                        </div>
-                    </div>
-                </section>
             </div>
         </div>
     `;

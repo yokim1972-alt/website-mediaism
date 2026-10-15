@@ -1,5 +1,5 @@
 // Privacy Policy Page
-import { render } from '../main.js';
+import { render } from '../main.js?v=202610151006';
 
 export async function renderPrivacyPage() {
     const html = `

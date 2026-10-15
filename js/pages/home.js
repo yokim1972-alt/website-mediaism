@@ -1,6 +1,6 @@
 // Home Page
-import { render } from '../main.js';
-import { getIcon } from '../icons.js';
+import { render } from '../main.js?v=202610151006';
+import { getIcon } from '../icons.js?v=202610151006';
 
 export async function renderHomePage() {
     const companyData = await window.loadData('company');
@@ -24,9 +24,6 @@ export async function renderHomePage() {
                             ${companyData?.mission || 'One-Stop 맞춤 주문형 시뮬레이터 제작 서비스와 One-Click 콘텐츠 관리 시스템을 제공합니다'}
                         </p>
                         <div class="hero-actions">
-                            <button class="btn btn-secondary btn-large" onclick="window.location.hash='#/contact'">
-                                상담 신청
-                            </button>
                             <button class="btn btn-outline btn-large" onclick="window.location.hash='#/solutions'">
                                 솔루션 보기
                             </button>
@@ -101,23 +98,6 @@ export async function renderHomePage() {
                 </div>
             </section>
 
-            <!-- CTA Section -->
-            <section class="section cta-section">
-                <div class="container">
-                    <div class="cta-box">
-                        <h2>프로젝트를 시작할 준비가 되셨나요?</h2>
-                        <p>전문가와 상담하여 최적의 솔루션을 찾아보세요</p>
-                        <div class="cta-actions">
-                            <button class="btn btn-secondary btn-large" onclick="window.location.hash='#/contact'">
-                                문의하기
-                            </button>
-                            <button class="btn btn-outline btn-large" onclick="window.location.hash='#/cases'">
-                                사례 보기
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </section>
         </div>
     `;
     

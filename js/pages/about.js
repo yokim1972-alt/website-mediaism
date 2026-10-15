@@ -1,6 +1,6 @@
 // About Page
-import { render } from '../main.js';
-import { getIcon } from '../icons.js';
+import { render } from '../main.js?v=202610151006';
+import { getIcon } from '../icons.js?v=202610151006';
 
 export async function renderAboutPage() {
     const companyData = await window.loadData('company');
@@ -62,33 +62,6 @@ export async function renderAboutPage() {
                     </div>
                 </section>
 
-                <!-- Company Info -->
-                <section class="section">
-                    <div class="card company-info-card">
-                        <h3 class="card-title">회사 정보</h3>
-                        <div class="company-info-grid">
-                            <div class="info-item">
-                                <span class="info-label">회사명</span>
-                                <span class="info-value">${companyData?.name || ''}</span>
-                            </div>
-                            <div class="info-item">
-                                <span class="info-label">브랜드명</span>
-                                <span class="info-value">${companyData?.brandName || ''}</span>
-                            </div>
-                            <div class="info-item">
-                                <span class="info-label">설립연도</span>
-                                <span class="info-value">${companyData?.established || ''}</span>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- CTA -->
-                <section class="section-cta">
-                    <button class="btn btn-primary btn-large" onclick="window.location.hash='#/contact'">
-                        문의하기
-                    </button>
-                </section>
             </div>
         </div>
 

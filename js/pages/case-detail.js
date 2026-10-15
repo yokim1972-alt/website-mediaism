@@ -1,6 +1,6 @@
 // Case Detail Page
-import { render } from '../main.js';
-import { getIcon } from '../icons.js';
+import { render } from '../main.js?v=202610151006';
+import { getIcon } from '../icons.js?v=202610151006';
 
 export async function renderCaseDetailPage(params) {
     const caseId = params[0];
@@ -21,6 +21,19 @@ export async function renderCaseDetailPage(params) {
         return;
     }
     
+    // 임시값(1234, x개월, feature 1, tag1, -, 위치, 설명 등)은 화면에 표시하지 않음
+    const isReal = v => {
+        if (v === undefined || v === null) return false;
+        const t = String(v).trim();
+        if (!t || t === '-' || t === '1234' || t === '위치' || t === '설명' || t === '클라이언트') return false;
+        if (/^x\s*개월$/i.test(t) || /^feature\s*\d+$/i.test(t) || /^tag\s*\d+$/i.test(t)) return false;
+        return true;
+    };
+    const d = caseItem.details || {};
+    const detailItems = [['기간', d.duration], ['범위', d.scope], ['기술', d.technology]].filter(([, v]) => isReal(v));
+    const features = (d.features || []).filter(isReal);
+    const tags = (caseItem.tags || []).filter(isReal);
+
     const html = `
         <div class="case-detail-page">
             <div class="container">
@@ -35,14 +48,15 @@ export async function renderCaseDetailPage(params) {
                 <div class="case-detail-header">
                     <div class="case-detail-meta">
                         <span class="case-category-badge">${getCategoryName(caseItem.category)}</span>
-                        <span class="case-year-badge">${caseItem.year}</span>
+                        ${isReal(caseItem.year) ? `<span class="case-year-badge">${caseItem.year}</span>` : ''}
                     </div>
                     <h1 class="case-detail-title">${caseItem.title}</h1>
-                    <p class="case-detail-client">클라이언트: ${caseItem.client}</p>
+                    ${isReal(caseItem.client) ? `<p class="case-detail-client">클라이언트: ${caseItem.client}</p>` : ''}
+                    ${isReal(caseItem.location) ? `
                     <p class="case-detail-location">
                         <span class="location-icon">${getIcon('location', 20)}</span>
                         ${caseItem.location}
-                    </p>
+                    </p>` : ''}
                 </div>
 
                 <!-- Case Gallery -->
@@ -72,63 +86,47 @@ export async function renderCaseDetailPage(params) {
 
                 <!-- Case Description -->
                 <div class="case-detail-content">
+                    ${isReal(caseItem.description) ? `
                     <section class="detail-section">
                         <h2>프로젝트 개요</h2>
                         <p>${caseItem.description}</p>
-                    </section>
+                    </section>` : ''}
 
-                    <!-- Project Details -->
+                    <!-- Project Details (값 있는 항목만) -->
+                    ${detailItems.length > 0 ? `
                     <section class="detail-section">
                         <h2>프로젝트 상세</h2>
                         <div class="detail-grid">
+                            ${detailItems.map(([label, v]) => `
                             <div class="detail-item card">
-                                <h4>기간</h4>
-                                <p>${caseItem.details?.duration || '-'}</p>
-                            </div>
-                            <div class="detail-item card">
-                                <h4>범위</h4>
-                                <p>${caseItem.details?.scope || '-'}</p>
-                            </div>
-                            <div class="detail-item card">
-                                <h4>기술</h4>
-                                <p>${caseItem.details?.technology || '-'}</p>
-                            </div>
+                                <h4>${label}</h4>
+                                <p>${v}</p>
+                            </div>`).join('')}
                         </div>
-                    </section>
+                    </section>` : ''}
 
-                    <!-- Features -->
-                    ${caseItem.details?.features ? `
+                    <!-- Features (값 있을 때만) -->
+                    ${features.length > 0 ? `
                         <section class="detail-section">
                             <h2>주요 특징</h2>
                             <ul class="features-list">
-                                ${caseItem.details.features.map(feature => `
+                                ${features.map(feature => `
                                     <li>${feature}</li>
                                 `).join('')}
                             </ul>
                         </section>
                     ` : ''}
 
-                    <!-- Tags -->
-                    ${caseItem.tags ? `
+                    <!-- Tags (값 있을 때만) -->
+                    ${tags.length > 0 ? `
                         <section class="detail-section">
                             <div class="case-detail-tags">
-                                ${caseItem.tags.map(tag => `
+                                ${tags.map(tag => `
                                     <span class="tag">${tag}</span>
                                 `).join('')}
                             </div>
                         </section>
                     ` : ''}
-
-                    <!-- CTA -->
-                    <section class="detail-section">
-                        <div class="cta-box">
-                            <h3>비슷한 프로젝트를 진행하고 싶으신가요?</h3>
-                            <p>전문가와 상담하여 프로젝트를 시작해보세요</p>
-                            <button class="btn btn-secondary btn-large" onclick="window.location.hash='#/contact'">
-                                상담 신청
-                            </button>
-                        </div>
-                    </section>
 
                     <!-- Navigation -->
                     <div class="case-navigation">

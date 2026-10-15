@@ -6,9 +6,9 @@
     <meta name="description" content="MEDIA-ISM - 원스톱 맞춤 설계 시뮬레이터 및 멀티미디어 솔루션 전문 기업">
     <meta name="keywords" content="3D, 4D, VR, AR, 인터랙티브, 모션 시뮬레이터, 모션 컨트롤러">
     <title>MEDIA-ISM - (주)미디어즘</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/pages.css">
-    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/main.css?v=202610151006">
+    <link rel="stylesheet" href="css/pages.css?v=202610151006">
+    <link rel="stylesheet" href="css/components.css?v=202610151006">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -30,7 +30,6 @@
                         <li><a href="#/contact" class="nav-link">문의</a></li>
                     </ul>
                 </nav>
-                <button class="btn btn-primary cta-btn" onclick="window.location.hash='#/contact'">상담 신청</button>
                 <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="메뉴 열기">
                     <span></span>
                     <span></span>
@@ -100,11 +99,6 @@
 
     <!-- Floating Buttons -->
     <div class="floating-buttons">
-        <button class="floating-btn contact-btn" onclick="window.location.hash='#/contact'" aria-label="상담 신청">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M21 15C21 15.5304 20.7893 16.0391 20.4142 16.4142C20.0391 16.7893 19.5304 17 19 17H7L3 21V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H19C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V15Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-        </button>
         <button class="floating-btn scroll-top-btn" id="scrollTopBtn" aria-label="맨 위로">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M18 15L12 9L6 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -113,6 +107,13 @@
     </div>
 
     <!-- Scripts -->
-    <script type="module" src="js/main.js"></script>
+    <script type="module">
+        // 배포 버전을 읽어 항상 최신 스크립트를 불러옴 (브라우저 캐시 방지)
+        const fallback = 'js/main.js?v=202610151006'.split('?v=')[1];
+        fetch('./version.txt?t=' + Date.now(), { cache: 'no-store' })
+            .then(r => r.ok ? r.text() : fallback)
+            .then(t => import('./js/main.js?v=' + (t.trim() || fallback)))
+            .catch(() => import('./js/main.js?v=' + fallback));
+    </script>
 </body>
 </html>
