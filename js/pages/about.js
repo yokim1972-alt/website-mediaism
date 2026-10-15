@@ -12,9 +12,9 @@ export async function renderAboutPage() {
                 <div class="page-header">
                     <h1 class="page-title">회사소개</h1>
                     <p class="page-subtitle">${companyData?.brandName || 'MEDIA-ISM'}</p>
-                    <button class="btn btn-outline" onclick="openAboutPdfModal()" style="margin-top: var(--spacing-md);">
+                    <a href="assets/pdf/(주)미디어즘 회사 소개서.pdf" download class="btn btn-outline" style="margin-top: var(--spacing-md);">
                         ${getIcon('download', 20)} 회사소개서 다운로드
-                    </button>
+                    </a>
                 </div>
 
                 <!-- Vision & Mission -->
@@ -62,34 +62,6 @@ export async function renderAboutPage() {
                     </div>
                 </section>
 
-                <!-- Certifications & Patents -->
-                <section class="section">
-                    <div class="cert-patent-grid">
-                        <div class="card">
-                            <h3 class="card-title">인증</h3>
-                            <ul class="cert-list">
-                                ${companyData?.certifications?.map(cert => `
-                                    <li>
-                                        <strong>${cert.name}</strong>
-                                        <span class="cert-detail">${cert.issuer} (${cert.year})</span>
-                                    </li>
-                                `).join('') || ''}
-                            </ul>
-                        </div>
-                        <div class="card">
-                            <h3 class="card-title">특허</h3>
-                            <ul class="patent-list">
-                                ${companyData?.patents?.map(patent => `
-                                    <li>
-                                        <strong>${patent.title}</strong>
-                                        <span class="patent-detail">특허 ${patent.number} (${patent.year})</span>
-                                    </li>
-                                `).join('') || ''}
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-
                 <!-- Company Info -->
                 <section class="section">
                     <div class="card company-info-card">
@@ -120,41 +92,10 @@ export async function renderAboutPage() {
             </div>
         </div>
 
-        <!-- PDF Download Modal -->
-        <div id="aboutPdfModal" class="modal" onclick="closeAboutPdfModal()">
-            <div class="modal-content" style="max-width: 500px;" onclick="event.stopPropagation()">
-                <button class="modal-close" onclick="closeAboutPdfModal()">&times;</button>
-                <div style="text-align: center; padding: var(--spacing-xs);">
-                    <div class="pdf-icon" style="margin: 0 auto var(--spacing-lg);">${getIcon('document', 48)}</div>
-                    <h2 style="margin-bottom: var(--spacing-md);">회사소개서 다운로드</h2>
-                    <p style="color: var(--color-text-secondary); margin-bottom: var(--spacing-xl);">
-                        미디어필의 비전, 핵심 기술, 주요 프로젝트를 담은 종합 소개서
-                    </p>
-                    <a href="assets/pdf/(주)미디어즘 회사 소개서.pdf" download class="btn btn-primary btn-large">
-                        ${getIcon('download', 24)} PDF 다운로드
-                    </a>
-                </div>
-            </div>
-        </div>
     `;
     
     render(html);
 
-    // PDF Modal functions
-    window.openAboutPdfModal = function() {
-        document.getElementById('aboutPdfModal').classList.add('active');
-        document.body.style.overflow = 'hidden';
-    };
-    
-    window.closeAboutPdfModal = function() {
-        document.getElementById('aboutPdfModal').classList.remove('active');
-        document.body.style.overflow = '';
-    };
-
-    // Auto-open modal on page load
-    setTimeout(() => {
-        window.openAboutPdfModal();
-    }, 500);
 }
 
 function getIconSVG(iconName) {
