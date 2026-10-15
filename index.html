@@ -6,9 +6,9 @@
     <meta name="description" content="MEDIA-ISM - 원스톱 맞춤 설계 시뮬레이터 및 멀티미디어 솔루션 전문 기업">
     <meta name="keywords" content="3D, 4D, VR, AR, 인터랙티브, 모션 시뮬레이터, 모션 컨트롤러">
     <title>MEDIA-ISM - (주)미디어즘</title>
-    <link rel="stylesheet" href="css/main.css?v=202610151020">
-    <link rel="stylesheet" href="css/pages.css?v=202610151020">
-    <link rel="stylesheet" href="css/components.css?v=202610151020">
+    <link rel="stylesheet" href="css/main.css?v=202610151026">
+    <link rel="stylesheet" href="css/pages.css?v=202610151026">
+    <link rel="stylesheet" href="css/components.css?v=202610151026">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -26,7 +26,6 @@
                         <li><a href="#/" class="nav-link">홈</a></li>
                         <li><a href="#/about" class="nav-link">회사소개</a></li>
                         <li><a href="#/solutions" class="nav-link">솔루션</a></li>
-                        <li><a href="#/cases" class="nav-link">사례</a></li>
                     </ul>
                 </nav>
                 <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="메뉴 열기">
@@ -107,7 +106,7 @@
     <!-- Scripts -->
     <script type="module">
         // 배포 버전을 읽어 항상 최신 스크립트를 불러옴 (브라우저 캐시 방지)
-        const fallback = 'js/main.js?v=202610151020'.split('?v=')[1];
+        const fallback = 'js/main.js?v=202610151026'.split('?v=')[1];
         fetch('./version.txt?t=' + Date.now(), { cache: 'no-store' })
             .then(r => r.ok ? r.text() : fallback)
             .then(t => import('./js/main.js?v=' + (t.trim() || fallback)))

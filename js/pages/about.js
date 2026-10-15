@@ -1,6 +1,6 @@
 // About Page
-import { render } from '../main.js?v=202610151020';
-import { getIcon } from '../icons.js?v=202610151020';
+import { render } from '../main.js?v=202610151026';
+import { getIcon } from '../icons.js?v=202610151026';
 
 export async function renderAboutPage() {
     const companyData = await window.loadData('company');

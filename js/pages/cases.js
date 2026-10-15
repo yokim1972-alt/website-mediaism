@@ -1,6 +1,6 @@
 // Cases Page
-import { render } from '../main.js?v=202610151020';
-import { getIcon } from '../icons.js?v=202610151020';
+import { render } from '../main.js?v=202610151026';
+import { getIcon } from '../icons.js?v=202610151026';
 
 export async function renderCasesPage() {
     const casesData = await window.loadData('cases');
@@ -10,7 +10,7 @@ export async function renderCasesPage() {
             <div class="container">
                 <!-- Page Header -->
                 <div class="page-header">
-                    <h1 class="page-title">사례</h1>
+                    <h1 class="page-title">포트폴리오</h1>
                 </div>
 
                 <!-- Filters -->

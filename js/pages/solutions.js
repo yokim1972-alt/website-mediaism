@@ -1,6 +1,6 @@
 // Solutions Page
-import { render } from '../main.js?v=202610151020';
-import { getIcon } from '../icons.js?v=202610151020';
+import { render } from '../main.js?v=202610151026';
+import { getIcon } from '../icons.js?v=202610151026';
 
 export async function renderSolutionsPage() {
     const solutionsData = await window.loadData('solutions');
@@ -82,7 +82,7 @@ export async function renderSolutionsPage() {
                 
                 <div class="solution-detail-actions">
                     <button class="btn btn-outline" onclick="window.location.hash='#/cases'; closeSolutionDetail();">
-                        관련 사례 보기
+                        포트폴리오
                     </button>
                 </div>
             </div>

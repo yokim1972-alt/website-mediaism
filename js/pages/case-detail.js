@@ -1,6 +1,6 @@
 // Case Detail Page
-import { render } from '../main.js?v=202610151020';
-import { getIcon } from '../icons.js?v=202610151020';
+import { render } from '../main.js?v=202610151026';
+import { getIcon } from '../icons.js?v=202610151026';
 
 export async function renderCaseDetailPage(params) {
     const caseId = params[0];
@@ -11,9 +11,9 @@ export async function renderCaseDetailPage(params) {
         render(`
             <div class="container">
                 <div class="error-message">
-                    <h2>사례를 찾을 수 없습니다</h2>
+                    <h2>프로젝트를 찾을 수 없습니다</h2>
                     <button class="btn btn-primary" onclick="window.location.hash='#/cases'">
-                        사례 목록으로 돌아가기
+                        포트폴리오로 돌아가기
                     </button>
                 </div>
             </div>
@@ -39,7 +39,7 @@ export async function renderCaseDetailPage(params) {
             <div class="container">
                 <!-- Breadcrumb -->
                 <nav class="breadcrumb">
-                    <a href="#/cases">사례</a>
+                    <a href="#/cases">포트폴리오</a>
                     <span>/</span>
                     <span>${caseItem.title}</span>
                 </nav>
