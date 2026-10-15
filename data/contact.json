@@ -1,0 +1,25 @@
+{
+  "company": {
+    "name": "(주)미디어즘",
+    "brandName": "MEDIAism",
+    "address": "경기 안양시 만안구 양화로71번길 37",
+    "phone": "010-3287-8984",
+    "email": "media00041@naver.com",
+    "ceo": "김신희"
+  },
+  "mapInfo": {
+    "latitude": 37.3945,
+    "longitude": 126.9564,
+    "address": "경기 안양시 만안구 양화로71번길 37",
+    "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1584.8623729757605!2d126.91011248892386!3d37.39634127391212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b60d551cd5e01%3A0xb70e16074542a843!2z6rK96riw64-EIOyViOyWkeyLnCDrp4zslYjqtawg7JaR7ZmU66GcMzfrsojquLg!5e0!3m2!1sko!2skr!4v1765418581793!5m2!1sko!2skr"
+  },
+  "businessHours": {
+    "weekdays": "09:00 - 18:00",
+    "weekend": "휴무"
+  },
+  "social": {
+    "blog": "",
+    "youtube": "",
+    "instagram": ""
+  }
+}
