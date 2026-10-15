@@ -69,13 +69,12 @@ class Router {
 const router = new Router();
 
 // Import Pages
-import { renderHomePage } from './pages/home.js?v=202610151006';
-import { renderAboutPage } from './pages/about.js?v=202610151006';
-import { renderSolutionsPage } from './pages/solutions.js?v=202610151006';
-import { renderCasesPage } from './pages/cases.js?v=202610151006';
-import { renderCaseDetailPage } from './pages/case-detail.js?v=202610151006';
-import { renderContactPage } from './pages/contact.js?v=202610151006';
-import { renderPrivacyPage } from './pages/privacy.js?v=202610151006';
+import { renderHomePage } from './pages/home.js?v=202610151009';
+import { renderAboutPage } from './pages/about.js?v=202610151009';
+import { renderSolutionsPage } from './pages/solutions.js?v=202610151009';
+import { renderCasesPage } from './pages/cases.js?v=202610151009';
+import { renderCaseDetailPage } from './pages/case-detail.js?v=202610151009';
+import { renderPrivacyPage } from './pages/privacy.js?v=202610151009';
 
 // Register Routes
 router.register('/', renderHomePage);
@@ -83,7 +82,6 @@ router.register('/about', renderAboutPage);
 router.register('/solutions', renderSolutionsPage);
 router.register('/cases', renderCasesPage);
 router.register('/case', renderCaseDetailPage);
-router.register('/contact', renderContactPage);
 router.register('/privacy', renderPrivacyPage);
 
 // Data Loading

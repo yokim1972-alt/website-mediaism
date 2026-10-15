@@ -1,6 +1,6 @@
 // Cases Page
-import { render } from '../main.js?v=202610151006';
-import { getIcon } from '../icons.js?v=202610151006';
+import { render } from '../main.js?v=202610151009';
+import { getIcon } from '../icons.js?v=202610151009';
 
 export async function renderCasesPage() {
     const casesData = await window.loadData('cases');
