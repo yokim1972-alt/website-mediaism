@@ -1,5 +1,31 @@
 // SVG Icons Library
 export const icons = {
+    ai: `
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 3L13.8 8.2L19 10L13.8 11.8L12 17L10.2 11.8L5 10L10.2 8.2L12 3Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+            <path d="M5 17L5.7 18.8L7.5 19.5L5.7 20.2L5 22L4.3 20.2L2.5 19.5L4.3 18.8L5 17Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+            <path d="M19 15L19.6 16.4L21 17L19.6 17.6L19 19L18.4 17.6L17 17L18.4 16.4L19 15Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+        </svg>
+    `,
+
+    interactive: `
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9 11.5V5.5C9 4.67 9.67 4 10.5 4C11.33 4 12 4.67 12 5.5V11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M12 10.5C12 9.67 12.67 9 13.5 9C14.33 9 15 9.67 15 10.5V12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M15 11.5C15 10.67 15.67 10 16.5 10C17.33 10 18 10.67 18 11.5V15C18 18.31 15.31 21 12 21H11.5C9.5 21 7.8 20 6.8 18.4L4.3 14.5C3.9 13.8 4.1 12.9 4.8 12.5C5.4 12.2 6.1 12.3 6.6 12.8L9 15.3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M3 6.5C3.6 4.9 4.9 3.6 6.5 3M14.5 2C16.1 2.6 17.4 3.9 18 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+    `,
+
+    theater: `
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3 6H21V15H3V6Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+            <path d="M6 19H18M9 15V19M15 15V19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="9" cy="10.5" r="1.5" stroke="currentColor" stroke-width="2"/>
+            <circle cx="15" cy="10.5" r="1.5" stroke="currentColor" stroke-width="2"/>
+        </svg>
+    `,
+
     design: `
         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>

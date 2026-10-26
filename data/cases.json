@@ -1,116 +1,259 @@
-﻿{
+{
+  "categories": [
+    {
+      "id": "ai-content",
+      "name": "AI 영상·이미지 제작",
+      "short": "AI 영상·이미지"
+    },
+    {
+      "id": "simulator",
+      "name": "체험 시뮬레이터",
+      "short": "시뮬레이터"
+    },
+    {
+      "id": "theater",
+      "name": "입체 영상관 (3D·4D)",
+      "short": "입체 영상관"
+    },
+    {
+      "id": "interactive",
+      "name": "체험형 전시",
+      "short": "체험형 전시"
+    },
+    {
+      "id": "control",
+      "name": "제어 장비·소프트웨어",
+      "short": "제어 장비"
+    }
+  ],
   "cases": [
+    {
+      "id": "ai-001",
+      "title": "충주성 전투 AI 재현 영상",
+      "category": "ai-content",
+      "sub": "역사 재현 영상",
+      "year": 2026,
+      "location": "충주박물관",
+      "client": "충주박물관",
+      "description": "충주성 전투를 AI 영상 생성 기술로 되살린 전시 영상입니다. 장면마다 대본과 그림 콘티를 먼저 만들고, 이를 바탕으로 AI가 전투 장면을 그려 내면 편집과 음악을 입혀 완성합니다. 배우와 세트 없이 옛 전투 장면을 생생하게 보여 줍니다. 가로로 아주 긴 전시 화면에 맞춰 만들었습니다.",
+      "thumbnail": "./assets/img/portfolio/ai-001-t.jpg",
+      "images": [
+        "./assets/img/portfolio/ai-001-1.jpg",
+        "./assets/img/portfolio/ai-001-2.jpg",
+        "./assets/img/portfolio/ai-001-3.jpg",
+        "./assets/img/portfolio/ai-001-4.jpg",
+        "./assets/img/portfolio/ai-001-5.jpg",
+        "./assets/img/portfolio/ai-001-6.jpg",
+        "./assets/img/portfolio/ai-001-7.jpg"
+      ],
+      "tags": [
+        "AI 영상",
+        "역사 재현",
+        "박물관"
+      ],
+      "details": {
+        "scope": "대본·그림 콘티, AI 장면 생성, 편집, 음악·나레이션",
+        "technology": "이미지·영상 생성 AI, 초광폭 화면"
+      },
+      "note": "ComfyUI output 폴더의 작업 이미지 사용 — 최종본으로 교체할 것"
+    },
+    {
+      "id": "ai-002",
+      "title": "충주박물관 택견 영상 (오프닝 대결)",
+      "category": "ai-content",
+      "sub": "전시관 상영 영상",
+      "year": 2026,
+      "location": "충주박물관",
+      "client": "충주박물관",
+      "description": "2026년 충주박물관 개편 전시에 들어가는 택견 영상입니다. 먹물 번짐과 붓 터치를 살린 수묵화 느낌으로 두 사람이 달려와 겨루는 오프닝 장면을 AI로 만들었습니다. 택견 동작 하나하나를 자료로 확인해 장면을 설계했습니다.",
+      "thumbnail": "./assets/img/portfolio/ai-002-t.jpg",
+      "images": [
+        "./assets/img/portfolio/ai-002-1.jpg",
+        "./assets/img/portfolio/ai-002-2.jpg",
+        "./assets/img/portfolio/ai-002-3.jpg",
+        "./assets/img/portfolio/ai-002-4.jpg",
+        "./assets/img/portfolio/ai-002-5.jpg",
+        "./assets/img/portfolio/ai-002-6.jpg"
+      ],
+      "tags": [
+        "AI 영상",
+        "택견",
+        "수묵화",
+        "박물관"
+      ],
+      "details": {
+        "scope": "장면 설계, AI 영상 생성, 화풍 통일, 편집",
+        "technology": "이미지·영상 생성 AI, 수묵화 화풍"
+      },
+      "note": "V:\\2026 충주박물관 개편\\work\\택견 최종본으로 교체할 것"
+    },
+    {
+      "id": "ai-003",
+      "title": "삼육대학교 120주년 미디어아트",
+      "category": "ai-content",
+      "sub": "홍보·기념 영상",
+      "year": 2026,
+      "location": "삼육대학교",
+      "client": "삼육대학교",
+      "description": "삼육대학교 120주년을 기념하는 가로로 긴 대형 화면용 미디어아트 영상입니다. 캠퍼스 풍경, 함께 배우는 학생들, 빛의 물결이 이어지는 장면을 AI로 만들고 고화질로 키워 넓은 화면에 맞췄습니다.",
+      "thumbnail": "./assets/img/portfolio/ai-003-t.jpg",
+      "images": [
+        "./assets/img/portfolio/ai-003-1.jpg",
+        "./assets/img/portfolio/ai-003-2.jpg",
+        "./assets/img/portfolio/ai-003-3.jpg",
+        "./assets/img/portfolio/ai-003-4.jpg"
+      ],
+      "tags": [
+        "AI 영상",
+        "미디어아트",
+        "기념 영상"
+      ],
+      "details": {
+        "scope": "장면 설계, AI 영상 생성, 업스케일, 편집",
+        "technology": "이미지·영상 생성 AI, 3840×1024 와이드 화면"
+      },
+      "note": "W:\\삼육대학교 결과물 폴더 최종본으로 교체할 것"
+    },
+    {
+      "id": "ai-004",
+      "title": "애기봉 전시 영상 (제작 중)",
+      "category": "ai-content",
+      "sub": "역사 재현 영상",
+      "year": 2026,
+      "location": "애기봉",
+      "client": "",
+      "description": "애기봉 일대에서 벌어진 전투 장면을 AI로 그린 전시 영상입니다. 넓은 들판과 강, 불타는 마을을 한 화면에 담은 그림을 바탕으로 영상을 만들고 있습니다.",
+      "thumbnail": "./assets/img/portfolio/ai-004-t.jpg",
+      "images": [
+        "./assets/img/portfolio/ai-004-1.jpg"
+      ],
+      "tags": [
+        "AI 영상",
+        "역사 재현"
+      ],
+      "note": "'애기봉'이 맞는지, 사업명·발주처 확인 필요. 작업 중 이미지 1장만 있음"
+    },
     {
       "id": "case-001",
       "title": "KT 5G 봅슬레이 시뮬레이터",
-      "category": "vr-simulator",
-      "year": 1234,
-      "location": "스위스",
+      "category": "simulator",
+      "sub": "스포츠 체험",
+      "year": 2018,
+      "location": "KT 5G 홍보관 (서울)",
       "client": "KT",
-      "description": "KT 봅슬레이를 만들기 위해 스위스에서 진행하는 국제 봅슬레이 대회에 다녀와야 했다. 탑재 된 콘텐츠 역시 평창올림픽 슬라이딩 센터의 설계를 참고하여 만들어졌다. 실제 봅슬레이 조정 레버를 구현하여 훈련이 가능하도록 제작하였다.",
-      "thumbnail": "./assets/img/5G 봅슬레이시뮬레이터1.png",
+      "description": "KT의 5G 봅슬레이 시뮬레이터입니다. 실제 봅슬레이 조종 레버를 그대로 만들어 선수 훈련에도 쓸 수 있게 했고, 화면 속 코스는 평창올림픽 슬라이딩 센터 설계를 참고해 만들었습니다. 제작에 앞서 스위스 국제 봅슬레이 대회를 직접 다녀와 조사했습니다.",
+      "thumbnail": "./assets/img/portfolio/case-001-1.jpg",
       "images": [
-        "./assets/img/5G 봅슬레이시뮬레이터1.png",
-        "./assets/img/5G 봅슬레이시뮬레이터2.png",
-        "./assets/img/스크린샷 2025-12-03 161636.png"
+        "./assets/img/portfolio/case-001-1.jpg",
+        "./assets/img/portfolio/case-001-2.jpg",
+        "./assets/img/portfolio/case-001-3.jpg",
+        "./assets/img/portfolio/case-001-4.jpg",
+        "./assets/img/portfolio/case-001-5.jpg",
+        "./assets/img/portfolio/case-001-6.jpg"
+      ],
+      "tags": [
+        "봅슬레이",
+        "5G",
+        "스포츠"
       ],
       "details": {
-        "duration": "x개월",
         "scope": "기획, 설계, 제작, 설치, 운영 지원",
-        "technology": "3DOF type  ",
-        "features": [
-          "feature 1",
-          "feature 2",
-          "feature 3",
-          "feature 4"
-        ]
+        "technology": "3축 움직임(앞뒤·좌우 기울기, 위아래), 1.5마력 서보모터, 링크형 구동"
       },
-      "tags": ["tag1", "tag2", "tag3", "tag4"],
-      "before": [
-        "./assets/img/더미이미지 (1).jpg",
-        "./assets/img/더미이미지 (2).jpg"
-      ],
-      "after": [
-        "./assets/img/더미이미지 (3).jpg",
-        "./assets/img/더미이미지 (4).jpg"
+      "ref": [
+        "KT",
+        "시뮬레이터"
       ]
     },
     {
       "id": "case-002",
       "title": "2018 평창 동계올림픽 봅슬레이 시뮬레이터",
-      "category": "vr-simulator",
+      "category": "simulator",
+      "sub": "스포츠 체험",
       "year": 2018,
-      "location": "평창올림픽 프라자, 강릉 ICT 홍보관, 인천공항 올림픽홍보관, 강원도청 패럴림픽홍보관",
+      "location": "평창올림픽 플라자, 강릉 ICT 홍보관, 인천공항 올림픽홍보관, 강원도청 패럴림픽홍보관",
       "client": "평창올림픽 조직위원회",
-      "description": "KT 봅슬레이와는 달리 4인승 1조로 만들어졌다. 커진만큼 진동과 기울여지는 각도가 아찔할정도. 총 2기가 만들어졌으며 인천공항과 평창 ICT 플라자에 전시되었다.",
-      "thumbnail": "./assets/img/스크린샷 2025-12-03 160929.png",
+      "description": "KT 봅슬레이와 달리 4명이 한 조로 타는 큰 시뮬레이터입니다. 커진 만큼 진동과 기울어지는 각도가 아찔할 정도이며, 총 2대를 만들어 인천공항과 평창 ICT 플라자에 전시했습니다.",
+      "thumbnail": "./assets/img/portfolio/case-002-1.jpg",
       "images": [
+        "./assets/img/portfolio/case-002-1.jpg",
+        "./assets/img/portfolio/case-002-2.jpg",
+        "./assets/img/portfolio/case-002-3.jpg",
+        "./assets/img/portfolio/case-002-1.jpg",
+        "./assets/img/portfolio/case-002-2.jpg",
+        "./assets/img/portfolio/case-002-3.jpg",
+        "./assets/img/portfolio/case-002-1.jpg",
+        "./assets/img/portfolio/case-002-2.jpg",
+        "./assets/img/portfolio/case-002-3.jpg",
         "./assets/img/스크린샷 2025-12-03 160929.png",
         "./assets/img/스크린샷 2025-12-03 160936.png",
         "./assets/img/스크린샷 2025-12-03 161050.png"
       ],
+      "tags": [
+        "올림픽",
+        "봅슬레이",
+        "스포츠"
+      ],
       "details": {
-        "duration": "x개월",
         "scope": "기획, 설계, 제작, 설치, 운영 지원",
-        "technology": "3DOF, Mitsubishi 1.5HP Servomotor, Link type Actuator",
+        "technology": "3축 움직임, 1.5마력 서보모터, 링크형 구동",
         "features": [
-          "4명 동시 네트워크 경주 가능",
-          "진동 패드 설치로 안정성 확보",
-          "HEAVE/ROLL 35°, PITCH 100mm",
-          "VR 시뮬레이터 연동",
-          "체험시간 100초, 좌석 1x4"
+          "4명 동시 접속 경주",
+          "진동 패드 설치로 흔들림 문제 해결",
+          "좌우 기울기 35°, 위아래 100mm",
+          "체험 시간 100초, 좌석 1×4"
         ]
       },
-      "tags": ["올림픽", "스포츠", "시뮬레이터", "VR", "스노보드"],
-      "before": [
-        "./assets/img/더미이미지 (1).jpg",
-        "./assets/img/더미이미지 (2).jpg"
-      ],
-      "after": [
-        "./assets/img/더미이미지 (3).jpg",
-        "./assets/img/더미이미지 (4).jpg"
+      "ref": [
+        "평창"
       ]
     },
     {
       "id": "case-003",
-      "title": "2018 평창 동계올림픽 스노우보드 시뮬레이터",
-      "category": "vr-simulator",
+      "title": "2018 평창 동계올림픽 스노보드 시뮬레이터",
+      "category": "simulator",
+      "sub": "스포츠 체험",
       "year": 2018,
-      "location": "평창올림픽 프라자, 강릉 ICT 홍보관, 인천공항 올림픽홍보관, 강원도청 패럴림픽홍보관",
+      "location": "평창올림픽 플라자, 강릉 ICT 홍보관 외",
       "client": "평창올림픽 조직위원회",
-      "description": "4종목 8기의 스포츠 체험 시뮬레이터 전시. 4명이 동시 네트워크 접속하여 경주가 가능한 스노보드 체험 시뮬레이터. 플라자 구조상 진동 문제를 3번에 걸쳐 진동 패드 설치 공사로 해결했습니다.",
-      "thumbnail": "./assets/img/스크린샷 2025-12-03 162354.png",
+      "description": "4종목 8대의 스포츠 체험 시뮬레이터 가운데 하나입니다. 4명이 동시에 접속해 경주할 수 있는 스노보드 체험으로, 플라자 건물 구조 때문에 생긴 진동 문제를 3번에 걸친 진동 패드 공사로 해결했습니다.",
+      "thumbnail": "./assets/img/portfolio/case-003-1.jpg",
       "images": [
+        "./assets/img/portfolio/case-003-1.jpg",
+        "./assets/img/portfolio/case-003-2.jpg",
+        "./assets/img/portfolio/case-003-3.jpg",
+        "./assets/img/portfolio/case-003-1.jpg",
+        "./assets/img/portfolio/case-003-2.jpg",
+        "./assets/img/portfolio/case-003-3.jpg",
+        "./assets/img/portfolio/case-003-1.jpg",
+        "./assets/img/portfolio/case-003-2.jpg",
+        "./assets/img/portfolio/case-003-3.jpg",
         "./assets/img/스크린샷 2025-12-03 162354.png",
         "./assets/img/스크린샷 2025-12-03 162430.png",
         "./assets/img/스크린샷 2025-12-03 162455.png"
       ],
+      "tags": [
+        "올림픽",
+        "스노보드",
+        "스포츠"
+      ],
       "details": {
-        "duration": "x개월",
-        "scope": "기획, 설계, 제작, 설치, 운영 지원",
-        "technology": "3DOF, Mitsubishi 1.5HP Servomotor, Link type Actuator",
+        "technology": "3축 움직임, 1.5마력 서보모터, 링크형 구동",
         "features": [
-          "4명 동시 네트워크 경주 가능",
-          "진동 패드 설치로 안정성 확보",
-          "HEAVE/ROLL 35°, PITCH 100mm",
-          "VR 시뮬레이터 연동",
-          "체험시간 100초, 좌석 1x4"
+          "4명 동시 네트워크 경주",
+          "진동 패드로 안정성 확보",
+          "VR 시뮬레이터 연동"
         ]
       },
-      "tags": ["올림픽", "스포츠", "시뮬레이터", "VR", "스노보드"],
-      "before": [
-        "./assets/img/더미이미지 (1).jpg",
-        "./assets/img/더미이미지 (2).jpg"
-      ],
-      "after": [
-        "./assets/img/더미이미지 (3).jpg",
-        "./assets/img/더미이미지 (4).jpg"
+      "ref": [
+        "평창"
       ]
     },
     {
       "id": "case-004",
       "title": "2018 평창 동계올림픽 알파인 스키 시뮬레이터 (모노스키)",
-      "category": "vr-simulator",
+      "category": "simulator",
+      "sub": "스포츠 체험",
       "year": 2018,
       "location": "평창올림픽 관련 시설",
       "client": "평창올림픽 조직위원회",
@@ -121,32 +264,17 @@
         "./assets/img/스크린샷 2025-12-03 162558.png",
         "./assets/img/스크린샷 2025-12-03 162618.png"
       ],
-      "details": {
-        "duration": "x개월",
-        "scope": "기획, 설계, 제작, 설치",
-        "technology": "3DOF, Mitsubishi 1.5HP Servomotor, Link type Actuator",
-        "features": [
-          "좌우로 몸을 기울여 조정",
-          "상/중/하 단계의 난이도",
-          "키즈 모드 자동 운전",
-          "HEAVE/ROLL 35°, PITCH 100mm",
-          "중력 1.5G 구현"
-        ]
-      },
-      "tags": ["올림픽", "패럴림픽", "장애인", "시뮬레이터", "모노스키"],
-      "before": [
-        "./assets/img/더미이미지 (1).jpg",
-        "./assets/img/더미이미지 (2).jpg"
-      ],
-      "after": [
-        "./assets/img/더미이미지 (3).jpg",
-        "./assets/img/더미이미지 (4).jpg"
+      "tags": [
+        "올림픽",
+        "스키",
+        "스포츠"
       ]
     },
     {
       "id": "case-005",
       "title": "2018 평창 동계올림픽 스키점프 시뮬레이터",
-      "category": "vr-simulator",
+      "category": "simulator",
+      "sub": "스포츠 체험",
       "year": 2018,
       "location": "평창올림픽 관련 시설",
       "client": "평창올림픽 조직위원회",
@@ -157,68 +285,83 @@
         "./assets/img/스크린샷 2025-12-03 162959.png",
         "./assets/img/스크린샷 2025-12-03 163005.png"
       ],
-      "details": {
-        "duration": "x개월",
-        "scope": "기획, 설계, 제작, 설치",
-        "technology": "3DOF, Mitsubishi 1.5HP Servomotor, Link type Actuator",
-        "features": [
-          "좌우로 몸을 기울여 조정",
-          "상/중/하 단계의 난이도",
-          "키즈 모드 자동 운전",
-          "HEAVE/ROLL 35°, PITCH 100mm",
-          "중력 1.5G 구현"
-        ]
-      },
-      "tags": ["올림픽", "VR", "시뮬레이터", "모노스키"],
-      "before": [
-        "./assets/img/더미이미지 (1).jpg",
-        "./assets/img/더미이미지 (2).jpg"
-      ],
-      "after": [
-        "./assets/img/더미이미지 (3).jpg",
-        "./assets/img/더미이미지 (4).jpg"
+      "tags": [
+        "올림픽",
+        "스키점프",
+        "스포츠"
       ]
     },
     {
       "id": "case-006",
       "title": "패러글라이딩 시뮬레이터",
-      "category": "vr-simulator",
-      "year": 1234,
+      "category": "simulator",
+      "sub": "스포츠 체험",
+      "year": 2019,
       "location": "",
       "client": "",
-      "description": "",
-      "thumbnail": "./assets/img/스크린샷 2025-12-03 163733.png",
+      "description": "패러글라이딩 줄을 잡고 매달려 하늘을 나는 체험 시뮬레이터입니다. 몸을 기울이면 화면 속 방향이 바뀌고, 바람 효과가 함께 나옵니다. 어린이도 안전하게 탈 수 있도록 좌석과 안전 장치를 만들었습니다.",
+      "thumbnail": "./assets/img/portfolio/case-006-1.jpg",
       "images": [
+        "./assets/img/portfolio/case-006-1.jpg",
+        "./assets/img/portfolio/case-006-2.jpg",
+        "./assets/img/portfolio/case-006-3.jpg",
+        "./assets/img/portfolio/case-006-1.jpg",
+        "./assets/img/portfolio/case-006-2.jpg",
+        "./assets/img/portfolio/case-006-3.jpg",
+        "./assets/img/portfolio/case-006-1.jpg",
+        "./assets/img/portfolio/case-006-2.jpg",
+        "./assets/img/portfolio/case-006-3.jpg",
         "./assets/img/스크린샷 2025-12-03 163733.png",
         "./assets/img/스크린샷 2025-12-03 163737.png",
         "./assets/img/스크린샷 2025-12-03 163742.png",
         "./assets/img/스크린샷 2025-12-03 163747.png"
       ],
-      "details": {
-        "duration": "x개월",
-        "scope": "",
-        "technology": "",
-        "features": [
-        ]
-      },
-      "tags": [],
-      "before": [
-        "./assets/img/더미이미지 (1).jpg",
-        "./assets/img/더미이미지 (2).jpg"
+      "tags": [
+        "패러글라이딩",
+        "스포츠"
       ],
-      "after": [
-        "./assets/img/더미이미지 (3).jpg",
-        "./assets/img/더미이미지 (4).jpg"
-      ]
+      "ref": [
+        "시뮬레이터"
+      ],
+      "note": "설치 장소·연도 확인 필요"
+    },
+    {
+      "id": "case-022",
+      "title": "5G 자전거 시뮬레이터",
+      "category": "simulator",
+      "sub": "스포츠 체험",
+      "year": 2021,
+      "location": "",
+      "client": "",
+      "description": "자전거에 올라 페달을 밟으면 화면 속 길을 달리는 체험 시뮬레이터입니다. 3대를 나란히 설치해 여러 명이 함께 달릴 수 있고, 앞 화면에는 실제 길을 촬영한 영상이 나옵니다.",
+      "thumbnail": "./assets/img/portfolio/case-022-1.jpg",
+      "images": [
+        "./assets/img/portfolio/case-022-1.jpg",
+        "./assets/img/portfolio/case-022-2.jpg",
+        "./assets/img/portfolio/case-022-3.jpg",
+        "./assets/img/portfolio/case-022-4.jpg",
+        "./assets/img/portfolio/case-022-5.jpg"
+      ],
+      "tags": [
+        "자전거",
+        "5G",
+        "스포츠"
+      ],
+      "period": "2021~2022",
+      "ref": [
+        "5G 자전거"
+      ],
+      "note": "설치 장소·발주처 확인 필요 (화면에 제주 표시)"
     },
     {
       "id": "case-007",
       "title": "멀티 안전체험 1~2인용 부스",
-      "category": ["vr-simulator", "motion-simulator","4d"],
-      "year": 1234,
+      "category": "simulator",
+      "sub": "안전 체험",
+      "year": 2019,
       "location": "안전체험관",
-      "client": "안전체험 시설",
-      "description": "2인 1조 시스템으로 박스 형태의 부스에 들어가 각종 안전체험을 하는 장치. 바람과 진동 효과가 있으며, 각종 체험시설과 연동이 가능합니다. (지진/화재/폭풍/교통안전)",
+      "client": "",
+      "description": "2명이 한 조로 상자 모양 부스에 들어가 여러 가지 안전 체험을 하는 장치입니다. 바람과 진동 효과가 있으며 지진·화재·폭풍·교통안전 등 여러 체험 장치와 연결할 수 있습니다.",
       "thumbnail": "./assets/img/스크린샷 2025-12-03 164152.png",
       "images": [
         "./assets/img/스크린샷 2025-12-03 164152.png",
@@ -226,149 +369,74 @@
         "./assets/img/스크린샷 2025-12-03 164207.png",
         "./assets/img/스크린샷 2025-12-03 164215.png"
       ],
-      "details": {
-        "duration": "3개월",
-        "scope": "설계, 제작, 설치",
-        "technology": "3DOF type, Mitsubishi 1.5HP, 5:1 감속기, Link type Actuator",
-        "features": [
-          "1~2인 동시 체험",
-          "지진/화재/폭풍/교통안전 연동",
-          "바람과 진동 특수효과",
-          "HEAVE/ROLL 15°, PITCH 50mm",
-          "체험시간 90초, 운영 3분",
-          "중력 1.5G 구현",
-          "220V / 5KW 전력"
-        ]
-      },
-      "tags": ["안전체험", "재난", "교육", "시뮬레이터", "다중체험"],
-      "before": [
-        "./assets/img/더미이미지 (1).jpg",
-        "./assets/img/더미이미지 (2).jpg"
-      ],
-      "after": [
-        "./assets/img/더미이미지 (3).jpg",
-        "./assets/img/더미이미지 (4).jpg"
-      ]
-    },
-    {
-      "id": "case-008",
-      "title": "2조 8인승 VR HMD 연동 시뮬레이터",
-      "category": "vr-simulator",
-      "year": 1234,
-      "location": "체험관",
-      "client": "체험 시설",
-      "description": "1조 4인, 2세트로 구성되어 있으며, 무선 HMD를 착용하고 체험을 하게 됩니다. 3자유도(DOF) 구조이며 배를 타고 출렁이듯한 모션을 구현했습니다. 8개+8개의 무선 HMD로 이루어진 시스템은 각 디바이스에 VR360 영상을 저장하고 외부 통합 제어 시스템에서 8+8개의 디바이스의 재생, 정지, 멈춤, 사운드 등의 제어를 동시에 하게 됩니다.",
-      "thumbnail": "./assets/img/스크린샷 2025-12-03 164546.png",
-      "images": [
-        "./assets/img/스크린샷 2025-12-03 164546.png",
-        "./assets/img/스크린샷 2025-12-03 164556.png",
-        "./assets/img/스크린샷 2025-12-03 164603.png"
+      "tags": [
+        "안전체험",
+        "부스"
       ],
       "details": {
-        "duration": "x개월",
-        "scope": "설계, 제작, 설치",
-        "technology": "3DOF, 무선 HMD 16대, 통합 제어 시스템",
+        "technology": "3축 움직임, 1.5마력 서보모터, 5:1 감속기",
         "features": [
-          "1조 4인 x 2세트 (총 8인)",
-          "무선 HMD 16대 동시 제어",
-          "VR360 영상 저장",
-          "배 출렁임 모션 구현",
-          "재생/정지/사운드 통합 제어",
-          "오큘러스 GO 활용"
+          "1~2명 동시 체험",
+          "지진·화재·폭풍·교통안전 연동",
+          "바람·진동 효과",
+          "체험 90초, 운영 3분"
         ]
-      },
-      "tags": ["VR", "VR360", "단체체험", "무선HMD", "오큘러스"],
-      "before": [
-        "./assets/img/더미이미지 (1).jpg",
-        "./assets/img/더미이미지 (2).jpg"
-      ],
-      "after": [
-        "./assets/img/더미이미지 (3).jpg",
-        "./assets/img/더미이미지 (4).jpg"
-      ]
+      }
     },
     {
       "id": "case-009",
-      "title": "경기도 해양안전체험관 선박기울기 체험 시뮬레이터",
-      "category": ["experience-simulator","interactive", "vr-simulator"],
-      "year": 1234,
+      "title": "경기도 해양안전체험관 선박 기울기 체험 시뮬레이터",
+      "category": "simulator",
+      "sub": "안전 체험",
+      "year": 2019,
       "location": "경기도 해양안전체험관",
       "client": "경기도",
       "description": "단체 안전교육용 시뮬레이터. 바다 위 선박의 흔들림과 비상 발생 시 대처 요령을 교육합니다. 경광등, 음향, 번개, 물, 바람 등의 특수효과로 실감나는 체험을 제공합니다.",
-      "thumbnail": "./assets/img/스크린샷 2025-12-03 170743.png",
+      "thumbnail": "./assets/img/스크린샷 2025-12-03 170748.png",
       "images": [
         "./assets/img/스크린샷 2025-12-03 170748.png",
         "./assets/img/스크린샷 2025-12-03 170758.png",
         "./assets/img/스크린샷 2025-12-03 170804.png"
       ],
-      "details": {
-        "duration": "x개월",
-        "scope": "기획, 설계, 제작, 설치",
-        "technology": "3DOF type, 3상 유도전동 모터 2.25KW, 웜감속기 40:1, Link type Actuator, PLC 제어",
-        "features": [
-          "선박 흔들림 재현",
-          "경광등, 음향, 번개, 물, 바람 특수효과",
-          "오큘러스 VR 연동",
-          "안전조끼, 구명환 실물 장비",
-          "체험시간 70초, 운영 6분",
-          "Kiosk Start/Stop 제어",
-          "거실, 거리, 건물 연출 판넬",
-          "선박 좌초 및 침몰 시 행동요령 교육",
-          "긴급상황 신고요령 안내",
-          "Server I7/GTX1060 이상",
-          "크기 3000x3300x2700mm",
-          "220V / 5KW 전력"
-        ]
-      },
-      "tags": ["안전체험", "해양", "교육", "선박", "VR", "단체교육"],
-      "before": [
-        "./assets/img/더미이미지 (1).jpg",
-        "./assets/img/더미이미지 (2).jpg"
-      ],
-      "after": [
-        "./assets/img/더미이미지 (3).jpg",
-        "./assets/img/더미이미지 (4).jpg"
+      "tags": [
+        "해양안전",
+        "선박",
+        "안전체험"
       ]
     },
     {
       "id": "case-010",
       "title": "양주 안전체험관 해양안전체험 시뮬레이터",
-      "category": ["experience-simulator", "interactive"],
-      "year": 1234,
+      "category": "simulator",
+      "sub": "안전 체험",
+      "year": 2022,
       "location": "양주 안전체험관",
       "client": "양주시",
-      "description": "단체 안전교육용 시뮬레이터. 경기도 해양안전체험관과 같은 훈련 시스템이며, 구조에서 상부만 움직이는 방식입니다.",
+      "description": "단체 안전교육용 시뮬레이터입니다. 경기도 해양안전체험관과 같은 훈련 방식이며, 구조물 가운데 윗부분만 움직이는 방식입니다.",
       "thumbnail": "./assets/img/스크린샷 2025-12-03 171221.png",
       "images": [
         "./assets/img/스크린샷 2025-12-03 171221.png",
         "./assets/img/스크린샷 2025-12-03 171230.png"
       ],
+      "tags": [
+        "해양안전",
+        "안전체험"
+      ],
       "details": {
-        "duration": "4개월",
-        "scope": "설계, 제작, 설치",
-        "technology": "3DOF, 상부 모션 시스템",
+        "technology": "3축 움직임, 상부 모션 구조",
         "features": [
           "선박 안전교육",
-          "상부 모션 구조",
-          "특수효과 연출",
-          "단체 교육 최적화"
+          "단체 교육에 맞춤",
+          "특수효과 연출"
         ]
-      },
-      "tags": ["안전체험", "해양", "교육"],
-      "before": [
-        "./assets/img/더미이미지 (1).jpg",
-        "./assets/img/더미이미지 (2).jpg"
-      ],
-      "after": [
-        "./assets/img/더미이미지 (3).jpg",
-        "./assets/img/더미이미지 (4).jpg"
-      ]
+      }
     },
     {
       "id": "case-011",
       "title": "대구교육 해양수련원 지진안전체험 시뮬레이터",
-      "category": ["experience-simulator", "interactive"],
-      "year": 1234,
+      "category": "simulator",
+      "sub": "안전 체험",
+      "year": 2019,
       "location": "대구교육 해양수련원",
       "client": "대구광역시 교육청",
       "description": "단체 안전교육용 시뮬레이터. 1단계에서 8단계까지의 지진 강도를 구현합니다. 특히 민방위 교육용으로 많이 사용됩니다.",
@@ -379,44 +447,19 @@
         "./assets/img/스크린샷 2025-12-03 171428.png",
         "./assets/img/스크린샷 2025-12-03 171440.png"
       ],
-      "details": {
-        "duration": "3개월",
-        "scope": "설계, 제작, 설치",
-        "technology": "3DOF type, 3상 유도전동 모터 2.25KW, 웜감속기 40:1, Link type Actuator, PLC 제어",
-        "features": [
-          "1~8단계 지진 강도 구현",
-          "경광등, 음향, 번개 특수효과",
-          "4인용 식탁 구조",
-          "민방위 교육 특화",
-          "체험시간 60초, 운영 6분",
-          "오큘러스 VR 연동",
-          "언리얼 엔진 콘텐츠 100초",
-          "Kiosk Start/Stop 제어",
-          "거실, 거리, 건물 연출 판넬",
-          "지진 발생 시 행동요령 교육",
-          "상황별 행동요령 안내",
-          "Server I7/GTX1060 이상",
-          "크기 600x600x1200mm",
-          "220V / 5KW 전력"
-        ]
-      },
-      "tags": ["안전체험", "지진", "교육", "민방위"],
-      "before": [
-        "./assets/img/더미이미지 (1).jpg",
-        "./assets/img/더미이미지 (2).jpg"
-      ],
-      "after": [
-        "./assets/img/더미이미지 (3).jpg",
-        "./assets/img/더미이미지 (4).jpg"
+      "tags": [
+        "지진",
+        "안전체험"
       ]
     },
     {
       "id": "case-012",
       "title": "자동차 전복 체험 시뮬레이터",
-      "category": ["experience-simulator", "interactive"],
-      "year": 1234,
+      "category": "simulator",
+      "sub": "안전 체험",
+      "year": 2019,
       "location": "안전체험관",
-      "client": "안전체험 시설",
+      "client": "",
       "description": "단체 안전교육용 시뮬레이터. 자동차 사고 발생 시 경험할 수 있는 상황을 체험합니다. 자동차 전복 시 탈출 요령 및 위기상황 대처요령에 대한 훈련이 목적입니다.",
       "thumbnail": "./assets/img/스크린샷 2025-12-03 172555.png",
       "images": [
@@ -425,35 +468,19 @@
         "./assets/img/스크린샷 2025-12-03 172605.png",
         "./assets/img/스크린샷 2025-12-03 172611.png"
       ],
-      "details": {
-        "duration": "x개월",
-        "scope": "설계, 제작, 설치",
-        "technology": "",
-        "features": [
-          "자동차 전복 상황 재현",
-          "탈출 요령 교육",
-          "위기상황 대처 훈련",
-          "안전벨트 중요성 체험",
-          "단체 교육 최적화"
-        ]
-      },
-      "tags": ["안전체험", "자동차", "교육", "전복", "탈출훈련"],
-      "before": [
-        "./assets/img/더미이미지 (1).jpg",
-        "./assets/img/더미이미지 (2).jpg"
-      ],
-      "after": [
-        "./assets/img/더미이미지 (3).jpg",
-        "./assets/img/더미이미지 (4).jpg"
+      "tags": [
+        "교통안전",
+        "안전체험"
       ]
     },
     {
       "id": "case-013",
       "title": "태풍 안전체험 시뮬레이터",
-      "category": ["experience-simulator", "interactive"],
-      "year": 1234,
+      "category": "simulator",
+      "sub": "안전 체험",
+      "year": 2019,
       "location": "안전체험관",
-      "client": "안전체험 시설",
+      "client": "",
       "description": "단체 안전교육용 시뮬레이터. 1단계에서 5단계까지의 풍속에 대한 시뮬레이션과 대피요령 및 대피동선을 훈련합니다. 특히 훈련 사고에 대한 비상 긴급정지 기능이 있습니다.",
       "thumbnail": "./assets/img/스크린샷 2025-12-03 173011.png",
       "images": [
@@ -462,36 +489,19 @@
         "./assets/img/스크린샷 2025-12-03 173027.png",
         "./assets/img/스크린샷 2025-12-03 173036.png"
       ],
-      "details": {
-        "duration": "x개월",
-        "scope": "설계, 제작, 설치",
-        "technology": "",
-        "features": [
-          "1~5단계 풍속 시뮬레이션",
-          "대피요령 교육",
-          "대피동선 훈련",
-          "비상 긴급정지 기능",
-          "단체 교육 최적화",
-          "안전사고 예방 시스템"
-        ]
-      },
-      "tags": ["안전체험", "태풍", "교육", "재난", "대피훈련"],
-      "before": [
-        "./assets/img/더미이미지 (1).jpg",
-        "./assets/img/더미이미지 (2).jpg"
-      ],
-      "after": [
-        "./assets/img/더미이미지 (3).jpg",
-        "./assets/img/더미이미지 (4).jpg"
+      "tags": [
+        "태풍",
+        "안전체험"
       ]
     },
     {
       "id": "case-014",
       "title": "경기도 해양안전체험관 안전체험 시뮬레이터",
-      "category": ["experience-simulator", "interactive"],
-      "year": 1234,
-      "location": "경기도",
-      "client": "경기도청",
+      "category": "simulator",
+      "sub": "안전 체험",
+      "year": 2019,
+      "location": "경기도 해양안전체험관",
+      "client": "경기도",
       "description": "",
       "thumbnail": "./assets/img/스크린샷 2025-12-03 173251.png",
       "images": [
@@ -501,28 +511,17 @@
         "./assets/img/스크린샷 2025-12-03 173313.png",
         "./assets/img/스크린샷 2025-12-03 173318.png"
       ],
-      "details": {
-        "duration": "x개월",
-        "scope": "",
-        "technology": "",
-        "features": [
-        ]
-      },
-      "tags": [],
-      "before": [
-        "./assets/img/더미이미지 (1).jpg",
-        "./assets/img/더미이미지 (2).jpg"
-      ],
-      "after": [
-        "./assets/img/더미이미지 (3).jpg",
-        "./assets/img/더미이미지 (4).jpg"
+      "tags": [
+        "해양안전",
+        "안전체험"
       ]
     },
     {
       "id": "case-015",
       "title": "경주 안전체험 시뮬레이터",
-      "category": ["experience-simulator", "interactive"],
-      "year": 1234,
+      "category": "simulator",
+      "sub": "안전 체험",
+      "year": 2019,
       "location": "경주 안전체험관",
       "client": "경주시",
       "description": "단체 안전교육용 종합 시뮬레이터. 지진체험, 소방체험, 풍수해체험, 자동차전복체험, 버스안전벨트체험, 선박안전체험, 완강기체험 등 다양한 안전 상황에 대한 교육을 제공합니다.",
@@ -534,37 +533,17 @@
         "./assets/img/스크린샷 2025-12-03 173556.png",
         "./assets/img/스크린샷 2025-12-03 173602.png"
       ],
-      "details": {
-        "duration": "x개월",
-        "scope": "설계, 제작, 설치",
-        "technology": "",
-        "features": [
-          "지진체험",
-          "소방체험",
-          "풍수해체험",
-          "자동차전복체험",
-          "버스안전벨트체험",
-          "선박안전체험",
-          "완강기체험",
-          "종합 안전교육 시스템"
-        ]
-      },
-      "tags": ["안전체험", "재난", "교육", "종합체험", "경주"],
-      "before": [
-        "./assets/img/더미이미지 (1).jpg",
-        "./assets/img/더미이미지 (2).jpg"
-      ],
-      "after": [
-        "./assets/img/더미이미지 (3).jpg",
-        "./assets/img/더미이미지 (4).jpg"
+      "tags": [
+        "안전체험"
       ]
     },
     {
       "id": "case-016",
-      "title": "경주 안전체험 시뮬레이터(화재진압/ 비상탈출)",
-      "category": ["experience-simulator", "interactive"],
-      "year": 1234,
-      "location": "경주",
+      "title": "경주 안전체험 시뮬레이터 (화재진압·비상탈출)",
+      "category": "simulator",
+      "sub": "안전 체험",
+      "year": 2019,
+      "location": "경주 안전체험관",
       "client": "경주시",
       "description": "",
       "thumbnail": "./assets/img/스크린샷 2025-12-03 173751.png",
@@ -577,243 +556,623 @@
         "./assets/img/스크린샷 2025-12-03 173831.png",
         "./assets/img/스크린샷 2025-12-03 173838.png"
       ],
+      "tags": [
+        "화재",
+        "비상탈출",
+        "안전체험"
+      ]
+    },
+    {
+      "id": "case-023",
+      "title": "전남 안전체험관 항공 안전체험",
+      "category": "simulator",
+      "sub": "안전 체험",
+      "year": 2024,
+      "location": "전남 안전체험관",
+      "client": "",
+      "description": "비행기 객실을 그대로 만든 항공 안전 체험 공간입니다. 객실 안전 안내, 비상 탈출 미끄럼틀, 구명보트를 실제 장비로 체험하며 비행기 사고 때 대처 방법을 배웁니다.",
+      "thumbnail": "./assets/img/portfolio/case-023-1.jpg",
+      "images": [
+        "./assets/img/portfolio/case-023-1.jpg",
+        "./assets/img/portfolio/case-023-2.jpg",
+        "./assets/img/portfolio/case-023-3.jpg",
+        "./assets/img/portfolio/case-023-4.jpg"
+      ],
+      "tags": [
+        "항공안전",
+        "안전체험"
+      ],
+      "ref": [
+        "전남 안전체험관"
+      ],
+      "note": "우리가 맡은 범위(영상? 장비?) 확인 필요"
+    },
+    {
+      "id": "case-008",
+      "title": "2조 8인승 VR 시뮬레이터 (안양생태이야기관)",
+      "category": "simulator",
+      "sub": "VR 탑승 체험",
+      "year": 2022,
+      "location": "안양생태이야기관",
+      "client": "",
+      "description": "4명씩 2세트, 모두 8명이 VR 안경을 쓰고 타는 시뮬레이터입니다. 배를 탄 것처럼 출렁이는 움직임을 3축 구조로 만들었습니다. 16대의 무선 VR 안경에 VR360 영상을 넣어 두고, 바깥의 통합 제어 장치에서 재생·정지·소리를 한꺼번에 조작합니다.",
+      "thumbnail": "./assets/img/portfolio/case-008-1.jpg",
+      "images": [
+        "./assets/img/portfolio/case-008-1.jpg",
+        "./assets/img/portfolio/case-008-2.jpg",
+        "./assets/img/portfolio/case-008-3.jpg",
+        "./assets/img/portfolio/case-008-4.jpg",
+        "./assets/img/portfolio/case-008-5.jpg",
+        "./assets/img/portfolio/case-008-1.jpg",
+        "./assets/img/portfolio/case-008-2.jpg",
+        "./assets/img/portfolio/case-008-3.jpg",
+        "./assets/img/portfolio/case-008-4.jpg",
+        "./assets/img/portfolio/case-008-5.jpg",
+        "./assets/img/portfolio/case-008-1.jpg",
+        "./assets/img/portfolio/case-008-2.jpg",
+        "./assets/img/portfolio/case-008-3.jpg",
+        "./assets/img/portfolio/case-008-4.jpg",
+        "./assets/img/portfolio/case-008-5.jpg",
+        "./assets/img/스크린샷 2025-12-03 164546.png",
+        "./assets/img/스크린샷 2025-12-03 164556.png",
+        "./assets/img/스크린샷 2025-12-03 164603.png"
+      ],
+      "tags": [
+        "VR",
+        "HMD",
+        "8인승"
+      ],
       "details": {
-        "duration": "x개월",
-        "scope": "",
-        "technology": "",
+        "technology": "3축 움직임, 무선 VR 안경 16대, 통합 제어 장치",
         "features": [
+          "4명 × 2세트 (모두 8명)",
+          "VR 안경 16대 동시 제어",
+          "배 출렁임 움직임"
         ]
       },
-      "tags": [],
-      "before": [
-        "./assets/img/더미이미지 (1).jpg",
-        "./assets/img/더미이미지 (2).jpg"
+      "ref": [
+        "안양생태이야기관"
       ],
-      "after": [
-        "./assets/img/더미이미지 (3).jpg",
-        "./assets/img/더미이미지 (4).jpg"
+      "note": "설치 장소가 안양생태이야기관인지 확인 필요 (사진 촬영 장소 기준)"
+    },
+    {
+      "id": "case-024",
+      "title": "제주 자연문화유산센터 동굴체험 VR 시뮬레이터",
+      "category": "simulator",
+      "sub": "VR 탑승 체험",
+      "year": 2020,
+      "location": "제주 자연문화유산센터",
+      "client": "",
+      "description": "2조 8인승 시뮬레이터에 타고 VR 안경을 쓰면 용을 타고 용천동굴 속을 날아다니는 5분짜리 VR360 영상이 펼쳐집니다. 처음엔 실제 동굴을 입체 촬영하려 했지만 여건상 전부 컴퓨터그래픽으로 만들었습니다. 빠른 속도감을 위해 아주 긴 통로를 만들고, 시뮬레이터 움직임에 맞춰 과격한 장면도 넣었습니다.",
+      "thumbnail": "./assets/img/portfolio/case-024-1.jpg",
+      "images": [
+        "./assets/img/portfolio/case-024-1.jpg",
+        "./assets/img/portfolio/case-024-2.jpg",
+        "./assets/img/portfolio/case-024-3.jpg",
+        "./assets/img/portfolio/case-024-4.jpg"
+      ],
+      "tags": [
+        "VR360",
+        "동굴",
+        "제주"
+      ],
+      "details": {
+        "duration": "영상 5분",
+        "technology": "2조 8인승 시뮬레이터, VR 안경, 전체 CG 제작"
+      },
+      "ref": [
+        "제주"
       ]
+    },
+    {
+      "id": "case-025",
+      "title": "정선 동강 VR 체험 시뮬레이터",
+      "category": "simulator",
+      "sub": "VR 탑승 체험",
+      "year": 2025,
+      "location": "정선",
+      "client": "",
+      "description": "동강의 물길을 VR 안경을 쓰고 체험하는 시뮬레이터입니다. 실제 동강을 직접 답사해 찍은 자료를 바탕으로 영상을 만들고, 4인승 움직이는 좌석과 VR 안경을 묶어 설치했습니다.",
+      "thumbnail": "./assets/img/portfolio/case-025-1.jpg",
+      "images": [
+        "./assets/img/portfolio/case-025-1.jpg",
+        "./assets/img/portfolio/case-025-2.jpg",
+        "./assets/img/portfolio/case-025-3.jpg",
+        "./assets/img/portfolio/case-025-4.jpg",
+        "./assets/img/portfolio/case-025-5.jpg"
+      ],
+      "tags": [
+        "VR",
+        "동강",
+        "정선"
+      ],
+      "ref": [
+        "정선동강"
+      ],
+      "note": "정식 사업명·발주처 확인 필요"
+    },
+    {
+      "id": "case-026",
+      "title": "고흥 드론택시 체험 시뮬레이터",
+      "category": "simulator",
+      "sub": "VR 탑승 체험",
+      "year": 2022,
+      "location": "고흥",
+      "client": "",
+      "description": "드론택시(하늘을 나는 택시)에 타는 느낌을 미리 체험하는 시뮬레이터입니다. 드론택시 모양의 주황색 탑승 공간 안에 좌석과 화면을 넣어 이착륙과 비행 장면을 체험합니다.",
+      "thumbnail": "./assets/img/portfolio/case-026-1.jpg",
+      "images": [
+        "./assets/img/portfolio/case-026-1.jpg",
+        "./assets/img/portfolio/case-026-2.jpg",
+        "./assets/img/portfolio/case-026-3.jpg",
+        "./assets/img/portfolio/case-026-4.jpg"
+      ],
+      "tags": [
+        "드론택시",
+        "VR",
+        "고흥"
+      ],
+      "ref": [
+        "고흥 드론택시"
+      ],
+      "note": "정식 사업명·발주처 확인 필요"
+    },
+    {
+      "id": "case-027",
+      "title": "2024 가릉 메타버스 체험관",
+      "category": "simulator",
+      "sub": "VR 탑승 체험",
+      "year": 2024,
+      "location": "",
+      "client": "",
+      "description": "VR 안경과 움직이는 장치를 함께 쓰는 메타버스 체험관입니다. 걷기·달리기 장치와 탑승 장치, 안경 없이 입체로 보이는 화면을 설치해 여러 가지 가상 세계를 체험합니다.",
+      "thumbnail": "./assets/img/portfolio/case-027-1.jpg",
+      "images": [
+        "./assets/img/portfolio/case-027-1.jpg",
+        "./assets/img/portfolio/case-027-2.jpg",
+        "./assets/img/portfolio/case-027-3.jpg",
+        "./assets/img/portfolio/case-027-4.jpg"
+      ],
+      "tags": [
+        "메타버스",
+        "VR"
+      ],
+      "ref": [
+        "2024 가릉메타버스 체험관"
+      ],
+      "note": "'가릉' 정확한 장소명·발주처 확인 필요"
     },
     {
       "id": "case-017",
       "title": "아기고래 구출대작전",
-      "category": ["3d", "4d"],
-      "year": 2003,
+      "category": "theater",
+      "sub": "입체 애니메이션 제작",
+      "year": 2013,
       "location": "",
       "client": "",
-      "description": "아주 깊은 바다, 대왕 오징어 여왕은 부하들에게 아기 고래를 납치하라고 지시한다. 납치당한 아기 고래를 구하려는 엄마 고래와 심해 바다 3총사와의 모험!",
-      "thumbnail": "./assets/img/더미이미지 (1).jpg",
+      "description": "아주 깊은 바다, 대왕오징어 여왕은 부하들에게 아기고래를 납치하라고 지시합니다. 납치당한 아기고래를 구하려는 엄마고래와 심해 바다 3총사의 모험을 그린 3D·4D 애니메이션입니다.",
+      "thumbnail": "./assets/img/portfolio/case-017-1.jpg",
       "images": [
-        "./assets/img/더미이미지 (1).jpg"
+        "./assets/img/portfolio/case-017-1.jpg"
+      ],
+      "tags": [
+        "3D",
+        "4D",
+        "애니메이션"
       ],
       "details": {
-        "duration": "x개월",
-        "scope": "",
-        "technology": "",
-        "features": [
-        ]
+        "duration": "12분 30초",
+        "scope": "제작·배급 (미디어필)"
       },
-      "tags": [],
-      "before": [
-        "./assets/img/더미이미지 (1).jpg",
-        "./assets/img/더미이미지 (2).jpg"
-      ],
-      "after": [
-        "./assets/img/더미이미지 (3).jpg",
-        "./assets/img/더미이미지 (4).jpg"
-      ]
+      "note": "제작 연도 확인 필요"
     },
     {
       "id": "case-018",
       "title": "은하탐험 에스페란스",
-      "category": ["3d", "4d"],
-      "year": 2000,
+      "category": "theater",
+      "sub": "입체 애니메이션 제작",
+      "year": 2013,
       "location": "",
       "client": "",
-      "description": "은하를 표류하는 행성 파편에 파괴된 플론 행성을 탈출하는 바너드 박사 새로운 행성을 찾아서 포라와 함께 에스페란스호에 몸을 싣고 우주를 여행한다",
-      "thumbnail": "./assets/img/더미이미지 (1).jpg",
+      "description": "은하를 떠도는 행성 파편에 파괴된 플론 행성을 탈출한 바너드 박사가 새로운 행성을 찾아 포라와 함께 에스페란스호를 타고 우주를 여행하는 3D·4D 애니메이션입니다.",
+      "thumbnail": "./assets/img/portfolio/case-018-1.jpg",
       "images": [
-        "./assets/img/더미이미지 (1).jpg"
+        "./assets/img/portfolio/case-018-1.jpg"
+      ],
+      "tags": [
+        "3D",
+        "4D",
+        "애니메이션"
       ],
       "details": {
-        "duration": "x개월",
-        "scope": "",
-        "technology": "",
-        "features": [
-        ]
+        "duration": "12분 30초",
+        "scope": "제작·배급 (미디어필)"
       },
-      "tags": [],
-      "before": [
-        "./assets/img/더미이미지 (1).jpg",
-        "./assets/img/더미이미지 (2).jpg"
-      ],
-      "after": [
-        "./assets/img/더미이미지 (3).jpg",
-        "./assets/img/더미이미지 (4).jpg"
-      ]
+      "note": "제작 연도 확인 필요"
     },
     {
       "id": "case-019",
       "title": "한반도 대지진",
-      "category": ["3d", "4d"],
-      "year": 1234,
+      "category": "theater",
+      "sub": "입체 애니메이션 제작",
+      "year": 2013,
       "location": "",
       "client": "",
-      "description": "2030년 서울에서 진도7의 지진이 발생한다. 불규칙한 여진이 계속 진행되면서 건물이 무너지고 도로가 마비되는 상황에서 국가재난대응사령부에서 운영하는 에어카 특수대원들이 출동하여 인명 구조에 나선다.",
-      "thumbnail": "./assets/img/더미이미지 (1).jpg",
+      "description": "2030년 서울에 진도 7의 지진이 일어납니다. 여진이 이어지며 건물이 무너지고 도로가 막힌 상황에서 국가재난대응사령부의 에어카 특수대원들이 출동해 사람들을 구하는 3D·4D 애니메이션입니다.",
+      "thumbnail": "./assets/img/portfolio/case-019-1.jpg",
       "images": [
-        "./assets/img/더미이미지 (1).jpg"
+        "./assets/img/portfolio/case-019-1.jpg"
+      ],
+      "tags": [
+        "3D",
+        "4D",
+        "애니메이션",
+        "재난"
       ],
       "details": {
-        "duration": "x개월",
-        "scope": "",
-        "technology": "",
-        "features": [
-        ]
+        "duration": "12분",
+        "scope": "배급 (미디어필)"
       },
-      "tags": [],
-      "before": [
-        "./assets/img/더미이미지 (1).jpg",
-        "./assets/img/더미이미지 (2).jpg"
+      "note": "제작 연도 확인 필요"
+    },
+    {
+      "id": "case-033",
+      "title": "한성백제박물관 4D 입체영상 「유린, 백제로 가다」",
+      "category": "theater",
+      "sub": "입체 애니메이션 제작",
+      "year": 2011,
+      "location": "한성백제박물관 4D 영상관",
+      "client": "서울특별시",
+      "description": "백제가 일본에 건넨 '칠지도' 전설을 소재로 만든 4D 입체영상입니다. 할머니에게 물려받은 신비한 목걸이의 힘으로 백제 시대로 간 유린이 대장장이 아들 해건과 함께 칠지도를 만들 철을 찾아 모험합니다. 당시 지형과 집 모양을 역사 자료로 하나하나 확인해 만들었습니다.",
+      "thumbnail": "./assets/img/portfolio/case-033-1.jpg",
+      "images": [
+        "./assets/img/portfolio/case-033-1.jpg"
       ],
-      "after": [
-        "./assets/img/더미이미지 (3).jpg",
-        "./assets/img/더미이미지 (4).jpg"
+      "tags": [
+        "4D",
+        "입체영상",
+        "백제",
+        "박물관"
+      ],
+      "details": {
+        "duration": "14분"
+      }
+    },
+    {
+      "id": "case-034",
+      "title": "안양천생태이야기관 입체영상 「마법에 걸린 푸름이」",
+      "category": "theater",
+      "sub": "입체 애니메이션 제작",
+      "year": 2012,
+      "location": "안양천생태이야기관 입체영상관",
+      "client": "안양시",
+      "description": "안양천에서 물고기를 잡던 개구쟁이 푸름이가 마법에 걸려 자기가 잡던 버들치가 됩니다. 버들치가 되어 안양천을 모험하며 하천 생물에게 얼마나 잘못했는지 깨닫는 이야기로, 생활 하천의 상·중·하류 생태를 담았습니다.",
+      "thumbnail": "./assets/img/portfolio/case-034-1.jpg",
+      "images": [
+        "./assets/img/portfolio/case-034-1.jpg"
+      ],
+      "tags": [
+        "3D",
+        "입체영상",
+        "생태"
+      ],
+      "details": {
+        "duration": "12분"
+      }
+    },
+    {
+      "id": "case-035",
+      "title": "한국가스공사(kogas) 대전 홍보관 원형 영상관 영상",
+      "category": "theater",
+      "sub": "특수 화면 영상",
+      "year": 2014,
+      "location": "한국가스공사 대전 홍보관",
+      "client": "한국가스공사",
+      "description": "프로젝터 10대로 둥글게 이어지는 원형 영상관용 영상입니다. 공룡이 살던 시대부터 땅속에 묻힌 생물이 가스가 되기까지, 그리고 바다 위 시추선에서 가스를 뽑아내는 원리를 그래픽으로 보여 줍니다.",
+      "thumbnail": "./assets/img/portfolio/case-035-1.jpg",
+      "images": [
+        "./assets/img/portfolio/case-035-1.jpg"
+      ],
+      "tags": [
+        "원형 영상관",
+        "홍보관"
+      ],
+      "details": {
+        "duration": "4분 30초",
+        "technology": "프로젝터 10대 원형 화면"
+      }
+    },
+    {
+      "id": "case-036",
+      "title": "순천만국가정원 4D 입체영상 「비상」",
+      "category": "theater",
+      "sub": "입체 애니메이션 제작",
+      "year": 2015,
+      "location": "순천만국가정원 4D 영상관",
+      "client": "순천시",
+      "description": "날개를 다친 흑두루미를 남매가 몰래 보살펴 다시 날게 하는 실화를 바탕으로 만든 4D 입체영상입니다. 국내 최대 습지 생태공원인 순천만국가정원 영상관에서 상영됩니다.",
+      "thumbnail": "./assets/img/portfolio/case-036-1.jpg",
+      "images": [
+        "./assets/img/portfolio/case-036-1.jpg"
+      ],
+      "tags": [
+        "4D",
+        "입체영상",
+        "생태"
+      ],
+      "details": {
+        "duration": "14분"
+      }
+    },
+    {
+      "id": "case-037",
+      "title": "안동 충의역사체험장 입체영상 「안동의 의병」",
+      "category": "theater",
+      "sub": "입체 애니메이션 제작",
+      "year": 2016,
+      "location": "안동 충의역사체험장",
+      "client": "안동시",
+      "description": "임진왜란 때 안동에서 활동한 의병을 기리는 입체영상입니다. 류복기가 형제와 다섯 아들을 이끌고 왜군에 맞서 끝까지 싸우는 이야기로, 당시 복장과 무기를 시대 자료로 확인해 만들었습니다.",
+      "thumbnail": "./assets/img/portfolio/case-037-1.jpg",
+      "images": [
+        "./assets/img/portfolio/case-037-1.jpg"
+      ],
+      "tags": [
+        "입체영상",
+        "역사",
+        "의병"
+      ],
+      "details": {
+        "duration": "14분"
+      }
+    },
+    {
+      "id": "case-038",
+      "title": "용산 전쟁기념관 3면 영상 「한산도대첩」",
+      "category": "theater",
+      "sub": "특수 화면 영상",
+      "year": 2016,
+      "location": "전쟁기념관 3면 영상관",
+      "client": "전쟁기념사업회",
+      "description": "이순신 장군의 한산도대첩을 세 면의 화면에 펼쳐 보여 주는 영상입니다. 거북선의 등장과 학익진 해전을 담았으며, 왜군 깃발과 함선 등 역사 고증에 특히 공을 들였습니다.",
+      "thumbnail": "./assets/img/portfolio/case-038-1.jpg",
+      "images": [
+        "./assets/img/portfolio/case-038-1.jpg"
+      ],
+      "tags": [
+        "3면 영상",
+        "역사",
+        "이순신"
+      ],
+      "details": {
+        "duration": "8분"
+      }
+    },
+    {
+      "id": "case-039",
+      "title": "한국의 서원 VR 영상",
+      "category": "theater",
+      "sub": "특수 화면 영상",
+      "year": 2016,
+      "location": "",
+      "client": "문화재청",
+      "description": "돈암서원·소수서원·필암서원을 레이저로 측정한 도면을 바탕으로 건물 하나하나를 실제와 같게 만든 VR 영상입니다. 단청과 서까래 구조까지 고증해 서원 전체를 가상으로 걸어볼 수 있습니다.",
+      "thumbnail": "./assets/img/portfolio/case-039-1.jpg",
+      "images": [
+        "./assets/img/portfolio/case-039-1.jpg"
+      ],
+      "tags": [
+        "VR",
+        "문화재",
+        "서원"
       ]
+    },
+    {
+      "id": "case-040",
+      "title": "국가철도공단(KR) 대전 홍보관 4D 영상",
+      "category": "theater",
+      "sub": "4D 영상관 설치",
+      "year": 2020,
+      "location": "국가철도공단 대전 홍보관",
+      "client": "국가철도공단",
+      "description": "의자와 연동되는 4D 영상관에서 편광 안경을 쓰고 보는 12분짜리 4D 입체영상입니다. 기획·제작은 ㈜엔토닉크리에이티브가 맡고, 입체 카메라 기술과 렌더링·편집을 미디어즘이 지원했습니다.",
+      "thumbnail": "./assets/img/portfolio/case-040-1.jpg",
+      "images": [
+        "./assets/img/portfolio/case-040-1.jpg"
+      ],
+      "tags": [
+        "4D",
+        "홍보관",
+        "철도"
+      ],
+      "details": {
+        "duration": "12분"
+      }
     },
     {
       "id": "case-020",
-      "title": "아찔브릿지",
-      "category": ["interactive"],
+      "title": "2021 경남고성공룡세계엑스포 주제관·발자국화석관",
+      "category": "interactive",
+      "sub": "벽·바닥 영상 전시",
       "year": 2021,
-      "location": "경남고성",
+      "location": "경남 고성",
       "client": "2021경남고성공룡세계엑스포",
-      "description": "주제관內 다리위,매립된 모니터를 통해 관람자가 접근하면 센서에 의해 공룡이 튀어나오는 모션을 보여준다.",
-      "thumbnail": "./assets/img/더미이미지 (1).JPG",
+      "description": "엑스포 주제관과 발자국화석관의 체험 전시를 만들었습니다. 다리 위를 걸으면 바닥 화면에서 공룡이 튀어나오는 '아찔 브릿지', 공룡 모형 앞에서 가상 영상이 겹쳐 보이는 AR 화면, 높이 6m·길이 14m 화면에 공을 던져 육식공룡에게서 알을 지키는 놀이, 세 벽과 바닥을 영상으로 채운 '백악기 수족관'을 설치했습니다. 발자국화석관은 공룡 21종과 사진 찍기, 모래 AR, 벽 터치 놀이 등 놀이 중심 전시로 꾸몄습니다.",
+      "thumbnail": "./assets/img/portfolio/case-020-1.jpg",
       "images": [
-        "./assets/img/더미이미지 (1).JPG"
+        "./assets/img/portfolio/case-020-1.jpg",
+        "./assets/img/portfolio/case-020-2.jpg",
+        "./assets/img/portfolio/case-020-3.jpg",
+        "./assets/img/portfolio/case-020-4.jpg",
+        "./assets/img/portfolio/case-020-5.jpg",
+        "./assets/img/portfolio/case-020-6.jpg",
+        "./assets/img/portfolio/case-020-7.jpg",
+        "./assets/img/portfolio/case-020-8.jpg"
+      ],
+      "tags": [
+        "공룡",
+        "엑스포",
+        "AR",
+        "프로젝션"
       ],
       "details": {
-        "duration": "x개월",
-        "scope": "",
-        "technology": "",
+        "technology": "레이저 프로젝터 3대, 라이다 센서, AR 화면, 바닥 매립 화면",
         "features": [
+          "아찔 브릿지",
+          "AR 모니터",
+          "공룡 알을 지켜라",
+          "백악기 수족관",
+          "발자국화석관 놀이 코너 10종"
         ]
       },
-      "tags": [],
-      "before": [
-        "./assets/img/더미이미지 (1).jpg",
-        "./assets/img/더미이미지 (2).jpg"
-      ],
-      "after": [
-        "./assets/img/더미이미지 (3).jpg",
-        "./assets/img/더미이미지 (4).jpg"
+      "ref": [
+        "고성"
       ]
     },
     {
-      "id": "case-021",
-      "title": "공연",
-      "category": ["4d"],
+      "id": "case-028",
+      "title": "충주박물관 디지털 실감 체험 전시",
+      "category": "interactive",
+      "sub": "동작 인식 놀이",
+      "year": 2021,
+      "location": "충주박물관",
+      "client": "충주시",
+      "description": "충주박물관의 체험 코너를 디지털로 다시 만든 전시입니다. 가야금 연주, 중앙탑 쌓기, 붓글씨, 충주성 지키기, 택견 배우기, 미디어 월 등 여섯 가지 체험을 터치 화면과 동작 인식 센서로 만들었고, 많은 프로젝터를 써서 벽면 전체를 화면으로 꾸몄습니다.",
+      "thumbnail": "./assets/img/portfolio/case-028-1.jpg",
+      "images": [
+        "./assets/img/portfolio/case-028-1.jpg",
+        "./assets/img/portfolio/case-028-2.jpg",
+        "./assets/img/portfolio/case-028-3.jpg",
+        "./assets/img/portfolio/case-028-4.jpg",
+        "./assets/img/portfolio/case-028-5.jpg",
+        "./assets/img/portfolio/case-028-6.jpg",
+        "./assets/img/portfolio/case-028-7.jpg",
+        "./assets/img/portfolio/case-028-8.jpg"
+      ],
+      "tags": [
+        "박물관",
+        "터치",
+        "동작 인식",
+        "프로젝션"
+      ],
+      "period": "2021~2022",
+      "details": {
+        "technology": "터치 화면, 동작 인식 센서(키넥트), 다중 프로젝터",
+        "features": [
+          "가야금 체험",
+          "중앙탑을 쌓아라",
+          "붓글씨 체험",
+          "충주성 지키기",
+          "택견 배우기",
+          "미디어 월"
+        ]
+      },
+      "ref": [
+        "충주"
+      ]
+    },
+    {
+      "id": "case-029",
+      "title": "공주 전시관 벽면 영상",
+      "category": "interactive",
+      "sub": "벽·바닥 영상 전시",
       "year": 2025,
-      "location": " 위치",
-      "client": "클라이언트",
-      "description": "설명",
-      "thumbnail": "./assets/img/더미이미지 (4).JPG",
+      "location": "공주",
+      "client": "",
+      "description": "공주의 옛 지도와 유물 그림을 벽면에 비추는 전시 영상입니다. 옛 지도가 펼쳐지고 유물이 떠오르는 장면을 프로젝터로 보여 줍니다.",
+      "thumbnail": "./assets/img/portfolio/case-029-1.jpg",
       "images": [
-        "./assets/img/더미이미지 (1).JPG",
-        "./assets/img/더미이미지 (2).JPG",
-        "./assets/img/더미이미지 (3).JPG",
-        "./assets/img/더미이미지 (4).JPG"
+        "./assets/img/portfolio/case-029-1.jpg",
+        "./assets/img/portfolio/case-029-2.jpg",
+        "./assets/img/portfolio/case-029-3.jpg",
+        "./assets/img/portfolio/case-029-4.jpg"
       ],
-      "details": {
-        "duration": "5개월",
-        "scope": "",
-        "technology": "",
-        "features": [
-        ]
-      },
-      "tags": [],
-      "before": [
-        "./assets/img/더미이미지 (1).jpg",
-        "./assets/img/더미이미지 (2).jpg"
+      "tags": [
+        "프로젝션",
+        "역사",
+        "공주"
       ],
-      "after": [
-        "./assets/img/더미이미지 (3).jpg",
-        "./assets/img/더미이미지 (4).jpg"
-      ]
+      "ref": [
+        "공주"
+      ],
+      "note": "정식 사업명·장소·발주처 확인 필요 (영상 4개뿐)"
     },
     {
-      "id": "case-021",
-      "title": "공연",
-      "category": ["interactive"],
-      "year": 2025,
-      "location": " 위치",
-      "client": "클라이언트",
-      "description": "설명",
-      "thumbnail": "./assets/img/더미이미지 (4).JPG",
+      "id": "case-030",
+      "title": "논산 선샤인랜드 야외 전시 안내 화면",
+      "category": "interactive",
+      "sub": "터치 화면 체험",
+      "year": 2020,
+      "location": "논산 선샤인랜드",
+      "client": "",
+      "description": "야외에 전시된 헬기·전차·전투기 앞에 설치한 안내 화면입니다. 전시물의 이름과 제원을 화면으로 보여 주며, 야외에서도 잘 보이도록 밝기와 보호 구조를 고려해 설치했습니다.",
+      "thumbnail": "./assets/img/portfolio/case-030-1.jpg",
       "images": [
-        "./assets/img/더미이미지 (1).JPG",
-        "./assets/img/더미이미지 (2).JPG",
-        "./assets/img/더미이미지 (3).JPG",
-        "./assets/img/더미이미지 (4).JPG"
+        "./assets/img/portfolio/case-030-1.jpg",
+        "./assets/img/portfolio/case-030-2.jpg",
+        "./assets/img/portfolio/case-030-3.jpg"
       ],
-      "details": {
-        "duration": "5개월",
-        "scope": "",
-        "technology": "",
-        "features": [
-        ]
-      },
-      "tags": [],
-      "before": [
-        "./assets/img/더미이미지 (1).jpg",
-        "./assets/img/더미이미지 (2).jpg"
+      "tags": [
+        "야외 전시",
+        "안내 화면"
       ],
-      "after": [
-        "./assets/img/더미이미지 (3).jpg",
-        "./assets/img/더미이미지 (4).jpg"
-      ]
+      "period": "2020~2022",
+      "ref": [
+        "논산썬샤인"
+      ],
+      "note": "우리가 맡은 범위 확인 필요"
     },
     {
-      "id": "case-021",
-      "title": "공연",
-      "category": ["interactive"],
-      "year": 2026,
-      "location": " 위치",
-      "client": "클라이언트",
-      "description": "설명",
-      "thumbnail": "./assets/img/더미이미지 (4).JPG",
-      "images": [
-        "./assets/img/더미이미지 (1).JPG",
-        "./assets/img/더미이미지 (2).JPG",
-        "./assets/img/더미이미지 (3).JPG",
-        "./assets/img/더미이미지 (4).JPG"
+      "id": "case-031",
+      "title": "모션 제어기 · 콘텐츠 서버 · 효과 편집 프로그램",
+      "category": "control",
+      "sub": "모션 제어기",
+      "year": 2014,
+      "location": "",
+      "client": "자체 개발 제품",
+      "description": "시뮬레이터와 4D 영상관을 움직이는 핵심 장비입니다. 모션 제어기는 의자 움직임과 특수효과 장치를 영상에 맞춰 4ms 이내 오차로 제어하고, 콘텐츠 서버는 한 대로 화면 6개까지 동시에 재생합니다. 효과 편집 프로그램으로 바람·물·조명·의자 움직임의 타이밍을 영상을 보면서 편집할 수 있습니다. 2014년과 2016년에 관련 특허를 등록했습니다.",
+      "thumbnail": "",
+      "images": [],
+      "tags": [
+        "제어기",
+        "서버",
+        "특허"
       ],
       "details": {
-        "duration": "5개월",
-        "scope": "",
-        "technology": "",
+        "technology": "고성능 MCU, USB/RS-232 연결, 무선 리모컨, DMX512 조명 제어",
         "features": [
+          "버튼 하나로 시작·정지",
+          "장치 16개 동시 제어 (DMX 512개)",
+          "서버 6대 연동, 36화면 동시 상영",
+          "영상 파일 암호화·사용 기간 설정"
         ]
       },
-      "tags": [],
-      "before": [
-        "./assets/img/더미이미지 (1).jpg",
-        "./assets/img/더미이미지 (2).jpg"
+      "note": "제품소개서 그림 넣을 것"
+    },
+    {
+      "id": "case-032",
+      "title": "6족 보행 로봇 제어 연구",
+      "category": "control",
+      "sub": "로봇·장치 제어 연구",
+      "year": 2023,
+      "location": "자체 연구소",
+      "client": "",
+      "description": "다리가 여섯 개인 보행 로봇을 직접 설계·3D 프린팅하고 제어 프로그램을 만든 연구입니다. 여러 개의 모터를 동시에 정밀하게 움직이는 기술을 시뮬레이터와 전시 장치에 쓰기 위해 연구했습니다.",
+      "thumbnail": "./assets/img/portfolio/case-032-1.jpg",
+      "images": [
+        "./assets/img/portfolio/case-032-1.jpg",
+        "./assets/img/portfolio/case-032-2.jpg",
+        "./assets/img/portfolio/case-032-3.jpg",
+        "./assets/img/portfolio/case-032-4.jpg"
       ],
-      "after": [
-        "./assets/img/더미이미지 (3).jpg",
-        "./assets/img/더미이미지 (4).jpg"
+      "tags": [
+        "로봇",
+        "제어",
+        "연구"
+      ],
+      "ref": [
+        "로봇 제어 콘트롤"
       ]
     }
-  ],
-  "categories": [
-    { "id": "3d", "name": "3D" },
-    { "id": "4d", "name": "4D" },
-    { "id": "vr-simulator", "name": "VR Simulator" },
-    { "id": "experience-simulator", "name": "Experience Simulator" },
-    { "id": "interactive", "name": "Interactive" },
-    { "id": "motion-simulator", "name": "Motion Simulator" },
-    { "id": "motion-controller", "name": "Motion Controller" }
   ]
 }

@@ -68,9 +68,14 @@ class Router {
     }
 
     updateActiveNav(path) {
+        const full = '/' + (window.location.hash.slice(1) || '/').split('/').filter(Boolean).join('/');
         document.querySelectorAll('.nav-link').forEach(link => {
             const href = link.getAttribute('href').slice(1);
-            link.classList.toggle('active', href === path);
+            // 정확히 같은 주소가 활성. 작업 사례(#/cases)는 분류 없이 볼 때와 사례 상세일 때 활성
+            let active = href === full;
+            if (href === '/cases' && (full.startsWith('/case/') || (full.startsWith('/cases') && full !== '/cases/ai-content'))) active = true;
+            if (href === '/cases/ai-content' && full === '/cases/ai-content') active = true;
+            link.classList.toggle('active', active);
         });
     }
 }
@@ -79,11 +84,11 @@ class Router {
 const router = new Router();
 
 // Import Pages
-import { renderHomePage } from './pages/home.js?v=202610151026';
-import { renderAboutPage } from './pages/about.js?v=202610151026';
-import { renderSolutionsPage } from './pages/solutions.js?v=202610151026';
-import { renderCasesPage } from './pages/cases.js?v=202610151026';
-import { renderCaseDetailPage } from './pages/case-detail.js?v=202610151026';
+import { renderHomePage } from './pages/home.js?v=202610261805';
+import { renderAboutPage } from './pages/about.js?v=202610261805';
+import { renderSolutionsPage } from './pages/solutions.js?v=202610261805';
+import { renderCasesPage } from './pages/cases.js?v=202610261805';
+import { renderCaseDetailPage } from './pages/case-detail.js?v=202610261805';
 
 // Register Routes
 router.register('/', renderHomePage);
@@ -114,20 +119,30 @@ async function loadData(type) {
 // Export utilities
 window.loadData = loadData;
 
-// Mobile Menu Toggle
+// Mobile Menu Toggle — 햄버거 버튼을 누르면 메뉴가 헤더 아래로 펼쳐짐
 const mobileMenuToggle = document.getElementById('mobileMenuToggle');
 const nav = document.getElementById('nav');
 
-mobileMenuToggle?.addEventListener('click', () => {
-    nav.classList.toggle('active');
+function setMenu(open) {
+    nav.classList.toggle('active', open);
+    document.body.classList.toggle('menu-open', open);
+    mobileMenuToggle?.setAttribute('aria-expanded', open ? 'true' : 'false');
+    mobileMenuToggle?.setAttribute('aria-label', open ? '메뉴 닫기' : '메뉴 열기');
+}
+
+mobileMenuToggle?.addEventListener('click', (e) => {
+    e.stopPropagation();
+    setMenu(!nav.classList.contains('active'));
 });
 
-// Close mobile menu on link click
+// 메뉴 항목을 누르거나, 메뉴 바깥을 누르면 닫힘
 document.querySelectorAll('.nav-link').forEach(link => {
-    link.addEventListener('click', () => {
-        nav.classList.remove('active');
-    });
+    link.addEventListener('click', () => setMenu(false));
 });
+document.addEventListener('click', (e) => {
+    if (nav.classList.contains('active') && !nav.contains(e.target)) setMenu(false);
+});
+window.addEventListener('hashchange', () => setMenu(false));
 
 // Scroll to Top Button
 const scrollTopBtn = document.getElementById('scrollTopBtn');

@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="MEDIA-ISM - 원스톱 맞춤 설계 시뮬레이터 및 멀티미디어 솔루션 전문 기업">
-    <meta name="keywords" content="3D, 4D, VR, AR, 인터랙티브, 모션 시뮬레이터, 모션 컨트롤러">
+    <meta name="description" content="(주)미디어즘 - 체험 시뮬레이터, 3D·4D 입체 영상관, 체험형 전시, AI 영상·이미지 제작. 기획부터 설계·제작·설치·운영까지 한 회사에서 합니다.">
+    <meta name="keywords" content="체험 시뮬레이터, 안전체험 시뮬레이터, VR 시뮬레이터, 4D 영상관, 입체영상, 체험형 전시, AI 영상 제작, 미디어즘">
     <title>MEDIA-ISM - (주)미디어즘</title>
-    <link rel="stylesheet" href="css/main.css?v=202610151026">
-    <link rel="stylesheet" href="css/pages.css?v=202610151026">
-    <link rel="stylesheet" href="css/components.css?v=202610151026">
+    <link rel="stylesheet" href="css/main.css?v=202610261805">
+    <link rel="stylesheet" href="css/pages.css?v=202610261805">
+    <link rel="stylesheet" href="css/components.css?v=202610261805">
+    <link rel="stylesheet" href="css/redesign.css?v=202610261805">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -24,11 +25,13 @@
                 <nav id="nav" class="nav" aria-label="Main navigation">
                     <ul class="nav-list">
                         <li><a href="#/" class="nav-link">홈</a></li>
+                        <li><a href="#/cases/ai-content" class="nav-link nav-ai">AI 영상·이미지</a></li>
+                        <li><a href="#/solutions" class="nav-link">하는 일</a></li>
+                        <li><a href="#/cases" class="nav-link">작업 사례</a></li>
                         <li><a href="#/about" class="nav-link">회사소개</a></li>
-                        <li><a href="#/solutions" class="nav-link">솔루션</a></li>
                     </ul>
                 </nav>
-                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="메뉴 열기">
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="메뉴 열기" aria-expanded="false">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -57,18 +60,19 @@
                 <div class="footer-section">
                     <h4>연락처</h4>
                     <p>전화: <a href="tel:010-3287-8984">010-3287-8984</a></p>
+                    <p>대표: 김신희</p>
                     <p>이메일: <a href="mailto:media00041@naver.com">media00041@naver.com</a></p>
                     <p>주소: 경기 안양시 만안구 양화로71번길 37</p>
                 </div>
                 <div class="footer-section">
-                    <h4>자료 다운로드</h4>
+                    <h4>소개 자료 내려받기</h4>
                     <a href="assets/pdf/(주)미디어즘 회사 소개서.pdf" class="btn btn-small footer-download-btn" download>
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M21 15V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M7 10L12 15L17 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M12 15V3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
-                        회사소개서 다운로드
+                        회사 소개서 (PDF)
                     </a>
                     <a href="assets/pdf/motion-simulator-platform.pdf" class="btn btn-small footer-download-btn" download>
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -76,7 +80,7 @@
                             <path d="M7 10L12 15L17 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M12 15V3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
-                        모션 시뮬레이터 및 플랫폼 소개서
+                        체험 시뮬레이터 소개서 (PDF)
                     </a>
                     <a href="assets/pdf/4d-solution.pdf" class="btn btn-small footer-download-btn" download>
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -84,7 +88,7 @@
                             <path d="M7 10L12 15L17 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M12 15V3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
-                        4D 시스템 토탈 솔루션 소개서
+                        4D 영상관 시스템 소개서 (PDF)
                     </a>
                 </div>
             </div>
@@ -106,7 +110,7 @@
     <!-- Scripts -->
     <script type="module">
         // 배포 버전을 읽어 항상 최신 스크립트를 불러옴 (브라우저 캐시 방지)
-        const fallback = 'js/main.js?v=202610151026'.split('?v=')[1];
+        const fallback = 'js/main.js?v=202610261805'.split('?v=')[1];
         fetch('./version.txt?t=' + Date.now(), { cache: 'no-store' })
             .then(r => r.ok ? r.text() : fallback)
             .then(t => import('./js/main.js?v=' + (t.trim() || fallback)))
