@@ -53,6 +53,8 @@
 .section-cta { text-align: center; margin-top: var(--spacing-lg); }
 
 /* ---------- 홈 ---------- */
+.home-page { margin-top: calc(-1 * var(--spacing-2xl)); margin-bottom: calc(-1 * var(--spacing-2xl)); }  /* 첫 화면은 헤더 바로 아래, 마지막 칸은 연락처에 붙게 */
+.core-values-section { border-bottom: none; }
 .hero-title { line-height: 1.25; }
 .hero-title .highlight { display: block; font-size: 0.55em; font-weight: 500; margin-top: 0.6rem; letter-spacing: 0.01em; }
 .hero-actions { display: flex; gap: var(--spacing-sm); justify-content: center; flex-wrap: wrap; }
