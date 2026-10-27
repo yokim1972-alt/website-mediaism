@@ -799,31 +799,6 @@
       "note": "제작 연도 확인 필요"
     },
     {
-      "id": "case-019",
-      "title": "한반도 대지진",
-      "category": "theater",
-      "sub": "입체 애니메이션 제작",
-      "year": 2013,
-      "location": "",
-      "client": "",
-      "description": "2030년 서울에 진도 7의 지진이 일어납니다. 여진이 이어지며 건물이 무너지고 도로가 막힌 상황에서 국가재난대응사령부의 에어카 특수대원들이 출동해 사람들을 구하는 3D·4D 애니메이션입니다.",
-      "thumbnail": "./assets/img/portfolio/case-019-1.jpg",
-      "images": [
-        "./assets/img/portfolio/case-019-1.jpg"
-      ],
-      "tags": [
-        "3D",
-        "4D",
-        "애니메이션",
-        "재난"
-      ],
-      "details": {
-        "duration": "12분",
-        "scope": "배급 (미디어필)"
-      },
-      "note": "제작 연도 확인 필요"
-    },
-    {
       "id": "case-033",
       "title": "한성백제박물관 4D 입체영상 「유린, 백제로 가다」",
       "category": "theater",
