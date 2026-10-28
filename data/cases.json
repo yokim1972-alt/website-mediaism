@@ -634,10 +634,7 @@
         "./assets/img/portfolio/case-008-2.jpg",
         "./assets/img/portfolio/case-008-3.jpg",
         "./assets/img/portfolio/case-008-4.jpg",
-        "./assets/img/portfolio/case-008-5.jpg",
-        "./assets/img/스크린샷 2025-12-03 164546.png",
-        "./assets/img/스크린샷 2025-12-03 164556.png",
-        "./assets/img/스크린샷 2025-12-03 164603.png"
+        "./assets/img/portfolio/case-008-5.jpg"
       ],
       "tags": [
         "VR",
@@ -671,8 +668,11 @@
       "location": "제주 자연문화유산센터",
       "client": "",
       "description": "2조 8인승 시뮬레이터에 타고 VR 안경을 쓰면 용을 타고 용천동굴 속을 날아다니는 5분짜리 VR360 영상이 펼쳐집니다. 처음엔 실제 동굴을 입체 촬영하려 했지만 여건상 전부 컴퓨터그래픽으로 만들었습니다. 빠른 속도감을 위해 아주 긴 통로를 만들고, 시뮬레이터 움직임에 맞춰 과격한 장면도 넣었습니다.",
-      "thumbnail": "./assets/img/portfolio/case-024-2.jpg",
+      "thumbnail": "./assets/img/스크린샷 2025-12-03 164546.png",
       "images": [
+        "./assets/img/스크린샷 2025-12-03 164546.png",
+        "./assets/img/스크린샷 2025-12-03 164556.png",
+        "./assets/img/스크린샷 2025-12-03 164603.png",
         "./assets/img/portfolio/case-024-2.jpg",
         "./assets/img/portfolio/case-024-3.jpg",
         "./assets/img/portfolio/case-024-4.jpg"
