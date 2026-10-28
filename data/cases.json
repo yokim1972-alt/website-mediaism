@@ -606,7 +606,7 @@
       "video": {
         "src": "assets/ref/jeonnam-safety/preview.mp4",
         "poster": "assets/ref/jeonnam-safety/preview.jpg",
-        "label": "항공 안전체험 모습 · 앞 1분"
+        "label": "버스 안전체험 영상 · 앞 1분"
       }
     },
     {
@@ -715,7 +715,12 @@
       "ref": [
         "정선동강"
       ],
-      "note": "정식 사업명·발주처 확인 필요"
+      "note": "정식 사업명·발주처 확인 필요",
+      "video": {
+        "src": "assets/ref/jeongseon-donggang/preview.mp4",
+        "poster": "assets/ref/jeongseon-donggang/preview.jpg",
+        "label": "VR 체험 모습 · 46초"
+      }
     },
     {
       "id": "case-026",
@@ -766,7 +771,12 @@
       "ref": [
         "2024 가릉메타버스 체험관"
       ],
-      "note": "'가릉' 정확한 장소명·발주처 확인 필요"
+      "note": "'가릉' 정확한 장소명·발주처 확인 필요",
+      "video": {
+        "src": "assets/ref/gareung-metaverse/preview.mp4",
+        "poster": "assets/ref/gareung-metaverse/preview.jpg",
+        "label": "메타버스 체험 모습 · 앞 1분"
+      }
     },
     {
       "id": "case-017",
@@ -1072,7 +1082,12 @@
       },
       "ref": [
         "충주"
-      ]
+      ],
+      "video": {
+        "src": "assets/ref/chungju/preview.mp4",
+        "poster": "assets/ref/chungju/preview.jpg",
+        "label": "택견 배우기 체험 모습 · 앞 1분"
+      }
     },
     {
       "id": "case-029",
@@ -1098,7 +1113,12 @@
       "ref": [
         "공주"
       ],
-      "note": "정식 사업명·장소·발주처 확인 필요 (영상 4개뿐)"
+      "note": "정식 사업명·장소·발주처 확인 필요 (영상 4개뿐)",
+      "video": {
+        "src": "assets/ref/gongju/preview.mp4",
+        "poster": "assets/ref/gongju/preview.jpg",
+        "label": "벽면 영상 · 앞 1분"
+      }
     },
     {
       "id": "case-030",
@@ -1179,7 +1199,12 @@
       ],
       "ref": [
         "로봇 제어 콘트롤"
-      ]
+      ],
+      "video": {
+        "src": "assets/ref/robot-control/preview.mp4",
+        "poster": "assets/ref/robot-control/preview.jpg",
+        "label": "6족 로봇 걷기 시험 · 앞 1분"
+      }
     }
   ]
 }
