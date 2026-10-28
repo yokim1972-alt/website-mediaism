@@ -233,17 +233,8 @@
       "location": "평창올림픽 플라자, 강릉 ICT 홍보관 외",
       "client": "평창올림픽 조직위원회",
       "description": "4종목 8대의 스포츠 체험 시뮬레이터 가운데 하나입니다. 4명이 동시에 접속해 경주할 수 있는 스노보드 체험으로, 플라자 건물 구조 때문에 생긴 진동 문제를 3번에 걸친 진동 패드 공사로 해결했습니다.",
-      "thumbnail": "./assets/img/portfolio/case-003-1.jpg",
+      "thumbnail": "./assets/img/스크린샷 2025-12-03 162354.png",
       "images": [
-        "./assets/img/portfolio/case-003-1.jpg",
-        "./assets/img/portfolio/case-003-2.jpg",
-        "./assets/img/portfolio/case-003-3.jpg",
-        "./assets/img/portfolio/case-003-1.jpg",
-        "./assets/img/portfolio/case-003-2.jpg",
-        "./assets/img/portfolio/case-003-3.jpg",
-        "./assets/img/portfolio/case-003-1.jpg",
-        "./assets/img/portfolio/case-003-2.jpg",
-        "./assets/img/portfolio/case-003-3.jpg",
         "./assets/img/스크린샷 2025-12-03 162354.png",
         "./assets/img/스크린샷 2025-12-03 162430.png",
         "./assets/img/스크린샷 2025-12-03 162455.png"
@@ -295,8 +286,17 @@
       "location": "평창올림픽 관련 시설",
       "client": "평창올림픽 조직위원회",
       "description": "어떻게하면 탑승자에게 스키점프의 느낌을 전달할 수 있나에서오는 고민은 하강 각도 35도에 이르는 시뮬레이터 구조를 고안하게되었다. 키넥트를 활용한 동작 센서는 사용자의 자세를 검출해 점수를 반영한다. 100kg에 견딜 수 있도록 4점식 안전벨트와 지지대를 특수용접으로 보강했다.",
-      "thumbnail": "./assets/img/스크린샷 2025-12-03 162953.png",
+      "thumbnail": "./assets/img/portfolio/case-003-1.jpg",
       "images": [
+        "./assets/img/portfolio/case-003-1.jpg",
+        "./assets/img/portfolio/case-003-2.jpg",
+        "./assets/img/portfolio/case-003-3.jpg",
+        "./assets/img/portfolio/case-003-1.jpg",
+        "./assets/img/portfolio/case-003-2.jpg",
+        "./assets/img/portfolio/case-003-3.jpg",
+        "./assets/img/portfolio/case-003-1.jpg",
+        "./assets/img/portfolio/case-003-2.jpg",
+        "./assets/img/portfolio/case-003-3.jpg",
         "./assets/img/스크린샷 2025-12-03 162953.png",
         "./assets/img/스크린샷 2025-12-03 162959.png",
         "./assets/img/스크린샷 2025-12-03 163005.png"
@@ -305,6 +305,9 @@
         "올림픽",
         "스키점프",
         "스포츠"
+      ],
+      "ref": [
+        "평창"
       ]
     },
     {

@@ -6,10 +6,10 @@
     <meta name="description" content="(주)미디어즘 - 체험 시뮬레이터, 3D·4D 입체 영상관, 체험형 전시, AI 영상·이미지 제작. 기획부터 설계·제작·설치·운영까지 한 회사에서 합니다.">
     <meta name="keywords" content="체험 시뮬레이터, 안전체험 시뮬레이터, VR 시뮬레이터, 4D 영상관, 입체영상, 체험형 전시, AI 영상 제작, 미디어즘">
     <title>MEDIA-ISM - (주)미디어즘</title>
-    <link rel="stylesheet" href="css/main.css?v=202610280524">
-    <link rel="stylesheet" href="css/pages.css?v=202610280524">
-    <link rel="stylesheet" href="css/components.css?v=202610280524">
-    <link rel="stylesheet" href="css/redesign.css?v=202610280524">
+    <link rel="stylesheet" href="css/main.css?v=202610280527">
+    <link rel="stylesheet" href="css/pages.css?v=202610280527">
+    <link rel="stylesheet" href="css/components.css?v=202610280527">
+    <link rel="stylesheet" href="css/redesign.css?v=202610280527">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -109,7 +109,7 @@
     <!-- Scripts -->
     <script type="module">
         // 배포 버전을 읽어 항상 최신 스크립트를 불러옴 (브라우저 캐시 방지)
-        const fallback = 'js/main.js?v=202610280524'.split('?v=')[1];
+        const fallback = 'js/main.js?v=202610280527'.split('?v=')[1];
         fetch('./version.txt?t=' + Date.now(), { cache: 'no-store' })
             .then(r => r.ok ? r.text() : fallback)
             .then(t => import('./js/main.js?v=' + (t.trim() || fallback)))
