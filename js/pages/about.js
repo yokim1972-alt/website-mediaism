@@ -1,6 +1,6 @@
 // About Page — 회사소개
-import { render } from '../main.js?v=202610280527';
-import { getIcon } from '../icons.js?v=202610280527';
+import { render } from '../main.js?v=202610280604';
+import { getIcon } from '../icons.js?v=202610280604';
 
 export async function renderAboutPage() {
     const companyData = await window.loadData('company');
@@ -43,20 +43,6 @@ export async function renderAboutPage() {
                         `).join('') || ''}
                     </div>
                 </section>
-
-                <!-- 사람 -->
-                ${companyData?.team ? `
-                <section class="section">
-                    <h2 class="section-title">함께 일하는 사람</h2>
-                    <div class="team-grid">
-                        ${companyData.team.map(t => `
-                            <div class="card team-card">
-                                <div class="team-count">${t.count}<span>명</span></div>
-                                <div class="team-name">${t.name}</div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </section>` : ''}
 
                 <!-- History -->
                 <section class="section">

@@ -28,24 +28,6 @@
       "icon": "update"
     }
   ],
-  "team": [
-    {
-      "name": "본사",
-      "count": 4
-    },
-    {
-      "name": "연구소",
-      "count": 3
-    },
-    {
-      "name": "생산 공장",
-      "count": 6
-    },
-    {
-      "name": "영상 제작",
-      "count": 5
-    }
-  ],
   "history": [
     {
       "year": "2026",
