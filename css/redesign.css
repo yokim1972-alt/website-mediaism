@@ -112,8 +112,30 @@
 .case-title { font-size: 1.05rem; line-height: 1.4; }
 .case-description { font-size: 0.875rem; line-height: 1.55; }
 
+/* ---------- AI 페이지: 갤러리 버튼·대표 영상 ---------- */
+.ai-gallery-bar { text-align: center; margin: var(--spacing-md) 0 var(--spacing-lg); }
+.ai-gallery-btn { display: inline-flex; align-items: center; gap: 0.6rem; padding: 0.9rem 1.6rem; background: transparent; border: 2px solid var(--color-secondary); border-radius: 999px; color: var(--color-secondary); font-size: 1.15rem; font-weight: 700; cursor: pointer; transition: all var(--transition-fast); font-family: inherit; }
+.ai-gallery-btn small { font-size: 0.8rem; font-weight: 500; color: var(--color-text-secondary); }
+.ai-gallery-btn:hover, .ai-gallery-btn.open { background: var(--color-secondary); color: #111; }
+.ai-gallery-btn:hover small, .ai-gallery-btn.open small { color: #333; }
+.ai-gallery { margin-bottom: var(--spacing-xl); }
+.ai-gallery-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; }
+.ai-gallery-item { margin: 0; cursor: zoom-in; background: var(--color-bg-secondary); border: 1px solid var(--color-border); border-radius: 6px; overflow: hidden; }
+.ai-gallery-item img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; transition: transform 0.2s ease; }
+.ai-gallery-item:hover img { transform: scale(1.04); }
+.ai-gallery-item figcaption { font-size: 0.78rem; color: var(--color-text-secondary); padding: 0.4rem 0.6rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ai-videos { display: flex; flex-direction: column; gap: var(--spacing-lg); align-items: center; margin-bottom: var(--spacing-xl); }
+.ai-video-item { width: 100%; max-width: 1000px; }
+.ai-video-head { display: flex; justify-content: space-between; align-items: baseline; gap: var(--spacing-sm); margin-bottom: 0.4rem; flex-wrap: wrap; }
+.ai-video-head a { color: var(--color-text-light); font-weight: 700; font-size: 1.05rem; text-decoration: none; }
+.ai-video-head a:hover { color: var(--color-primary); }
+.ai-video-head span { color: var(--color-text-secondary); font-size: 0.85rem; }
+.ai-video { width: 100%; max-width: 1000px; display: block; background: #000; border: 1px solid var(--color-border); border-radius: 6px; }
+
 /* ---------- 사례 상세 ---------- */
 .breadcrumb { flex-wrap: wrap; }
+.gallery-main { height: auto; max-height: 640px; background: #000; }
+.gallery-main img { width: 100%; height: auto; max-height: 640px; object-fit: contain; }
 .gallery-main.gallery-empty { background: linear-gradient(135deg, #0f2a27, #1a1a1a); }
 .gallery-placeholder { color: var(--color-text-secondary); text-align: center; }
 .gallery-placeholder svg { color: var(--color-primary); opacity: 0.8; margin-bottom: 0.5rem; }
@@ -188,6 +210,9 @@
     .related-card { font-size: 0.75rem; }
     .team-grid { grid-template-columns: repeat(2, 1fr); }
     .ref-photo-grid { grid-template-columns: repeat(3, 1fr); gap: 4px; }
+    .ai-gallery-grid { grid-template-columns: repeat(2, 1fr); gap: 6px; }
+    .ai-gallery-btn { font-size: 1rem; padding: 0.7rem 1.1rem; }
+    .ai-gallery-btn small { display: none; }
     .lightbox-nav { width: 40px; height: 56px; font-size: 2rem; }
     .lightbox-close { right: 16px; }
 }

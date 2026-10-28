@@ -1,6 +1,6 @@
 // Cases Page — 작업 사례 (분류·연도로 걸러 보기)
-import { render } from '../main.js?v=202610280439';
-import { getIcon } from '../icons.js?v=202610280439';
+import { render } from '../main.js?v=202610280452';
+import { getIcon } from '../icons.js?v=202610280452';
 
 // 임시값은 화면에 표시하지 않음
 function isRealValue(v) {
@@ -61,6 +61,19 @@ export async function renderCasesPage(params) {
                     </div>
                 </div>
 
+                ${isAI ? `
+                <!-- AI 이미지 갤러리 (버튼을 누르면 펼쳐짐) -->
+                <div class="ai-gallery-bar">
+                    <button class="ai-gallery-btn" id="aiGalleryBtn" aria-expanded="false">
+                        ${getIcon('ai', 22)} <span>AI 영상·이미지 갤러리</span> <small>대표 이미지 한 컷씩 보기</small>
+                    </button>
+                </div>
+                <div class="ai-gallery" id="aiGallery" style="display:none"></div>
+
+                <!-- 대표 영상 (앞 1분) -->
+                <div class="ai-videos" id="aiVideos"></div>
+                ` : ''}
+
                 <p class="cases-count" id="casesCount"></p>
 
                 <!-- Cases Grid -->
@@ -116,6 +129,97 @@ export async function renderCasesPage(params) {
     }
 
     applyFilters();
+
+    if (isAI) setupAISections(casesData?.cases || []);
+}
+
+// ---------- AI 페이지: 갤러리 + 대표 영상 ----------
+async function setupAISections(allCases) {
+    // 대표 영상: video 항목이 있는 AI 사례 (앞 1분, 가로 1000)
+    const vids = allCases.filter(c => c.category === 'ai-content' && c.video);
+    const box = document.getElementById('aiVideos');
+    if (box && vids.length) {
+        box.innerHTML = vids.map(c => `
+            <div class="ai-video-item">
+                <div class="ai-video-head">
+                    <a href="#/case/${c.id}">${c.title}</a>
+                    <span>${c.video.label || '앞 1분'}</span>
+                </div>
+                <video class="ai-video" controls preload="metadata" playsinline controlsList="nodownload noplaybackrate" disablePictureInPicture
+                       poster="${c.video.poster}" oncontextmenu="return false">
+                    <source src="${c.video.src}" type="video/mp4">
+                </video>
+            </div>
+        `).join('');
+        // 한 영상을 틀면 다른 영상은 멈춤
+        const all = box.querySelectorAll('video');
+        all.forEach(v => v.addEventListener('play', () => all.forEach(o => { if (o !== v) o.pause(); })));
+    }
+
+    // 갤러리 버튼
+    const btn = document.getElementById('aiGalleryBtn');
+    const gal = document.getElementById('aiGallery');
+    if (!btn || !gal) return;
+    let items = null;
+    btn.addEventListener('click', async () => {
+        const open = gal.style.display === 'none';
+        if (open && !items) {
+            try {
+                const v = (new URL(import.meta.url)).searchParams.get('v') || '0';
+                const r = await fetch(`./data/ai-gallery.json?v=${v}`);
+                items = r.ok ? (await r.json()).items : [];
+            } catch (e) { items = []; }
+            gal.innerHTML = `
+                <div class="ai-gallery-grid">
+                    ${items.map((it, i) => `
+                        <figure class="ai-gallery-item" data-i="${i}">
+                            <img src="${it.thumb}" alt="${it.title}" loading="lazy" />
+                            <figcaption>${it.title}</figcaption>
+                        </figure>
+                    `).join('')}
+                </div>
+                <div id="aiLightbox" class="lightbox" style="display:none">
+                    <span class="lightbox-close" aria-label="닫기">&times;</span>
+                    <button class="lightbox-nav lightbox-prev" aria-label="이전">&#8249;</button>
+                    <div class="lightbox-stage"><img class="lightbox-content" id="aiLbImg" oncontextmenu="return false" /></div>
+                    <button class="lightbox-nav lightbox-next" aria-label="다음">&#8250;</button>
+                    <p class="lightbox-caption" id="aiLbCap"></p>
+                </div>`;
+            setupGalleryLightbox(items);
+        }
+        gal.style.display = open ? 'block' : 'none';
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+        btn.classList.toggle('open', open);
+        if (open) gal.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+}
+
+function setupGalleryLightbox(items) {
+    const lb = document.getElementById('aiLightbox');
+    const img = document.getElementById('aiLbImg');
+    const cap = document.getElementById('aiLbCap');
+    let idx = 0;
+    function show(i) {
+        idx = (i + items.length) % items.length;
+        img.src = items[idx].src;
+        cap.textContent = `${items[idx].title}  (${idx + 1}/${items.length})`;
+        lb.style.display = 'flex'; document.body.style.overflow = 'hidden';
+    }
+    function close() { lb.style.display = 'none'; document.body.style.overflow = ''; }
+    document.querySelectorAll('.ai-gallery-item').forEach(el => el.addEventListener('click', () => show(Number(el.dataset.i))));
+    lb.querySelector('.lightbox-close').addEventListener('click', close);
+    lb.querySelector('.lightbox-prev').addEventListener('click', (e) => { e.stopPropagation(); show(idx - 1); });
+    lb.querySelector('.lightbox-next').addEventListener('click', (e) => { e.stopPropagation(); show(idx + 1); });
+    lb.addEventListener('click', (e) => { if (e.target === lb || e.target.classList.contains('lightbox-stage')) close(); });
+    document.addEventListener('keydown', (e) => {
+        if (lb.style.display === 'none') return;
+        if (e.key === 'Escape') close();
+        if (e.key === 'ArrowLeft') show(idx - 1);
+        if (e.key === 'ArrowRight') show(idx + 1);
+    });
+    let tx = null;
+    lb.addEventListener('touchstart', (e) => { tx = e.touches[0].clientX; }, { passive: true });
+    lb.addEventListener('touchend', (e) => { if (tx === null) return; const dx = e.changedTouches[0].clientX - tx; tx = null; if (Math.abs(dx) > 50) show(dx < 0 ? idx + 1 : idx - 1); });
 }
 
 function renderCaseCards(cases) {

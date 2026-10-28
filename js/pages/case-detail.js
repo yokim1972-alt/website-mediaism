@@ -1,6 +1,6 @@
 // Case Detail Page — 작업 사례 상세
-import { render } from '../main.js?v=202610280439';
-import { getIcon } from '../icons.js?v=202610280439';
+import { render } from '../main.js?v=202610280452';
+import { getIcon } from '../icons.js?v=202610280452';
 
 const REF_PASSWORD = 'media123'; // 현장 자료 열람 비밀번호 (보안용이 아니라 문만 닫아 둔 것)
 
