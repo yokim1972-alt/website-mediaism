@@ -1,6 +1,6 @@
 // Cases Page — 작업 사례 (분류·연도로 걸러 보기)
-import { render } from '../main.js?v=202610280452';
-import { getIcon } from '../icons.js?v=202610280452';
+import { render } from '../main.js?v=202610280501';
+import { getIcon } from '../icons.js?v=202610280501';
 
 // 임시값은 화면에 표시하지 않음
 function isRealValue(v) {
@@ -69,9 +69,6 @@ export async function renderCasesPage(params) {
                     </button>
                 </div>
                 <div class="ai-gallery" id="aiGallery" style="display:none"></div>
-
-                <!-- 대표 영상 (앞 1분) -->
-                <div class="ai-videos" id="aiVideos"></div>
                 ` : ''}
 
                 <p class="cases-count" id="casesCount"></p>
@@ -135,27 +132,6 @@ export async function renderCasesPage(params) {
 
 // ---------- AI 페이지: 갤러리 + 대표 영상 ----------
 async function setupAISections(allCases) {
-    // 대표 영상: video 항목이 있는 AI 사례 (앞 1분, 가로 1000)
-    const vids = allCases.filter(c => c.category === 'ai-content' && c.video);
-    const box = document.getElementById('aiVideos');
-    if (box && vids.length) {
-        box.innerHTML = vids.map(c => `
-            <div class="ai-video-item">
-                <div class="ai-video-head">
-                    <a href="#/case/${c.id}">${c.title}</a>
-                    <span>${c.video.label || '앞 1분'}</span>
-                </div>
-                <video class="ai-video" controls preload="metadata" playsinline controlsList="nodownload noplaybackrate" disablePictureInPicture
-                       poster="${c.video.poster}" oncontextmenu="return false">
-                    <source src="${c.video.src}" type="video/mp4">
-                </video>
-            </div>
-        `).join('');
-        // 한 영상을 틀면 다른 영상은 멈춤
-        const all = box.querySelectorAll('video');
-        all.forEach(v => v.addEventListener('play', () => all.forEach(o => { if (o !== v) o.pause(); })));
-    }
-
     // 갤러리 버튼
     const btn = document.getElementById('aiGalleryBtn');
     const gal = document.getElementById('aiGallery');

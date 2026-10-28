@@ -1,6 +1,6 @@
 // Case Detail Page — 작업 사례 상세
-import { render } from '../main.js?v=202610280452';
-import { getIcon } from '../icons.js?v=202610280452';
+import { render } from '../main.js?v=202610280501';
+import { getIcon } from '../icons.js?v=202610280501';
 
 const REF_PASSWORD = 'media123'; // 현장 자료 열람 비밀번호 (보안용이 아니라 문만 닫아 둔 것)
 
@@ -67,6 +67,16 @@ export async function renderCaseDetailPage(params) {
                         ${caseItem.location}
                     </p>` : ''}
                 </div>
+
+                ${caseItem.video ? `
+                <!-- 맛보기 영상 (앞 1분, 가로 1000) -->
+                <div class="case-video">
+                    <video class="ai-video" controls preload="metadata" playsinline controlsList="nodownload noplaybackrate" disablePictureInPicture
+                           poster="${caseItem.video.poster}" oncontextmenu="return false">
+                        <source src="${caseItem.video.src}" type="video/mp4">
+                    </video>
+                    <p class="case-video-label">${caseItem.video.label || '앞 1분'}</p>
+                </div>` : ''}
 
                 <!-- Case Gallery -->
                 <div class="case-gallery">
