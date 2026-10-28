@@ -169,7 +169,12 @@
       "ref": [
         "KT",
         "시뮬레이터"
-      ]
+      ],
+      "video": {
+        "src": "assets/ref/kt/preview.mp4",
+        "poster": "assets/ref/kt/preview.jpg",
+        "label": "KT 5G 홍보관 체험 모습 · 42초"
+      }
     },
     {
       "id": "case-002",
@@ -212,7 +217,12 @@
       },
       "ref": [
         "평창"
-      ]
+      ],
+      "video": {
+        "src": "assets/ref/pyeongchang/preview.mp4",
+        "poster": "assets/ref/pyeongchang/preview.jpg",
+        "label": "평창 올림픽 플라자 체험 모습 · 앞 1분"
+      }
     },
     {
       "id": "case-003",
@@ -319,7 +329,6 @@
         "./assets/img/portfolio/case-006-3.jpg",
         "./assets/img/스크린샷 2025-12-03 163733.png",
         "./assets/img/스크린샷 2025-12-03 163737.png",
-        "./assets/img/스크린샷 2025-12-03 163742.png",
         "./assets/img/스크린샷 2025-12-03 163747.png"
       ],
       "tags": [
@@ -329,7 +338,12 @@
       "ref": [
         "시뮬레이터"
       ],
-      "note": "설치 장소·연도 확인 필요"
+      "note": "설치 장소·연도 확인 필요",
+      "video": {
+        "src": "assets/ref/simulator-making/preview.mp4",
+        "poster": "assets/ref/simulator-making/preview.jpg",
+        "label": "패러글라이딩 체험 모습 · 앞 1분"
+      }
     },
     {
       "id": "case-022",
@@ -421,8 +435,7 @@
       "description": "단체 안전교육용 시뮬레이터입니다. 경기도 해양안전체험관과 같은 훈련 방식이며, 구조물 가운데 윗부분만 움직이는 방식입니다.",
       "thumbnail": "./assets/img/스크린샷 2025-12-03 171221.png",
       "images": [
-        "./assets/img/스크린샷 2025-12-03 171221.png",
-        "./assets/img/스크린샷 2025-12-03 171230.png"
+        "./assets/img/스크린샷 2025-12-03 171221.png"
       ],
       "tags": [
         "해양안전",
@@ -471,7 +484,6 @@
       "images": [
         "./assets/img/스크린샷 2025-12-03 172555.png",
         "./assets/img/스크린샷 2025-12-03 172601.png",
-        "./assets/img/스크린샷 2025-12-03 172605.png",
         "./assets/img/스크린샷 2025-12-03 172611.png"
       ],
       "tags": [
@@ -492,8 +504,7 @@
       "images": [
         "./assets/img/스크린샷 2025-12-03 173011.png",
         "./assets/img/스크린샷 2025-12-03 173020.png",
-        "./assets/img/스크린샷 2025-12-03 173027.png",
-        "./assets/img/스크린샷 2025-12-03 173036.png"
+        "./assets/img/스크린샷 2025-12-03 173027.png"
       ],
       "tags": [
         "태풍",
@@ -591,7 +602,12 @@
       "ref": [
         "전남 안전체험관"
       ],
-      "note": "우리가 맡은 범위(영상? 장비?) 확인 필요"
+      "note": "우리가 맡은 범위(영상? 장비?) 확인 필요",
+      "video": {
+        "src": "assets/ref/jeonnam-safety/preview.mp4",
+        "poster": "assets/ref/jeonnam-safety/preview.jpg",
+        "label": "항공 안전체험 모습 · 앞 1분"
+      }
     },
     {
       "id": "case-008",
@@ -639,7 +655,12 @@
       "ref": [
         "안양생태이야기관"
       ],
-      "note": "설치 장소가 안양생태이야기관인지 확인 필요 (사진 촬영 장소 기준)"
+      "note": "설치 장소가 안양생태이야기관인지 확인 필요 (사진 촬영 장소 기준)",
+      "video": {
+        "src": "assets/ref/anyang-eco/preview.mp4",
+        "poster": "assets/ref/anyang-eco/preview.jpg",
+        "label": "8인승 VR 시뮬레이터 체험 모습 · 43초"
+      }
     },
     {
       "id": "case-024",
@@ -650,9 +671,8 @@
       "location": "제주 자연문화유산센터",
       "client": "",
       "description": "2조 8인승 시뮬레이터에 타고 VR 안경을 쓰면 용을 타고 용천동굴 속을 날아다니는 5분짜리 VR360 영상이 펼쳐집니다. 처음엔 실제 동굴을 입체 촬영하려 했지만 여건상 전부 컴퓨터그래픽으로 만들었습니다. 빠른 속도감을 위해 아주 긴 통로를 만들고, 시뮬레이터 움직임에 맞춰 과격한 장면도 넣었습니다.",
-      "thumbnail": "./assets/img/portfolio/case-024-1.jpg",
+      "thumbnail": "./assets/img/portfolio/case-024-2.jpg",
       "images": [
-        "./assets/img/portfolio/case-024-1.jpg",
         "./assets/img/portfolio/case-024-2.jpg",
         "./assets/img/portfolio/case-024-3.jpg",
         "./assets/img/portfolio/case-024-4.jpg"
@@ -987,8 +1007,7 @@
         "./assets/img/portfolio/case-020-4.jpg",
         "./assets/img/portfolio/case-020-5.jpg",
         "./assets/img/portfolio/case-020-6.jpg",
-        "./assets/img/portfolio/case-020-7.jpg",
-        "./assets/img/portfolio/case-020-8.jpg"
+        "./assets/img/portfolio/case-020-7.jpg"
       ],
       "tags": [
         "공룡",
@@ -1008,7 +1027,12 @@
       },
       "ref": [
         "고성"
-      ]
+      ],
+      "video": {
+        "src": "assets/ref/goseong/preview.mp4",
+        "poster": "assets/ref/goseong/preview.jpg",
+        "label": "아찔 브릿지·AR 체험 모습 · 앞 1분"
+      }
     },
     {
       "id": "case-028",
@@ -1022,13 +1046,11 @@
       "thumbnail": "./assets/img/portfolio/case-028-1.jpg",
       "images": [
         "./assets/img/portfolio/case-028-1.jpg",
-        "./assets/img/portfolio/case-028-2.jpg",
         "./assets/img/portfolio/case-028-3.jpg",
         "./assets/img/portfolio/case-028-4.jpg",
         "./assets/img/portfolio/case-028-5.jpg",
         "./assets/img/portfolio/case-028-6.jpg",
-        "./assets/img/portfolio/case-028-7.jpg",
-        "./assets/img/portfolio/case-028-8.jpg"
+        "./assets/img/portfolio/case-028-7.jpg"
       ],
       "tags": [
         "박물관",
