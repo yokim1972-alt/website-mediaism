@@ -1,6 +1,6 @@
 // Cases Page — 작업 사례 (분류·연도로 걸러 보기)
-import { render } from '../main.js?v=202610280604';
-import { getIcon } from '../icons.js?v=202610280604';
+import { render } from '../main.js?v=202611121633';
+import { getIcon } from '../icons.js?v=202611121633';
 
 // 임시값은 화면에 표시하지 않음
 function isRealValue(v) {
@@ -14,6 +14,11 @@ function isRealValue(v) {
 const AI_INTRO = {
     title: 'AI 영상·이미지 제작',
     lead: '그림과 영상을 만들어 주는 AI로 전시 영상, 홍보 영상, 역사 재현 장면을 만듭니다. 대본과 장면 설계는 사람이 하고, AI는 그 장면을 그려 내는 도구로 씁니다.'
+};
+
+const ARVR_INTRO = {
+    title: 'AR·VR',
+    lead: 'VR 안경을 쓰고 들어가는 360도 영상, 움직이는 의자와 함께 타는 VR 체험, 실제 공간에 그림이 겹쳐 보이는 AR 체험입니다. 현장별로 모았습니다.'
 };
 
 export async function renderCasesPage(params) {
@@ -34,8 +39,8 @@ export async function renderCasesPage(params) {
             <div class="container">
                 <!-- Page Header -->
                 <div class="page-header">
-                    <h1 class="page-title">${isAI ? AI_INTRO.title : '작업 사례'}</h1>
-                    <p class="page-subtitle">${isAI ? AI_INTRO.lead : '지금까지 만든 것들입니다. 분류와 연도로 골라 볼 수 있습니다.'}</p>
+                    <h1 class="page-title">${isAI ? AI_INTRO.title : initialCat === 'arvr' ? ARVR_INTRO.title : '작업 사례'}</h1>
+                    <p class="page-subtitle">${isAI ? AI_INTRO.lead : initialCat === 'arvr' ? ARVR_INTRO.lead : '지금까지 만든 것들입니다. 분류와 연도로 골라 볼 수 있습니다.'}</p>
                 </div>
 
                 <!-- Filters -->
@@ -230,7 +235,7 @@ function renderCaseCards(cases) {
 }
 
 function categoryIcon(category) {
-    const map = { 'ai-content': 'ai', 'simulator': 'motion-simulator', 'theater': 'theater', 'interactive': 'interactive', 'control': 'motion-controller' };
+    const map = { 'ai-content': 'ai', 'arvr': 'vr-ar', 'simulator': 'motion-simulator', 'theater': 'theater', 'interactive': 'interactive', 'control': 'motion-controller' };
     const cat = Array.isArray(category) ? category[0] : category;
     return map[cat] || 'design';
 }

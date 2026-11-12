@@ -6,6 +6,11 @@
       "short": "AI 영상·이미지"
     },
     {
+      "id": "arvr",
+      "name": "AR·VR",
+      "short": "AR·VR"
+    },
+    {
       "id": "simulator",
       "name": "체험 시뮬레이터",
       "short": "시뮬레이터"
@@ -597,7 +602,7 @@
     {
       "id": "case-008",
       "title": "2조 8인승 VR 시뮬레이터 (안양생태이야기관)",
-      "category": "simulator",
+      "category": "arvr",
       "sub": "VR 탑승 체험",
       "year": 2022,
       "location": "안양생태이야기관",
@@ -637,7 +642,7 @@
     {
       "id": "case-024",
       "title": "제주 자연문화유산센터 동굴체험 VR 시뮬레이터",
-      "category": "simulator",
+      "category": "arvr",
       "sub": "VR 탑승 체험",
       "year": 2020,
       "location": "제주 자연문화유산센터",
@@ -668,7 +673,7 @@
     {
       "id": "case-025",
       "title": "정선 동강 VR 체험 시뮬레이터",
-      "category": "simulator",
+      "category": "arvr",
       "sub": "VR 탑승 체험",
       "year": 2025,
       "location": "정선",
@@ -700,7 +705,7 @@
     {
       "id": "case-026",
       "title": "고흥 드론택시 체험 시뮬레이터",
-      "category": "simulator",
+      "category": "arvr",
       "sub": "VR 탑승 체험",
       "year": 2022,
       "location": "고흥",
@@ -726,7 +731,7 @@
     {
       "id": "case-027",
       "title": "2024 가릉 메타버스 체험관",
-      "category": "simulator",
+      "category": "arvr",
       "sub": "VR 탑승 체험",
       "year": 2024,
       "location": "",
@@ -937,8 +942,8 @@
     {
       "id": "case-039",
       "title": "한국의 서원 VR 영상",
-      "category": "theater",
-      "sub": "특수 화면 영상",
+      "category": "arvr",
+      "sub": "VR 영상",
       "year": 2016,
       "location": "",
       "client": "문화재청",
@@ -952,6 +957,47 @@
         "문화재",
         "서원"
       ]
+    },
+    {
+      "id": "case-041",
+      "title": "고성 AR·VR — 2021 경남고성공룡세계엑스포 AR 체험",
+      "category": "arvr",
+      "sub": "AR·VR 전시",
+      "year": 2021,
+      "location": "경남 고성",
+      "client": "2021경남고성공룡세계엑스포",
+      "description": "엑스포 주제관과 발자국화석관에서 운영한 AR 체험입니다. 공룡 모형 앞 화면에 비친 관람객 모습 위로 공룡이 겹쳐 나타나고, 태블릿·휴대폰 화면으로 실제 공간을 비추면 공룡이 걸어 다니는 모습을 볼 수 있게 만들었습니다.",
+      "thumbnail": "./assets/img/portfolio/case-041-1.jpg",
+      "images": [
+        "./assets/img/portfolio/case-041-1.jpg",
+        "./assets/img/portfolio/case-041-2.jpg",
+        "./assets/img/portfolio/case-041-3.jpg",
+        "./assets/img/portfolio/case-041-4.jpg",
+        "./assets/img/portfolio/case-041-5.jpg",
+        "./assets/img/portfolio/case-041-6.jpg"
+      ],
+      "tags": [
+        "AR",
+        "공룡",
+        "엑스포",
+        "고성"
+      ],
+      "details": {
+        "technology": "AR 화면(세로형 모니터), AR 앱",
+        "features": [
+          "AR 모니터 — 화면 속 관람객과 공룡 합성",
+          "AR 앱 — 실제 공간에 공룡 등장"
+        ]
+      },
+      "ref": [
+        "고성"
+      ],
+      "video": {
+        "src": "assets/ref/goseong/a828c62a104e.mp4",
+        "poster": "assets/ref/goseong/t/a828c62a104e.jpg",
+        "label": "AR 체험 화면 · 앞 1분"
+      },
+      "note": "2026-11-13 고성 사례(case-020)에서 AR 자료를 떼어 만듦. 설명 문구는 사진·기존 설명 바탕 추정 — 확인 필요"
     },
     {
       "id": "case-040",
@@ -983,7 +1029,7 @@
       "year": 2021,
       "location": "경남 고성",
       "client": "2021경남고성공룡세계엑스포",
-      "description": "엑스포 주제관과 발자국화석관의 체험 전시를 만들었습니다. 다리 위를 걸으면 바닥 화면에서 공룡이 튀어나오는 '아찔 브릿지', 공룡 모형 앞에서 가상 영상이 겹쳐 보이는 AR 화면, 높이 6m·길이 14m 화면에 공을 던져 육식공룡에게서 알을 지키는 놀이, 세 벽과 바닥을 영상으로 채운 '백악기 수족관'을 설치했습니다. 발자국화석관은 공룡 21종과 사진 찍기, 모래 AR, 벽 터치 놀이 등 놀이 중심 전시로 꾸몄습니다.",
+      "description": "엑스포 주제관과 발자국화석관의 체험 전시를 만들었습니다. 다리 위를 걸으면 바닥 화면에서 공룡이 튀어나오는 '아찔 브릿지', 높이 6m·길이 14m 화면에 공을 던져 육식공룡에게서 알을 지키는 놀이, 세 벽과 바닥을 영상으로 채운 '백악기 수족관'을 설치했습니다. 발자국화석관은 공룡 21종과 사진 찍기, 모래 놀이, 벽 터치 놀이 등 놀이 중심 전시로 꾸몄습니다.",
       "thumbnail": "./assets/img/portfolio/case-020-1.jpg",
       "images": [
         "./assets/img/portfolio/case-020-1.jpg",
@@ -997,14 +1043,12 @@
       "tags": [
         "공룡",
         "엑스포",
-        "AR",
         "프로젝션"
       ],
       "details": {
-        "technology": "레이저 프로젝터 3대, 라이다 센서, AR 화면, 바닥 매립 화면",
+        "technology": "레이저 프로젝터 3대, 라이다 센서, 바닥 매립 화면",
         "features": [
           "아찔 브릿지",
-          "AR 모니터",
           "공룡 알을 지켜라",
           "백악기 수족관",
           "발자국화석관 놀이 코너 10종"
@@ -1016,8 +1060,9 @@
       "video": {
         "src": "assets/ref/goseong/preview.mp4",
         "poster": "assets/ref/goseong/preview.jpg",
-        "label": "아찔 브릿지·AR 체험 모습 · 앞 1분"
-      }
+        "label": "아찔 브릿지체험 모습 · 앞 1분"
+      },
+      "note": "AR 체험은 case-041(고성 AR·VR)로 분리"
     },
     {
       "id": "case-028",

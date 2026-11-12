@@ -1,6 +1,6 @@
 // Case Detail Page — 작업 사례 상세
-import { render } from '../main.js?v=202610280604';
-import { getIcon } from '../icons.js?v=202610280604';
+import { render } from '../main.js?v=202611121633';
+import { getIcon } from '../icons.js?v=202611121633';
 
 const REF_PASSWORD = 'media123'; // 현장 자료 열람 비밀번호 (보안용이 아니라 문만 닫아 둔 것)
 
@@ -387,7 +387,7 @@ function fmtDur(sec) {
 }
 
 function categoryIcon(category) {
-    const map = { 'ai-content': 'ai', 'simulator': 'motion-simulator', 'theater': 'theater', 'interactive': 'interactive', 'control': 'motion-controller' };
+    const map = { 'ai-content': 'ai', 'arvr': 'vr-ar', 'simulator': 'motion-simulator', 'theater': 'theater', 'interactive': 'interactive', 'control': 'motion-controller' };
     const cat = Array.isArray(category) ? category[0] : category;
     return map[cat] || 'design';
 }
