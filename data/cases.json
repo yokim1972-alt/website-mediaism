@@ -1826,13 +1826,18 @@
         },
         {
           "src": "assets/ref/gangneung-2f/out-1901228e864e.mp4",
-          "poster": "assets/ref/gangneung-2f/t/out-1901228e864e.jpg",
-          "label": "현장 영상 20260727_144801 · 앞 3분 0초"
+          "poster": "assets/ref/gangneung-2f/t/1901228e864e.jpg",
+          "label": "시뮬레이터 운행 영상 20260727_144801 · 60초"
         },
         {
-          "src": "assets/ref/gangneung-2f/out-dad7117755eb.mp4",
-          "poster": "assets/ref/gangneung-2f/t/out-dad7117755eb.jpg",
-          "label": "현장 영상 20260120_174749 · 전체 2분 21초"
+          "src": "assets/ref/gangneung-2f/a6d7aa5cc2f1.mp4",
+          "poster": "assets/ref/gangneung-2f/t/a6d7aa5cc2f1.jpg",
+          "label": "시뮬레이터 운행 영상 20260824_195750 · 60초"
+        },
+        {
+          "src": "assets/ref/gangneung-2f/82230b12e13b.mp4",
+          "poster": "assets/ref/gangneung-2f/t/82230b12e13b.jpg",
+          "label": "시뮬레이터 운행 영상 20260824_195934 · 60초"
         }
       ]
     },
