@@ -218,3 +218,10 @@
     .hero-actions .btn { width: 100%; }
     .case-meta { flex-direction: row; }
 }
+
+/* 2026-11-13 영상·사진 원본 크기 표시: 작으면 그대로, 크면 화면에 맞춰 줄임 */
+.case-video { max-width: 100%; margin: 0 auto var(--spacing-xl); text-align: center; }
+.case-video .case-video-el { width: auto; height: auto; max-width: 100%; max-height: 80vh; margin: 0 auto; display: inline-block; }
+.case-video-label { text-align: center; }
+.gallery-main { display: flex; align-items: center; justify-content: center; }
+.gallery-main img { width: auto; max-width: 100%; height: auto; max-height: 640px; object-fit: contain; }

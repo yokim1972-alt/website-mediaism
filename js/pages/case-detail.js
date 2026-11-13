@@ -1,6 +1,6 @@
 // Case Detail Page — 작업 사례 상세
-import { render } from '../main.js?v=202611121646';
-import { getIcon } from '../icons.js?v=202611121646';
+import { render } from '../main.js?v=202611130032';
+import { getIcon } from '../icons.js?v=202611130032';
 
 const REF_PASSWORD = 'media123'; // 현장 자료 열람 비밀번호 (보안용이 아니라 문만 닫아 둔 것)
 
@@ -68,15 +68,15 @@ export async function renderCaseDetailPage(params) {
                     </p>` : ''}
                 </div>
 
-                ${caseItem.video ? `
-                <!-- 맛보기 영상 (앞 1분, 가로 1000) -->
+                ${(caseItem.videos || (caseItem.video ? [caseItem.video] : [])).map(v => `
+                <!-- 영상: 원본보다 크게 늘리지 않음, 화면보다 크면 줄임 -->
                 <div class="case-video">
-                    <video class="ai-video" controls preload="metadata" playsinline controlsList="nodownload noplaybackrate" disablePictureInPicture
-                           poster="${caseItem.video.poster}" oncontextmenu="return false">
-                        <source src="${caseItem.video.src}" type="video/mp4">
+                    <video class="ai-video case-video-el" controls preload="metadata" playsinline controlsList="nodownload noplaybackrate" disablePictureInPicture
+                           poster="${v.poster || ''}" oncontextmenu="return false">
+                        <source src="${v.src}" type="video/mp4">
                     </video>
-                    <p class="case-video-label">${caseItem.video.label || '앞 1분'}</p>
-                </div>` : ''}
+                    <p class="case-video-label">${v.label || ''}</p>
+                </div>`).join('')}
 
                 <!-- Case Gallery -->
                 <div class="case-gallery">

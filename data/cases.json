@@ -52,7 +52,22 @@
         "./assets/ref/ai-chungju-battle/s20.jpg",
         "./assets/ref/ai-chungju-battle/s21.jpg",
         "./assets/ref/ai-chungju-battle/s04.jpg",
-        "./assets/ref/ai-chungju-battle/s15.jpg"
+        "./assets/ref/ai-chungju-battle/s15.jpg",
+        "./assets/ref/ai-chungju-battle/m01.jpg",
+        "./assets/ref/ai-chungju-battle/m03.jpg",
+        "./assets/ref/ai-chungju-battle/m04.jpg",
+        "./assets/ref/ai-chungju-battle/m05.jpg",
+        "./assets/ref/ai-chungju-battle/m06.jpg",
+        "./assets/ref/ai-chungju-battle/m07.jpg",
+        "./assets/ref/ai-chungju-battle/m08.jpg",
+        "./assets/ref/ai-chungju-battle/m09.jpg",
+        "./assets/ref/ai-chungju-battle/m10.jpg",
+        "./assets/ref/ai-chungju-battle/m11.jpg",
+        "./assets/ref/ai-chungju-battle/m12.jpg",
+        "./assets/ref/ai-chungju-battle/m13.jpg",
+        "./assets/ref/ai-chungju-battle/m14.jpg",
+        "./assets/ref/ai-chungju-battle/m15.jpg",
+        "./assets/ref/ai-chungju-battle/m16.jpg"
       ],
       "tags": [
         "AI 영상",
@@ -63,11 +78,28 @@
         "scope": "대본·그림 콘티, AI 장면 생성, 합성·보정, 편집, 음악·내레이션",
         "technology": "이미지·영상 생성 AI, 5120×720 초광폭 화면"
       },
-      "video": {
-        "src": "assets/ref/ai-chungju-battle/preview1000.mp4",
-        "poster": "assets/ref/ai-chungju-battle/preview1000.jpg",
-        "label": "오프닝 컷신 · 앞 1분"
-      }
+      "videos": [
+        {
+          "src": "assets/ref/ai-chungju-battle/c1_opening.mp4",
+          "poster": "assets/ref/ai-chungju-battle/t/c1_opening-poster.jpg",
+          "label": "① 오프닝 · 전체 1분 27초"
+        },
+        {
+          "src": "assets/ref/ai-chungju-battle/c2.mp4",
+          "poster": "assets/ref/ai-chungju-battle/t/c2-poster.jpg",
+          "label": "② 컷신 2 · 전체 30초"
+        },
+        {
+          "src": "assets/ref/ai-chungju-battle/c3.mp4",
+          "poster": "assets/ref/ai-chungju-battle/t/c3-poster.jpg",
+          "label": "③ 컷신 3 · 전체 34초"
+        },
+        {
+          "src": "assets/ref/ai-chungju-battle/c4_ending.mp4",
+          "poster": "assets/ref/ai-chungju-battle/t/c4_ending-poster.jpg",
+          "label": "④ 엔딩 · 전체 38초"
+        }
+      ]
     },
     {
       "id": "ai-002",
@@ -85,10 +117,20 @@
         "./assets/ref/ai-taekkyeon/f04_1.jpg",
         "./assets/ref/ai-taekkyeon/f06_2.jpg",
         "./assets/ref/ai-taekkyeon/f03_1.jpg",
-        "./assets/ref/ai-taekkyeon/f07_1.jpg",
         "./assets/ref/ai-taekkyeon/f08_1.jpg",
         "./assets/ref/ai-taekkyeon/f09_1.jpg",
-        "./assets/ref/ai-taekkyeon/f01_1.jpg"
+        "./assets/ref/ai-taekkyeon/f01_1.jpg",
+        "./assets/ref/ai-taekkyeon/m01.jpg",
+        "./assets/ref/ai-taekkyeon/m02.jpg",
+        "./assets/ref/ai-taekkyeon/m03.jpg",
+        "./assets/ref/ai-taekkyeon/m04.jpg",
+        "./assets/ref/ai-taekkyeon/m05.jpg",
+        "./assets/ref/ai-taekkyeon/m07.jpg",
+        "./assets/ref/ai-taekkyeon/m08.jpg",
+        "./assets/ref/ai-taekkyeon/m09.jpg",
+        "./assets/ref/ai-taekkyeon/m10.jpg",
+        "./assets/ref/ai-taekkyeon/m11.jpg",
+        "./assets/ref/ai-taekkyeon/m13.jpg"
       ],
       "tags": [
         "AI 영상",
@@ -100,11 +142,13 @@
         "scope": "장면 설계, AI 영상 생성, 얼굴·동작 보정, 화풍 통일, 편집",
         "technology": "이미지·영상 생성 AI, 수묵화 화풍, 1080p"
       },
-      "video": {
-        "src": "assets/ref/ai-taekkyeon/preview1000.mp4",
-        "poster": "assets/ref/ai-taekkyeon/preview1000.jpg",
-        "label": "오프닝 대결 컷 1~9 · 앞 1분"
-      }
+      "videos": [
+        {
+          "src": "assets/ref/ai-taekkyeon/intro.mp4",
+          "poster": "assets/ref/ai-taekkyeon/t/intro-poster.jpg",
+          "label": "택견 인트로 영상 · 전체 2분 48초"
+        }
+      ]
     },
     {
       "id": "ai-003",
@@ -126,7 +170,22 @@
         "./assets/ref/ai-samyook-120/s01.jpg",
         "./assets/ref/ai-samyook-120/s22.jpg",
         "./assets/ref/ai-samyook-120/f01_1.jpg",
-        "./assets/ref/ai-samyook-120/s13.jpg"
+        "./assets/ref/ai-samyook-120/s13.jpg",
+        "./assets/ref/ai-samyook-120/sg01.jpg",
+        "./assets/ref/ai-samyook-120/sg02.jpg",
+        "./assets/ref/ai-samyook-120/sg03.jpg",
+        "./assets/ref/ai-samyook-120/sg04.jpg",
+        "./assets/ref/ai-samyook-120/sg05.jpg",
+        "./assets/ref/ai-samyook-120/sg06.jpg",
+        "./assets/ref/ai-samyook-120/sg07.jpg",
+        "./assets/ref/ai-samyook-120/sg08.jpg",
+        "./assets/ref/ai-samyook-120/sg09.jpg",
+        "./assets/ref/ai-samyook-120/sg10.jpg",
+        "./assets/ref/ai-samyook-120/sg11.jpg",
+        "./assets/ref/ai-samyook-120/sg12.jpg",
+        "./assets/ref/ai-samyook-120/sg13.jpg",
+        "./assets/ref/ai-samyook-120/sg14.jpg",
+        "./assets/ref/ai-samyook-120/sg15.jpg"
       ],
       "tags": [
         "AI 영상",
@@ -138,11 +197,18 @@
         "scope": "장면 설계(30장면), AI 영상 생성, 업스케일, 합성·편집, 효과음·음악",
         "technology": "이미지·영상 생성 AI, 3840×1024 와이드 화면, 60fps"
       },
-      "video": {
-        "src": "assets/ref/ai-samyook-120/preview1000.mp4",
-        "poster": "assets/ref/ai-samyook-120/preview1000.jpg",
-        "label": "120주년 미디어아트 · 앞 1분"
-      }
+      "videos": [
+        {
+          "src": "assets/ref/ai-samyook-120/preview1000.mp4",
+          "poster": "assets/ref/ai-samyook-120/preview1000.jpg",
+          "label": "120주년 미디어아트 · 앞 1분"
+        },
+        {
+          "src": "assets/ref/ai-samyook-120/sagye.mp4",
+          "poster": "assets/ref/ai-samyook-120/t/sagye-poster.jpg",
+          "label": "「삼육대학교 사계」 본편 · 전체 5분 17초 (수정 진행 중)"
+        }
+      ]
     },
     {
       "id": "case-001",
@@ -153,14 +219,18 @@
       "location": "KT 5G 홍보관 (서울)",
       "client": "KT",
       "description": "KT의 5G 봅슬레이 시뮬레이터입니다. 실제 봅슬레이 조종 레버를 그대로 만들어 선수 훈련에도 쓸 수 있게 했고, 화면 속 코스는 평창올림픽 슬라이딩 센터 설계를 참고해 만들었습니다. 제작에 앞서 스위스 국제 봅슬레이 대회를 직접 다녀와 조사했습니다.",
-      "thumbnail": "./assets/img/portfolio/case-001-1.jpg",
+      "thumbnail": "./assets/ref/kt/a3d52fff1993.jpg",
       "images": [
-        "./assets/img/portfolio/case-001-1.jpg",
-        "./assets/img/portfolio/case-001-2.jpg",
-        "./assets/img/portfolio/case-001-3.jpg",
-        "./assets/img/portfolio/case-001-4.jpg",
-        "./assets/img/portfolio/case-001-5.jpg",
-        "./assets/img/portfolio/case-001-6.jpg"
+        "./assets/ref/kt/a3d52fff1993.jpg",
+        "./assets/ref/kt/cd8bfc571ed9.jpg",
+        "./assets/ref/kt/51f32c2c5047.jpg",
+        "./assets/ref/kt/55a7ca9ea7d1.jpg",
+        "./assets/ref/kt/faa0ae1bd5e1.jpg",
+        "./assets/ref/kt/6cde4d1b6253.jpg",
+        "./assets/ref/kt/55ba99371397.jpg",
+        "./assets/ref/kt/774cfae27844.jpg",
+        "./assets/ref/kt/cba80c0cea79.jpg",
+        "./assets/ref/kt/3afe7368f8c2.jpg"
       ],
       "tags": [
         "봅슬레이",
@@ -175,11 +245,18 @@
         "KT",
         "시뮬레이터"
       ],
-      "video": {
-        "src": "assets/ref/kt/preview.mp4",
-        "poster": "assets/ref/kt/preview.jpg",
-        "label": "KT 5G 홍보관 체험 모습 · 42초"
-      }
+      "videos": [
+        {
+          "src": "assets/ref/kt/out-6b10f4a30b14.mp4",
+          "poster": "assets/ref/kt/t/out-6b10f4a30b14.jpg",
+          "label": "현장 영상 20170302_145949 · 전체 0분 48초"
+        },
+        {
+          "src": "assets/ref/kt/out-494a0294f891.mp4",
+          "poster": "assets/ref/kt/t/out-494a0294f891.jpg",
+          "label": "현장 영상 20170302_150638 · 전체 0분 48초"
+        }
+      ]
     },
     {
       "id": "case-002",
@@ -190,14 +267,14 @@
       "location": "평창올림픽 플라자, 강릉 ICT 홍보관, 인천공항 올림픽홍보관, 강원도청 패럴림픽홍보관",
       "client": "평창올림픽 조직위원회",
       "description": "KT 봅슬레이와 달리 4명이 한 조로 타는 큰 시뮬레이터입니다. 커진 만큼 진동과 기울어지는 각도가 아찔할 정도이며, 총 2대를 만들어 인천공항과 평창 ICT 플라자에 전시했습니다.",
-      "thumbnail": "./assets/img/portfolio/case-002-1.jpg",
+      "thumbnail": "./assets/ref/pyeongchang/160ecfa43edf.jpg",
       "images": [
-        "./assets/img/portfolio/case-002-1.jpg",
-        "./assets/img/portfolio/case-002-2.jpg",
-        "./assets/img/portfolio/case-002-3.jpg",
-        "./assets/img/스크린샷 2025-12-03 160929.png",
-        "./assets/img/스크린샷 2025-12-03 160936.png",
-        "./assets/img/스크린샷 2025-12-03 161050.png"
+        "./assets/ref/pyeongchang/160ecfa43edf.jpg",
+        "./assets/ref/pyeongchang/198071b38d48.jpg",
+        "./assets/ref/pyeongchang/77982dd07c9d.jpg",
+        "./assets/ref/pyeongchang/5fd3125df6a2.jpg",
+        "./assets/ref/pyeongchang/0776dc92dcf4.jpg",
+        "./assets/ref/pyeongchang/f32767bd9560.jpg"
       ],
       "tags": [
         "올림픽",
@@ -217,11 +294,18 @@
       "ref": [
         "평창"
       ],
-      "video": {
-        "src": "assets/ref/pyeongchang/preview.mp4",
-        "poster": "assets/ref/pyeongchang/preview.jpg",
-        "label": "평창 올림픽 플라자 체험 모습 · 앞 1분"
-      }
+      "videos": [
+        {
+          "src": "assets/ref/pyeongchang/out-3045584468dd.mp4",
+          "poster": "assets/ref/pyeongchang/t/out-3045584468dd.jpg",
+          "label": "현장 영상 FHD · 전체 1분 59초"
+        },
+        {
+          "src": "assets/ref/pyeongchang/out-5bd12373b0b5.mp4",
+          "poster": "assets/ref/pyeongchang/t/out-5bd12373b0b5.jpg",
+          "label": "현장 영상 20171129_153251 · 전체 1분 9초"
+        }
+      ]
     },
     {
       "id": "case-003",
@@ -232,11 +316,15 @@
       "location": "평창올림픽 플라자, 강릉 ICT 홍보관 외",
       "client": "평창올림픽 조직위원회",
       "description": "4종목 8대의 스포츠 체험 시뮬레이터 가운데 하나입니다. 4명이 동시에 접속해 경주할 수 있는 스노보드 체험으로, 플라자 건물 구조 때문에 생긴 진동 문제를 3번에 걸친 진동 패드 공사로 해결했습니다.",
-      "thumbnail": "./assets/img/스크린샷 2025-12-03 162354.png",
+      "thumbnail": "./assets/ref/pyeongchang/66dae952a9a4.jpg",
       "images": [
-        "./assets/img/스크린샷 2025-12-03 162354.png",
-        "./assets/img/스크린샷 2025-12-03 162430.png",
-        "./assets/img/스크린샷 2025-12-03 162455.png"
+        "./assets/ref/pyeongchang/66dae952a9a4.jpg",
+        "./assets/ref/pyeongchang/5657b35861ee.jpg",
+        "./assets/ref/pyeongchang/b6bd6da28a78.jpg",
+        "./assets/ref/pyeongchang/ab969ce14a1e.jpg",
+        "./assets/ref/pyeongchang/42c849207bbe.jpg",
+        "./assets/ref/pyeongchang/e144f61558ba.jpg",
+        "./assets/ref/pyeongchang/c0045e9ce876.jpg"
       ],
       "tags": [
         "올림픽",
@@ -285,14 +373,11 @@
       "location": "평창올림픽 관련 시설",
       "client": "평창올림픽 조직위원회",
       "description": "어떻게하면 탑승자에게 스키점프의 느낌을 전달할 수 있나에서오는 고민은 하강 각도 35도에 이르는 시뮬레이터 구조를 고안하게되었다. 키넥트를 활용한 동작 센서는 사용자의 자세를 검출해 점수를 반영한다. 100kg에 견딜 수 있도록 4점식 안전벨트와 지지대를 특수용접으로 보강했다.",
-      "thumbnail": "./assets/img/portfolio/case-003-1.jpg",
+      "thumbnail": "./assets/ref/pyeongchang/dc553763faac.jpg",
       "images": [
-        "./assets/img/portfolio/case-003-1.jpg",
-        "./assets/img/portfolio/case-003-2.jpg",
-        "./assets/img/portfolio/case-003-3.jpg",
-        "./assets/img/스크린샷 2025-12-03 162953.png",
-        "./assets/img/스크린샷 2025-12-03 162959.png",
-        "./assets/img/스크린샷 2025-12-03 163005.png"
+        "./assets/ref/pyeongchang/dc553763faac.jpg",
+        "./assets/ref/pyeongchang/86b14abb7723.jpg",
+        "./assets/ref/pyeongchang/db6abfd5089b.jpg"
       ],
       "tags": [
         "올림픽",
@@ -301,19 +386,33 @@
       ],
       "ref": [
         "평창"
+      ],
+      "videos": [
+        {
+          "src": "assets/ref/pyeongchang/out-732ef5ce971d.mp4",
+          "poster": "assets/ref/pyeongchang/t/out-732ef5ce971d.jpg",
+          "label": "현장 영상 스키점프 20170925_153113 · 전체 1분 1초"
+        },
+        {
+          "src": "assets/ref/pyeongchang/out-1bd99511326c.mp4",
+          "poster": "assets/ref/pyeongchang/t/out-1bd99511326c.jpg",
+          "label": "현장 영상 20180215_205051 · 전체 0분 37초"
+        }
       ]
     },
     {
       "id": "case-006",
       "title": "패러글라이딩 시뮬레이터",
-      "category": "simulator",
-      "sub": "스포츠 체험",
+      "category": "arvr",
+      "sub": "VR 탑승 체험",
       "year": 2019,
       "location": "",
       "client": "",
       "description": "패러글라이딩 줄을 잡고 매달려 하늘을 나는 체험 시뮬레이터입니다. 몸을 기울이면 화면 속 방향이 바뀌고, 바람 효과가 함께 나옵니다. 어린이도 안전하게 탈 수 있도록 좌석과 안전 장치를 만들었습니다.",
-      "thumbnail": "./assets/img/portfolio/case-006-1.jpg",
+      "thumbnail": "./assets/img/portfolio/case-006-p2.jpg",
       "images": [
+        "./assets/img/portfolio/case-006-p2.jpg",
+        "./assets/img/portfolio/case-006-p4.jpg",
         "./assets/img/portfolio/case-006-1.jpg",
         "./assets/img/portfolio/case-006-2.jpg",
         "./assets/img/portfolio/case-006-3.jpg",
@@ -328,7 +427,7 @@
       "ref": [
         "시뮬레이터"
       ],
-      "note": "설치 장소·연도 확인 필요",
+      "note": "설치 장소·연도 확인 필요 / 2026-11-13 제품소개서(2024 V01) 18쪽 그림 4장 넣음",
       "video": {
         "src": "assets/ref/simulator-making/preview.mp4",
         "poster": "assets/ref/simulator-making/preview.jpg",
@@ -344,13 +443,13 @@
       "location": "",
       "client": "",
       "description": "자전거에 올라 페달을 밟으면 화면 속 길을 달리는 체험 시뮬레이터입니다. 3대를 나란히 설치해 여러 명이 함께 달릴 수 있고, 앞 화면에는 실제 길을 촬영한 영상이 나옵니다.",
-      "thumbnail": "./assets/img/portfolio/case-022-1.jpg",
+      "thumbnail": "./assets/ref/bike5g/88a8ed29b686.jpg",
       "images": [
-        "./assets/img/portfolio/case-022-1.jpg",
-        "./assets/img/portfolio/case-022-2.jpg",
-        "./assets/img/portfolio/case-022-3.jpg",
-        "./assets/img/portfolio/case-022-4.jpg",
-        "./assets/img/portfolio/case-022-5.jpg"
+        "./assets/ref/bike5g/88a8ed29b686.jpg",
+        "./assets/ref/bike5g/2fb7f579f5c5.jpg",
+        "./assets/ref/bike5g/89e45521be83.jpg",
+        "./assets/ref/bike5g/9a38801b272f.jpg",
+        "./assets/ref/bike5g/06a3f6dc938b.jpg"
       ],
       "tags": [
         "자전거",
@@ -454,11 +553,28 @@
         "./assets/img/스크린샷 2025-12-03 171414.png",
         "./assets/img/스크린샷 2025-12-03 171421.png",
         "./assets/img/스크린샷 2025-12-03 171428.png",
-        "./assets/img/스크린샷 2025-12-03 171440.png"
+        "./assets/img/스크린샷 2025-12-03 171440.png",
+        "./assets/img/portfolio/case-011-fv11.jpg",
+        "./assets/img/portfolio/case-011-fv12.jpg",
+        "./assets/img/portfolio/case-011-fv13.jpg",
+        "./assets/img/portfolio/case-011-fv14.jpg",
+        "./assets/img/portfolio/case-011-fv15.jpg",
+        "./assets/img/portfolio/case-011-fv16.jpg",
+        "./assets/img/portfolio/case-011-fv17.jpg",
+        "./assets/img/portfolio/case-011-fv18.jpg",
+        "./assets/img/portfolio/case-011-fv19.jpg",
+        "./assets/img/portfolio/case-011-fv110.jpg"
       ],
       "tags": [
         "지진",
         "안전체험"
+      ],
+      "videos": [
+        {
+          "src": "assets/ref/daegu-quake/v1.mp4",
+          "poster": "assets/ref/daegu-quake/t/v1-poster.jpg",
+          "label": "「한반도 대지진」 4D 영상 · 앞 3분"
+        }
       ]
     },
     {
@@ -578,12 +694,19 @@
       "location": "전남 안전체험관",
       "client": "",
       "description": "비행기 객실을 그대로 만든 항공 안전 체험 공간입니다. 객실 안전 안내, 비상 탈출 미끄럼틀, 구명보트를 실제 장비로 체험하며 비행기 사고 때 대처 방법을 배웁니다.",
-      "thumbnail": "./assets/img/portfolio/case-023-1.jpg",
+      "thumbnail": "./assets/ref/jeonnam-safety/8d38111f33d6.jpg",
       "images": [
-        "./assets/img/portfolio/case-023-1.jpg",
-        "./assets/img/portfolio/case-023-2.jpg",
-        "./assets/img/portfolio/case-023-3.jpg",
-        "./assets/img/portfolio/case-023-4.jpg"
+        "./assets/ref/jeonnam-safety/8d38111f33d6.jpg",
+        "./assets/ref/jeonnam-safety/d8c68a2d7112.jpg",
+        "./assets/ref/jeonnam-safety/8fbffefa3ec6.jpg",
+        "./assets/ref/jeonnam-safety/253b5db8346b.jpg",
+        "./assets/ref/jeonnam-safety/0e356065d37d.jpg",
+        "./assets/img/portfolio/case-023-fedu-kids1.jpg",
+        "./assets/img/portfolio/case-023-fedu-kids2.jpg",
+        "./assets/img/portfolio/case-023-fedu-kids3.jpg",
+        "./assets/img/portfolio/case-023-fedu-kids4.jpg",
+        "./assets/img/portfolio/case-023-fedu-kids5.jpg",
+        "./assets/img/portfolio/case-023-fedu-kids6.jpg"
       ],
       "tags": [
         "항공안전",
@@ -593,11 +716,18 @@
         "전남 안전체험관"
       ],
       "note": "우리가 맡은 범위(영상? 장비?) 확인 필요",
-      "video": {
-        "src": "assets/ref/jeonnam-safety/preview.mp4",
-        "poster": "assets/ref/jeonnam-safety/preview.jpg",
-        "label": "버스 안전체험 영상 · 앞 1분"
-      }
+      "videos": [
+        {
+          "src": "assets/ref/jeonnam-safety/edu-kids.mp4",
+          "poster": "assets/ref/jeonnam-safety/t/edu-kids-poster.jpg",
+          "label": "사전 교육 영상 (어린이) · 앞 3분"
+        },
+        {
+          "src": "assets/ref/jeonnam-safety/out-a6be5b08ece0.mp4",
+          "poster": "assets/ref/jeonnam-safety/t/out-a6be5b08ece0.jpg",
+          "label": "현장 영상 20260317_132742 · 전체 1분 40초"
+        }
+      ]
     },
     {
       "id": "case-008",
@@ -608,13 +738,15 @@
       "location": "안양생태이야기관",
       "client": "",
       "description": "4명씩 2세트, 모두 8명이 VR 안경을 쓰고 타는 시뮬레이터입니다. 배를 탄 것처럼 출렁이는 움직임을 3축 구조로 만들었습니다. 16대의 무선 VR 안경에 VR360 영상을 넣어 두고, 바깥의 통합 제어 장치에서 재생·정지·소리를 한꺼번에 조작합니다.",
-      "thumbnail": "./assets/img/portfolio/case-008-1.jpg",
+      "thumbnail": "./assets/ref/anyang-eco/4363000402f7.jpg",
       "images": [
-        "./assets/img/portfolio/case-008-1.jpg",
-        "./assets/img/portfolio/case-008-2.jpg",
-        "./assets/img/portfolio/case-008-3.jpg",
-        "./assets/img/portfolio/case-008-4.jpg",
-        "./assets/img/portfolio/case-008-5.jpg"
+        "./assets/ref/anyang-eco/4363000402f7.jpg",
+        "./assets/ref/anyang-eco/8e619d3c0fb2.jpg",
+        "./assets/ref/anyang-eco/8b39b2b4b812.jpg",
+        "./assets/ref/anyang-eco/383f4a0f70f3.jpg",
+        "./assets/ref/anyang-eco/4fe28667cf7a.jpg",
+        "./assets/ref/anyang-eco/6bc75c27a056.jpg",
+        "./assets/ref/anyang-eco/435f8d834d53.jpg"
       ],
       "tags": [
         "VR",
@@ -633,11 +765,18 @@
         "안양생태이야기관"
       ],
       "note": "설치 장소가 안양생태이야기관인지 확인 필요 (사진 촬영 장소 기준)",
-      "video": {
-        "src": "assets/ref/anyang-eco/preview.mp4",
-        "poster": "assets/ref/anyang-eco/preview.jpg",
-        "label": "8인승 VR 시뮬레이터 체험 모습 · 43초"
-      }
+      "videos": [
+        {
+          "src": "assets/ref/anyang-eco/out-5fa19d06ee1a.mp4",
+          "poster": "assets/ref/anyang-eco/t/out-5fa19d06ee1a.jpg",
+          "label": "현장 영상 20230119_100537 · 전체 7분 1초"
+        },
+        {
+          "src": "assets/ref/anyang-eco/out-48a2ce51ba32.mp4",
+          "poster": "assets/ref/anyang-eco/t/out-48a2ce51ba32.jpg",
+          "label": "현장 영상 20240612_100851 · 전체 1분 27초"
+        }
+      ]
     },
     {
       "id": "case-024",
@@ -648,14 +787,17 @@
       "location": "제주 자연문화유산센터",
       "client": "",
       "description": "2조 8인승 시뮬레이터에 타고 VR 안경을 쓰면 용을 타고 용천동굴 속을 날아다니는 5분짜리 VR360 영상이 펼쳐집니다. 처음엔 실제 동굴을 입체 촬영하려 했지만 여건상 전부 컴퓨터그래픽으로 만들었습니다. 빠른 속도감을 위해 아주 긴 통로를 만들고, 시뮬레이터 움직임에 맞춰 과격한 장면도 넣었습니다.",
-      "thumbnail": "./assets/img/스크린샷 2025-12-03 164546.png",
+      "thumbnail": "./assets/ref/jeju/1a0123c1652a.jpg",
       "images": [
-        "./assets/img/스크린샷 2025-12-03 164546.png",
-        "./assets/img/스크린샷 2025-12-03 164556.png",
-        "./assets/img/스크린샷 2025-12-03 164603.png",
-        "./assets/img/portfolio/case-024-2.jpg",
-        "./assets/img/portfolio/case-024-3.jpg",
-        "./assets/img/portfolio/case-024-4.jpg"
+        "./assets/ref/jeju/1a0123c1652a.jpg",
+        "./assets/ref/jeju/4d265a191165.jpg",
+        "./assets/ref/jeju/1b2afacf6117.jpg",
+        "./assets/img/portfolio/case-024-fride3601.jpg",
+        "./assets/img/portfolio/case-024-fride3602.jpg",
+        "./assets/img/portfolio/case-024-fride3603.jpg",
+        "./assets/img/portfolio/case-024-fride3604.jpg",
+        "./assets/img/portfolio/case-024-fride3605.jpg",
+        "./assets/img/portfolio/case-024-fride3606.jpg"
       ],
       "tags": [
         "VR360",
@@ -669,11 +811,18 @@
       "ref": [
         "제주"
       ],
-      "video": {
-        "src": "assets/ref/jeju/preview.mp4",
-        "poster": "assets/ref/jeju/preview.jpg",
-        "label": "용천동굴 VR 탑승 영상 · 앞 1분 (VR360 펼친 화면)"
-      }
+      "videos": [
+        {
+          "src": "assets/ref/jeju/ride360.mp4",
+          "poster": "assets/ref/jeju/t/ride360-poster.jpg",
+          "label": "용천동굴 VR360 라이드 · 앞 3분 (펼친 화면)"
+        },
+        {
+          "src": "assets/ref/jeju/preview.mp4",
+          "poster": "assets/ref/jeju/preview.jpg",
+          "label": "용천동굴 VR 탑승 영상 · 앞 1분 (VR360 펼친 화면)"
+        }
+      ]
     },
     {
       "id": "case-025",
@@ -684,13 +833,26 @@
       "location": "정선",
       "client": "",
       "description": "동강의 물길을 VR 안경을 쓰고 체험하는 시뮬레이터입니다. 실제 동강을 직접 답사해 찍은 자료를 바탕으로 영상을 만들고, 4인승 움직이는 좌석과 VR 안경을 묶어 설치했습니다.",
-      "thumbnail": "./assets/img/portfolio/case-025-1.jpg",
+      "thumbnail": "./assets/ref/jeongseon-donggang/5d58957806a9.jpg",
       "images": [
-        "./assets/img/portfolio/case-025-1.jpg",
-        "./assets/img/portfolio/case-025-2.jpg",
-        "./assets/img/portfolio/case-025-3.jpg",
-        "./assets/img/portfolio/case-025-4.jpg",
-        "./assets/img/portfolio/case-025-5.jpg"
+        "./assets/ref/jeongseon-donggang/5d58957806a9.jpg",
+        "./assets/ref/jeongseon-donggang/d0c8b0648600.jpg",
+        "./assets/ref/jeongseon-donggang/87b64d61af43.jpg",
+        "./assets/ref/jeongseon-donggang/f61fb271b1bd.jpg",
+        "./assets/ref/jeongseon-donggang/daeed4acb324.jpg",
+        "./assets/ref/jeongseon-donggang/4d5bc12c36c6.jpg",
+        "./assets/ref/jeongseon-donggang/5890c19e828b.jpg",
+        "./assets/img/portfolio/case-025-fride2d1.jpg",
+        "./assets/img/portfolio/case-025-fride2d2.jpg",
+        "./assets/img/portfolio/case-025-fride2d3.jpg",
+        "./assets/img/portfolio/case-025-fride2d4.jpg",
+        "./assets/img/portfolio/case-025-fmine2d1.jpg",
+        "./assets/img/portfolio/case-025-fmine2d2.jpg",
+        "./assets/img/portfolio/case-025-fmine2d3.jpg",
+        "./assets/img/portfolio/case-025-fmine2d4.jpg",
+        "./assets/img/portfolio/case-025-fpromo1.jpg",
+        "./assets/img/portfolio/case-025-fpromo2.jpg",
+        "./assets/img/portfolio/case-025-fpromo3.jpg"
       ],
       "tags": [
         "VR",
@@ -701,11 +863,33 @@
         "정선동강"
       ],
       "note": "정식 사업명·발주처 확인 필요",
-      "video": {
-        "src": "assets/ref/jeongseon-donggang/preview.mp4",
-        "poster": "assets/ref/jeongseon-donggang/preview.jpg",
-        "label": "VR 체험 모습 · 46초"
-      }
+      "videos": [
+        {
+          "src": "assets/ref/jeongseon-donggang/ride2d.mp4",
+          "poster": "assets/ref/jeongseon-donggang/t/ride2d-poster.jpg",
+          "label": "동강 라이드 2D(앞 화면용) · 앞 3분"
+        },
+        {
+          "src": "assets/ref/jeongseon-donggang/mine2d.mp4",
+          "poster": "assets/ref/jeongseon-donggang/t/mine2d-poster.jpg",
+          "label": "광산 라이드 2D · 앞 3분"
+        },
+        {
+          "src": "assets/ref/jeongseon-donggang/promo.mp4",
+          "poster": "assets/ref/jeongseon-donggang/t/promo-poster.jpg",
+          "label": "홍보 영상 · 앞 3분"
+        },
+        {
+          "src": "assets/ref/jeongseon-donggang/out-92a599828273.mp4",
+          "poster": "assets/ref/jeongseon-donggang/t/out-92a599828273.jpg",
+          "label": "현장 영상 20260720_121444 · 전체 1분 22초"
+        },
+        {
+          "src": "assets/ref/jeongseon-donggang/out-42ea01bc200f.mp4",
+          "poster": "assets/ref/jeongseon-donggang/t/out-42ea01bc200f.jpg",
+          "label": "현장 영상 20250730_143508 · 전체 0분 46초"
+        }
+      ]
     },
     {
       "id": "case-026",
@@ -716,12 +900,10 @@
       "location": "고흥",
       "client": "",
       "description": "드론택시(하늘을 나는 택시)에 타는 느낌을 미리 체험하는 시뮬레이터입니다. 드론택시 모양의 주황색 탑승 공간 안에 좌석과 화면을 넣어 이착륙과 비행 장면을 체험합니다.",
-      "thumbnail": "./assets/img/portfolio/case-026-1.jpg",
+      "thumbnail": "./assets/ref/goheung-drone/2025fe2c7ea9.jpg",
       "images": [
-        "./assets/img/portfolio/case-026-1.jpg",
-        "./assets/img/portfolio/case-026-2.jpg",
-        "./assets/img/portfolio/case-026-3.jpg",
-        "./assets/img/portfolio/case-026-4.jpg"
+        "./assets/ref/goheung-drone/2025fe2c7ea9.jpg",
+        "./assets/ref/goheung-drone/e042c977b018.jpg"
       ],
       "tags": [
         "드론택시",
@@ -742,12 +924,11 @@
       "location": "",
       "client": "",
       "description": "VR 안경과 움직이는 장치를 함께 쓰는 메타버스 체험관입니다. 걷기·달리기 장치와 탑승 장치, 안경 없이 입체로 보이는 화면을 설치해 여러 가지 가상 세계를 체험합니다.",
-      "thumbnail": "./assets/img/portfolio/case-027-1.jpg",
+      "thumbnail": "./assets/ref/gareung-metaverse/4e4f516f68d8.jpg",
       "images": [
-        "./assets/img/portfolio/case-027-1.jpg",
-        "./assets/img/portfolio/case-027-2.jpg",
-        "./assets/img/portfolio/case-027-3.jpg",
-        "./assets/img/portfolio/case-027-4.jpg"
+        "./assets/ref/gareung-metaverse/4e4f516f68d8.jpg",
+        "./assets/ref/gareung-metaverse/ff7431fe1555.jpg",
+        "./assets/ref/gareung-metaverse/d89b6e1b02dc.jpg"
       ],
       "tags": [
         "메타버스",
@@ -757,11 +938,18 @@
         "2024 가릉메타버스 체험관"
       ],
       "note": "'가릉' 정확한 장소명·발주처 확인 필요",
-      "video": {
-        "src": "assets/ref/gareung-metaverse/preview.mp4",
-        "poster": "assets/ref/gareung-metaverse/preview.jpg",
-        "label": "메타버스 체험 모습 · 앞 1분"
-      }
+      "videos": [
+        {
+          "src": "assets/ref/gareung-metaverse/out-78cc104ef8bc.mp4",
+          "poster": "assets/ref/gareung-metaverse/t/out-78cc104ef8bc.jpg",
+          "label": "현장 영상 20240116_133121 · 전체 1분 46초"
+        },
+        {
+          "src": "assets/ref/gareung-metaverse/out-eb39c9f4fa34.mp4",
+          "poster": "assets/ref/gareung-metaverse/t/out-eb39c9f4fa34.jpg",
+          "label": "현장 영상 20240108_134606 · 전체 1분 12초"
+        }
+      ]
     },
     {
       "id": "case-017",
@@ -772,9 +960,17 @@
       "location": "",
       "client": "",
       "description": "아주 깊은 바다, 대왕오징어 여왕은 부하들에게 아기고래를 납치하라고 지시합니다. 납치당한 아기고래를 구하려는 엄마고래와 심해 바다 3총사의 모험을 그린 3D·4D 애니메이션입니다.",
-      "thumbnail": "./assets/img/portfolio/case-017-1.jpg",
+      "thumbnail": "./assets/img/portfolio/case-017-c1.jpg",
       "images": [
-        "./assets/img/portfolio/case-017-1.jpg"
+        "./assets/img/portfolio/case-017-c1.jpg",
+        "./assets/img/portfolio/case-017-c2.jpg",
+        "./assets/img/portfolio/case-017-c3.jpg",
+        "./assets/img/portfolio/case-017-c4.jpg",
+        "./assets/img/portfolio/case-017-c5.jpg",
+        "./assets/img/portfolio/case-017-c6.jpg",
+        "./assets/img/portfolio/case-017-c7.jpg",
+        "./assets/img/portfolio/case-017-c8.jpg",
+        "./assets/img/portfolio/case-017-c9.jpg"
       ],
       "tags": [
         "3D",
@@ -785,7 +981,15 @@
         "duration": "12분 30초",
         "scope": "제작·배급 (미디어필)"
       },
-      "note": "제작 연도 확인 필요"
+      "note": "제작 연도 확인 필요",
+      "videos": [
+        {
+          "src": "assets/ref/whale/sample.mp4",
+          "poster": "assets/ref/whale/t/sample.jpg",
+          "label": "「아기고래 구출대작전」 샘플 영상 · 전체 12분"
+        }
+      ],
+      "images_caption": "캐릭터 디자인·주요 장면"
     },
     {
       "id": "case-018",
@@ -796,9 +1000,19 @@
       "location": "",
       "client": "",
       "description": "은하를 떠도는 행성 파편에 파괴된 플론 행성을 탈출한 바너드 박사가 새로운 행성을 찾아 포라와 함께 에스페란스호를 타고 우주를 여행하는 3D·4D 애니메이션입니다.",
-      "thumbnail": "./assets/img/portfolio/case-018-1.jpg",
+      "thumbnail": "./assets/img/portfolio/case-018-c1.jpg",
       "images": [
-        "./assets/img/portfolio/case-018-1.jpg"
+        "./assets/img/portfolio/case-018-c1.jpg",
+        "./assets/img/portfolio/case-018-c2.jpg",
+        "./assets/img/portfolio/case-018-c3.jpg",
+        "./assets/img/portfolio/case-018-c4.jpg",
+        "./assets/img/portfolio/case-018-c5.jpg",
+        "./assets/img/portfolio/case-018-c6.jpg",
+        "./assets/img/portfolio/case-018-c7.jpg",
+        "./assets/img/portfolio/case-018-c8.jpg",
+        "./assets/img/portfolio/case-018-c9.jpg",
+        "./assets/img/portfolio/case-018-c10.jpg",
+        "./assets/img/portfolio/case-018-c11.jpg"
       ],
       "tags": [
         "3D",
@@ -809,7 +1023,15 @@
         "duration": "12분 30초",
         "scope": "제작·배급 (미디어필)"
       },
-      "note": "제작 연도 확인 필요"
+      "note": "제작 연도 확인 필요",
+      "videos": [
+        {
+          "src": "assets/ref/esperance/sample.mp4",
+          "poster": "assets/ref/esperance/t/sample.jpg",
+          "label": "「은하탐험 에스페란스」 샘플 영상 · 전체 12분"
+        }
+      ],
+      "images_caption": "캐릭터 디자인·주요 장면"
     },
     {
       "id": "case-033",
@@ -820,9 +1042,24 @@
       "location": "한성백제박물관 4D 영상관",
       "client": "서울특별시",
       "description": "백제가 일본에 건넨 '칠지도' 전설을 소재로 만든 4D 입체영상입니다. 할머니에게 물려받은 신비한 목걸이의 힘으로 백제 시대로 간 유린이 대장장이 아들 해건과 함께 칠지도를 만들 철을 찾아 모험합니다. 당시 지형과 집 모양을 역사 자료로 하나하나 확인해 만들었습니다.",
-      "thumbnail": "./assets/img/portfolio/case-033-1.jpg",
+      "thumbnail": "./assets/img/portfolio/case-033-c1.jpg",
       "images": [
-        "./assets/img/portfolio/case-033-1.jpg"
+        "./assets/img/portfolio/case-033-c1.jpg",
+        "./assets/img/portfolio/case-033-c2.jpg",
+        "./assets/img/portfolio/case-033-c3.jpg",
+        "./assets/img/portfolio/case-033-c4.jpg",
+        "./assets/img/portfolio/case-033-c5.jpg",
+        "./assets/img/portfolio/case-033-c6.jpg",
+        "./assets/img/portfolio/case-033-c7.jpg",
+        "./assets/img/portfolio/case-033-fv11.jpg",
+        "./assets/img/portfolio/case-033-fv12.jpg",
+        "./assets/img/portfolio/case-033-fv13.jpg",
+        "./assets/img/portfolio/case-033-fv14.jpg",
+        "./assets/img/portfolio/case-033-fv15.jpg",
+        "./assets/img/portfolio/case-033-fv21.jpg",
+        "./assets/img/portfolio/case-033-fv22.jpg",
+        "./assets/img/portfolio/case-033-fv23.jpg",
+        "./assets/img/portfolio/case-033-fv24.jpg"
       ],
       "tags": [
         "4D",
@@ -832,7 +1069,19 @@
       ],
       "details": {
         "duration": "14분"
-      }
+      },
+      "videos": [
+        {
+          "src": "assets/ref/hansung/v1.mp4",
+          "poster": "assets/ref/hansung/t/v1-poster.jpg",
+          "label": "「유린, 백제로 가다」 4D 본편 · 앞 3분"
+        },
+        {
+          "src": "assets/ref/hansung/v2.mp4",
+          "poster": "assets/ref/hansung/t/v2-poster.jpg",
+          "label": "한성백제 사계 영상 · 전체"
+        }
+      ]
     },
     {
       "id": "case-034",
@@ -843,9 +1092,20 @@
       "location": "안양천생태이야기관 입체영상관",
       "client": "안양시",
       "description": "안양천에서 물고기를 잡던 개구쟁이 푸름이가 마법에 걸려 자기가 잡던 버들치가 됩니다. 버들치가 되어 안양천을 모험하며 하천 생물에게 얼마나 잘못했는지 깨닫는 이야기로, 생활 하천의 상·중·하류 생태를 담았습니다.",
-      "thumbnail": "./assets/img/portfolio/case-034-1.jpg",
+      "thumbnail": "./assets/img/portfolio/case-034-c1.jpg",
       "images": [
-        "./assets/img/portfolio/case-034-1.jpg"
+        "./assets/img/portfolio/case-034-c1.jpg",
+        "./assets/img/portfolio/case-034-c2.jpg",
+        "./assets/img/portfolio/case-034-c3.jpg",
+        "./assets/img/portfolio/case-034-c4.jpg",
+        "./assets/img/portfolio/case-034-c5.jpg",
+        "./assets/img/portfolio/case-034-c6.jpg",
+        "./assets/img/portfolio/case-034-fv11.jpg",
+        "./assets/img/portfolio/case-034-fv12.jpg",
+        "./assets/img/portfolio/case-034-fv13.jpg",
+        "./assets/img/portfolio/case-034-fv14.jpg",
+        "./assets/img/portfolio/case-034-fv15.jpg",
+        "./assets/img/portfolio/case-034-fv16.jpg"
       ],
       "tags": [
         "3D",
@@ -854,7 +1114,14 @@
       ],
       "details": {
         "duration": "12분"
-      }
+      },
+      "videos": [
+        {
+          "src": "assets/ref/anyangcheon/v1.mp4",
+          "poster": "assets/ref/anyangcheon/t/v1-poster.jpg",
+          "label": "「마법에 걸린 푸름이」 · 앞 3분"
+        }
+      ]
     },
     {
       "id": "case-035",
@@ -867,7 +1134,12 @@
       "description": "프로젝터 10대로 둥글게 이어지는 원형 영상관용 영상입니다. 공룡이 살던 시대부터 땅속에 묻힌 생물이 가스가 되기까지, 그리고 바다 위 시추선에서 가스를 뽑아내는 원리를 그래픽으로 보여 줍니다.",
       "thumbnail": "./assets/img/portfolio/case-035-1.jpg",
       "images": [
-        "./assets/img/portfolio/case-035-1.jpg"
+        "./assets/img/portfolio/case-035-1.jpg",
+        "./assets/ref/kogas/v1-f2.jpg",
+        "./assets/ref/kogas/v1-f3.jpg",
+        "./assets/ref/kogas/v1-f5.jpg",
+        "./assets/ref/kogas/v1-f1.jpg",
+        "./assets/ref/kogas/v1-f4.jpg"
       ],
       "tags": [
         "원형 영상관",
@@ -876,7 +1148,14 @@
       "details": {
         "duration": "4분 30초",
         "technology": "프로젝터 10대 원형 화면"
-      }
+      },
+      "videos": [
+        {
+          "src": "assets/ref/kogas/v1.mp4",
+          "poster": "assets/ref/kogas/t/v1-poster.jpg",
+          "label": "원형 영상관 영상 · 앞 3분 (4K를 1280으로 줄임)"
+        }
+      ]
     },
     {
       "id": "case-036",
@@ -887,9 +1166,18 @@
       "location": "순천만국가정원 4D 영상관",
       "client": "순천시",
       "description": "날개를 다친 흑두루미를 남매가 몰래 보살펴 다시 날게 하는 실화를 바탕으로 만든 4D 입체영상입니다. 국내 최대 습지 생태공원인 순천만국가정원 영상관에서 상영됩니다.",
-      "thumbnail": "./assets/img/portfolio/case-036-1.jpg",
+      "thumbnail": "./assets/img/portfolio/case-036-fv11.jpg",
       "images": [
-        "./assets/img/portfolio/case-036-1.jpg"
+        "./assets/img/portfolio/case-036-fv11.jpg",
+        "./assets/img/portfolio/case-036-fv12.jpg",
+        "./assets/img/portfolio/case-036-fv13.jpg",
+        "./assets/img/portfolio/case-036-fv14.jpg",
+        "./assets/img/portfolio/case-036-fv15.jpg",
+        "./assets/img/portfolio/case-036-fv16.jpg",
+        "./assets/img/portfolio/case-036-fv17.jpg",
+        "./assets/img/portfolio/case-036-fv18.jpg",
+        "./assets/img/portfolio/case-036-fv19.jpg",
+        "./assets/img/portfolio/case-036-fv110.jpg"
       ],
       "tags": [
         "4D",
@@ -898,7 +1186,14 @@
       ],
       "details": {
         "duration": "14분"
-      }
+      },
+      "videos": [
+        {
+          "src": "assets/ref/suncheon/v1.mp4",
+          "poster": "assets/ref/suncheon/t/v1-poster.jpg",
+          "label": "「비상」 본편 · 앞 3분"
+        }
+      ]
     },
     {
       "id": "case-037",
@@ -909,9 +1204,18 @@
       "location": "안동 충의역사체험장",
       "client": "안동시",
       "description": "임진왜란 때 안동에서 활동한 의병을 기리는 입체영상입니다. 류복기가 형제와 다섯 아들을 이끌고 왜군에 맞서 끝까지 싸우는 이야기로, 당시 복장과 무기를 시대 자료로 확인해 만들었습니다.",
-      "thumbnail": "./assets/img/portfolio/case-037-1.jpg",
+      "thumbnail": "./assets/img/portfolio/case-037-fv11.jpg",
       "images": [
-        "./assets/img/portfolio/case-037-1.jpg"
+        "./assets/img/portfolio/case-037-fv11.jpg",
+        "./assets/img/portfolio/case-037-fv12.jpg",
+        "./assets/img/portfolio/case-037-fv13.jpg",
+        "./assets/img/portfolio/case-037-fv14.jpg",
+        "./assets/img/portfolio/case-037-fv15.jpg",
+        "./assets/img/portfolio/case-037-fv16.jpg",
+        "./assets/img/portfolio/case-037-fv17.jpg",
+        "./assets/img/portfolio/case-037-fv18.jpg",
+        "./assets/img/portfolio/case-037-fv19.jpg",
+        "./assets/img/portfolio/case-037-fv110.jpg"
       ],
       "tags": [
         "입체영상",
@@ -920,7 +1224,14 @@
       ],
       "details": {
         "duration": "14분"
-      }
+      },
+      "videos": [
+        {
+          "src": "assets/ref/andong/v1.mp4",
+          "poster": "assets/ref/andong/t/v1-poster.jpg",
+          "label": "「안동의 의병」 3분 요약본 · 전체"
+        }
+      ]
     },
     {
       "id": "case-038",
@@ -931,9 +1242,17 @@
       "location": "전쟁기념관 3면 영상관",
       "client": "전쟁기념사업회",
       "description": "이순신 장군의 한산도대첩을 세 면의 화면에 펼쳐 보여 주는 영상입니다. 거북선의 등장과 학익진 해전을 담았으며, 왜군 깃발과 함선 등 역사 고증에 특히 공을 들였습니다.",
-      "thumbnail": "./assets/img/portfolio/case-038-1.jpg",
+      "thumbnail": "./assets/img/portfolio/case-038-fv11.jpg",
       "images": [
-        "./assets/img/portfolio/case-038-1.jpg"
+        "./assets/img/portfolio/case-038-fv11.jpg",
+        "./assets/img/portfolio/case-038-fv12.jpg",
+        "./assets/img/portfolio/case-038-fv13.jpg",
+        "./assets/img/portfolio/case-038-fv14.jpg",
+        "./assets/img/portfolio/case-038-fv15.jpg",
+        "./assets/img/portfolio/case-038-fv16.jpg",
+        "./assets/img/portfolio/case-038-fv18.jpg",
+        "./assets/img/portfolio/case-038-fv19.jpg",
+        "./assets/img/portfolio/case-038-fv110.jpg"
       ],
       "tags": [
         "3면 영상",
@@ -942,7 +1261,14 @@
       ],
       "details": {
         "duration": "8분"
-      }
+      },
+      "videos": [
+        {
+          "src": "assets/ref/hansan/v1.mp4",
+          "poster": "assets/ref/hansan/t/v1-poster.jpg",
+          "label": "「한산도대첩」 3면 영상 · 앞 3분"
+        }
+      ]
     },
     {
       "id": "case-039",
@@ -972,14 +1298,11 @@
       "location": "경남 고성",
       "client": "2021경남고성공룡세계엑스포",
       "description": "엑스포 주제관과 발자국화석관에서 운영한 AR 체험입니다. 공룡 모형 앞 화면에 비친 관람객 모습 위로 공룡이 겹쳐 나타나고, 태블릿·휴대폰 화면으로 실제 공간을 비추면 공룡이 걸어 다니는 모습을 볼 수 있게 만들었습니다.",
-      "thumbnail": "./assets/img/portfolio/case-041-1.jpg",
+      "thumbnail": "./assets/ref/goseong/423cabea4fe0.jpg",
       "images": [
-        "./assets/img/portfolio/case-041-1.jpg",
-        "./assets/img/portfolio/case-041-2.jpg",
-        "./assets/img/portfolio/case-041-3.jpg",
-        "./assets/img/portfolio/case-041-4.jpg",
-        "./assets/img/portfolio/case-041-5.jpg",
-        "./assets/img/portfolio/case-041-6.jpg"
+        "./assets/ref/goseong/423cabea4fe0.jpg",
+        "./assets/ref/goseong/b7e23c505ae9.jpg",
+        "./assets/ref/goseong/595e9e7f6f0e.jpg"
       ],
       "tags": [
         "AR",
@@ -1013,12 +1336,18 @@
       "location": "",
       "client": "",
       "description": "VR 안경을 쓰고 비행체에 탄 듯 산과 도시 위를 날아다니는 VR360 영상입니다. 영남알프스의 산줄기, 대구경북신공항 편 등을 만들었습니다.",
-      "thumbnail": "./assets/img/portfolio/case-042-2.jpg",
+      "thumbnail": "./assets/img/portfolio/case-042-fpreview4.jpg",
       "images": [
-        "./assets/img/portfolio/case-042-1.jpg",
-        "./assets/img/portfolio/case-042-2.jpg",
-        "./assets/img/portfolio/case-042-3.jpg",
-        "./assets/img/portfolio/case-042-4.jpg"
+        "./assets/img/portfolio/case-042-fpreview1.jpg",
+        "./assets/img/portfolio/case-042-fpreview2.jpg",
+        "./assets/img/portfolio/case-042-fpreview3.jpg",
+        "./assets/img/portfolio/case-042-fpreview4.jpg",
+        "./assets/img/portfolio/case-042-fpreview5.jpg",
+        "./assets/img/portfolio/case-042-fpreview6.jpg",
+        "./assets/img/portfolio/case-042-fpreview7.jpg",
+        "./assets/img/portfolio/case-042-fpreview8.jpg",
+        "./assets/img/portfolio/case-042-fpreview9.jpg",
+        "./assets/img/portfolio/case-042-fpreview10.jpg"
       ],
       "tags": [
         "VR360",
@@ -1029,43 +1358,14 @@
         "technology": "VR360 영상(3840×1920), 실사 항공 촬영 + CG 조종석"
       },
       "ref": [],
-      "video": {
-        "src": "assets/ref/hisky/preview.mp4",
-        "poster": "assets/ref/hisky/preview.jpg",
-        "label": "하이스카이 VR · 앞 1분 (VR360 펼친 화면)"
-      },
-      "note": "2026-11-13 F:\\Video\\하이스카이 VR, F:\\Video\\!!!vr, D:\\VR Prj\\하이스카이 영남알프스 자료로 만듦. 발주처·설치 장소·연도 확인 필요"
-    },
-    {
-      "id": "case-043",
-      "title": "울산 VR 영상 — 해안 비행 VR360 · 입체 영상",
-      "category": "arvr",
-      "sub": "VR 영상",
-      "year": 2019,
-      "location": "울산",
-      "client": "",
-      "description": "비행체 조종석에 앉아 울산 해안과 바다 위를 날아가는 VR360 영상과, 울산 하늘을 내려다보는 입체(좌우 화면) 영상을 만들었습니다.",
-      "thumbnail": "./assets/img/portfolio/case-043-1.jpg",
-      "images": [
-        "./assets/img/portfolio/case-043-1.jpg",
-        "./assets/img/portfolio/case-043-2.jpg",
-        "./assets/img/portfolio/case-043-3.jpg"
-      ],
-      "tags": [
-        "VR360",
-        "입체영상",
-        "울산"
-      ],
-      "details": {
-        "technology": "VR360 영상(3840×1920), 입체 영상(좌우 화면)"
-      },
-      "ref": [],
-      "video": {
-        "src": "assets/ref/ulsan-quake/preview.mp4",
-        "poster": "assets/ref/ulsan-quake/preview.jpg",
-        "label": "울산 해안 비행 VR360 · 앞 1분 (펼친 화면)"
-      },
-      "note": "2026-11-13 F:\\Video\\!!!vr\\190816_ulsan_01, F:\\Video\\울산지진\\Stereo.mp4 로 만듦. 대표님이 '울산 지진 VR'로 알려 주심 — 사업명·발주처 확인 필요"
+      "note": "2026-11-13 F:\\Video\\하이스카이 VR, F:\\Video\\!!!vr, D:\\VR Prj\\하이스카이 영남알프스 자료로 만듦. 발주처·설치 장소·연도 확인 필요",
+      "videos": [
+        {
+          "src": "assets/ref/hisky/preview.mp4",
+          "poster": "assets/ref/hisky/preview.jpg",
+          "label": "하이스카이 VR · 앞 3분 (VR360 펼친 화면)"
+        }
+      ]
     },
     {
       "id": "case-040",
@@ -1098,15 +1398,15 @@
       "location": "경남 고성",
       "client": "2021경남고성공룡세계엑스포",
       "description": "엑스포 주제관과 발자국화석관의 체험 전시를 만들었습니다. 다리 위를 걸으면 바닥 화면에서 공룡이 튀어나오는 '아찔 브릿지', 높이 6m·길이 14m 화면에 공을 던져 육식공룡에게서 알을 지키는 놀이, 세 벽과 바닥을 영상으로 채운 '백악기 수족관'을 설치했습니다. 발자국화석관은 공룡 21종과 사진 찍기, 모래 놀이, 벽 터치 놀이 등 놀이 중심 전시로 꾸몄습니다.",
-      "thumbnail": "./assets/img/portfolio/case-020-1.jpg",
+      "thumbnail": "./assets/ref/goseong/c1ae4c0bedf6.jpg",
       "images": [
-        "./assets/img/portfolio/case-020-1.jpg",
-        "./assets/img/portfolio/case-020-2.jpg",
-        "./assets/img/portfolio/case-020-3.jpg",
-        "./assets/img/portfolio/case-020-4.jpg",
-        "./assets/img/portfolio/case-020-5.jpg",
-        "./assets/img/portfolio/case-020-6.jpg",
-        "./assets/img/portfolio/case-020-7.jpg"
+        "./assets/ref/goseong/c1ae4c0bedf6.jpg",
+        "./assets/ref/goseong/4ecedf7f6ede.jpg",
+        "./assets/ref/goseong/91041e0fe16b.jpg",
+        "./assets/ref/goseong/1946095df14a.jpg",
+        "./assets/ref/goseong/be47b6d9cbfc.jpg",
+        "./assets/ref/goseong/0bb480053670.jpg",
+        "./assets/ref/goseong/dd287af8e8bf.jpg"
       ],
       "tags": [
         "공룡",
@@ -1125,12 +1425,19 @@
       "ref": [
         "고성"
       ],
-      "video": {
-        "src": "assets/ref/goseong/preview.mp4",
-        "poster": "assets/ref/goseong/preview.jpg",
-        "label": "아찔 브릿지체험 모습 · 앞 1분"
-      },
-      "note": "AR 체험은 case-041(고성 AR·VR)로 분리"
+      "note": "AR 체험은 case-041(고성 AR·VR)로 분리",
+      "videos": [
+        {
+          "src": "assets/ref/goseong/out-7e2a58a04ce3.mp4",
+          "poster": "assets/ref/goseong/t/out-7e2a58a04ce3.jpg",
+          "label": "현장 영상 20200615_204443 · 전체 2분 19초"
+        },
+        {
+          "src": "assets/ref/goseong/out-e9b3ad189ba0.mp4",
+          "poster": "assets/ref/goseong/t/out-e9b3ad189ba0.jpg",
+          "label": "현장 영상 20200814_094801 · 전체 1분 55초"
+        }
+      ]
     },
     {
       "id": "case-028",
@@ -1141,14 +1448,13 @@
       "location": "충주박물관",
       "client": "충주시",
       "description": "충주박물관의 체험 코너를 디지털로 다시 만든 전시입니다. 가야금 연주, 중앙탑 쌓기, 붓글씨, 충주성 지키기, 택견 배우기, 미디어 월 등 여섯 가지 체험을 터치 화면과 동작 인식 센서로 만들었고, 많은 프로젝터를 써서 벽면 전체를 화면으로 꾸몄습니다.",
-      "thumbnail": "./assets/img/portfolio/case-028-1.jpg",
+      "thumbnail": "./assets/ref/chungju/427acd6a48b9.jpg",
       "images": [
-        "./assets/img/portfolio/case-028-1.jpg",
-        "./assets/img/portfolio/case-028-3.jpg",
-        "./assets/img/portfolio/case-028-4.jpg",
-        "./assets/img/portfolio/case-028-5.jpg",
-        "./assets/img/portfolio/case-028-6.jpg",
-        "./assets/img/portfolio/case-028-7.jpg"
+        "./assets/ref/chungju/427acd6a48b9.jpg",
+        "./assets/ref/chungju/a38816f7ad68.jpg",
+        "./assets/ref/chungju/bdecb435d3f9.jpg",
+        "./assets/ref/chungju/3fa1022b0424.jpg",
+        "./assets/ref/chungju/5ac77b777941.jpg"
       ],
       "tags": [
         "박물관",
@@ -1171,11 +1477,18 @@
       "ref": [
         "충주"
       ],
-      "video": {
-        "src": "assets/ref/chungju/preview.mp4",
-        "poster": "assets/ref/chungju/preview.jpg",
-        "label": "택견 배우기 체험 모습 · 앞 1분"
-      }
+      "videos": [
+        {
+          "src": "assets/ref/chungju/out-1f403ef4a4cf.mp4",
+          "poster": "assets/ref/chungju/t/out-1f403ef4a4cf.jpg",
+          "label": "현장 영상 20261104_160938 · 앞 3분 0초"
+        },
+        {
+          "src": "assets/ref/chungju/out-d6394675e146.mp4",
+          "poster": "assets/ref/chungju/t/out-d6394675e146.jpg",
+          "label": "현장 영상 20220526_155124 · 앞 3분 0초"
+        }
+      ]
     },
     {
       "id": "case-029",
@@ -1202,11 +1515,18 @@
         "공주"
       ],
       "note": "정식 사업명·장소·발주처 확인 필요 (영상 4개뿐)",
-      "video": {
-        "src": "assets/ref/gongju/preview.mp4",
-        "poster": "assets/ref/gongju/preview.jpg",
-        "label": "벽면 영상 · 앞 1분"
-      }
+      "videos": [
+        {
+          "src": "assets/ref/gongju/out-ed167baafc41.mp4",
+          "poster": "assets/ref/gongju/t/out-ed167baafc41.jpg",
+          "label": "현장 영상 20250327_111100 · 전체 1분 40초"
+        },
+        {
+          "src": "assets/ref/gongju/out-425850382767.mp4",
+          "poster": "assets/ref/gongju/t/out-425850382767.jpg",
+          "label": "현장 영상 20250327_111618 · 전체 1분 32초"
+        }
+      ]
     },
     {
       "id": "case-030",
@@ -1217,11 +1537,12 @@
       "location": "논산 선샤인랜드",
       "client": "",
       "description": "야외에 전시된 헬기·전차·전투기 앞에 설치한 안내 화면입니다. 전시물의 이름과 제원을 화면으로 보여 주며, 야외에서도 잘 보이도록 밝기와 보호 구조를 고려해 설치했습니다.",
-      "thumbnail": "./assets/img/portfolio/case-030-1.jpg",
+      "thumbnail": "./assets/ref/nonsan-sunshine/fa0923e9ddcd.jpg",
       "images": [
-        "./assets/img/portfolio/case-030-1.jpg",
-        "./assets/img/portfolio/case-030-2.jpg",
-        "./assets/img/portfolio/case-030-3.jpg"
+        "./assets/ref/nonsan-sunshine/fa0923e9ddcd.jpg",
+        "./assets/ref/nonsan-sunshine/cdab36eda6cb.jpg",
+        "./assets/ref/nonsan-sunshine/0c3534379b5b.jpg",
+        "./assets/ref/nonsan-sunshine/e42a1368cf87.jpg"
       ],
       "tags": [
         "야외 전시",
@@ -1273,12 +1594,14 @@
       "location": "자체 연구소",
       "client": "",
       "description": "다리가 여섯 개인 보행 로봇을 직접 설계·3D 프린팅하고 제어 프로그램을 만든 연구입니다. 여러 개의 모터를 동시에 정밀하게 움직이는 기술을 시뮬레이터와 전시 장치에 쓰기 위해 연구했습니다.",
-      "thumbnail": "./assets/img/portfolio/case-032-1.jpg",
+      "thumbnail": "./assets/ref/robot-control/94a8edec3494.jpg",
       "images": [
-        "./assets/img/portfolio/case-032-1.jpg",
-        "./assets/img/portfolio/case-032-2.jpg",
-        "./assets/img/portfolio/case-032-3.jpg",
-        "./assets/img/portfolio/case-032-4.jpg"
+        "./assets/ref/robot-control/94a8edec3494.jpg",
+        "./assets/ref/robot-control/f32ec740bb06.jpg",
+        "./assets/ref/robot-control/9c3f9cc1c243.jpg",
+        "./assets/ref/robot-control/262077fa2ff1.jpg",
+        "./assets/ref/robot-control/f227c9a977f4.jpg",
+        "./assets/ref/robot-control/d81e2edb2311.jpg"
       ],
       "tags": [
         "로봇",
@@ -1288,11 +1611,393 @@
       "ref": [
         "로봇 제어 콘트롤"
       ],
-      "video": {
-        "src": "assets/ref/robot-control/preview.mp4",
-        "poster": "assets/ref/robot-control/preview.jpg",
-        "label": "6족 로봇 걷기 시험 · 앞 1분"
-      }
+      "videos": [
+        {
+          "src": "assets/ref/robot-control/out-8be16e45f38b.mp4",
+          "poster": "assets/ref/robot-control/t/out-8be16e45f38b.jpg",
+          "label": "현장 영상 KakaoTalk_20230211_153300480 · 전체 1분 43초"
+        },
+        {
+          "src": "assets/ref/robot-control/out-4b72fab258c3.mp4",
+          "poster": "assets/ref/robot-control/t/out-4b72fab258c3.jpg",
+          "label": "현장 영상 20231220_161633 · 전체 1분 11초"
+        }
+      ]
+    },
+    {
+      "id": "case-044",
+      "title": "평창기념재단 썰매·스포츠 체험 시뮬레이터",
+      "category": "simulator",
+      "sub": "스포츠 체험",
+      "year": 2021,
+      "location": "평창",
+      "client": "평창기념재단",
+      "description": "평창 동계올림픽 기념 공간에 설치한 썰매·스포츠 체험 시뮬레이터입니다. 실제 썰매 모양의 탑승물에 타고 앞 화면의 영상에 맞춰 움직이며 경기를 체험합니다.",
+      "thumbnail": "./assets/ref/pyeongchang-foundation/f6749e171bc9.jpg",
+      "images": [
+        "./assets/ref/pyeongchang-foundation/f6749e171bc9.jpg",
+        "./assets/ref/pyeongchang-foundation/47456235a987.jpg",
+        "./assets/ref/pyeongchang-foundation/67fc7b661b4d.jpg",
+        "./assets/ref/pyeongchang-foundation/23ff0226a8d8.jpg",
+        "./assets/ref/pyeongchang-foundation/10a101553c2f.jpg",
+        "./assets/ref/pyeongchang-foundation/9599059b059d.jpg",
+        "./assets/ref/pyeongchang-foundation/2a6d4f6f0405.jpg"
+      ],
+      "tags": [
+        "평창",
+        "썰매",
+        "스포츠 체험"
+      ],
+      "details": {},
+      "ref": [
+        "평창 기념재단"
+      ],
+      "note": "2026-11-13 B 사진 자료실 폴더로 새로 만든 사례. 제목·설명·연도·발주처는 사진을 보고 쓴 추정 — 확인 필요 / 연도는 B 자료실 사진의 가장 이른 날짜 기준",
+      "videos": [
+        {
+          "src": "assets/ref/pyeongchang-foundation/out-6e3480031e3e.mp4",
+          "poster": "assets/ref/pyeongchang-foundation/t/out-6e3480031e3e.jpg",
+          "label": "현장 영상 20211216_143133 · 전체 0분 16초"
+        },
+        {
+          "src": "assets/ref/pyeongchang-foundation/out-5258c8c71aa8.mp4",
+          "poster": "assets/ref/pyeongchang-foundation/t/out-5258c8c71aa8.jpg",
+          "label": "현장 영상 평창봅슬레이3면-1 · 전체 0분 8초"
+        }
+      ]
+    },
+    {
+      "id": "case-045",
+      "title": "경주 버드파크 체험 시뮬레이터",
+      "category": "simulator",
+      "sub": "스포츠 체험",
+      "year": 2013,
+      "location": "경주 버드파크",
+      "client": "",
+      "description": "경주 버드파크에 설치한 탑승형 체험 시뮬레이터입니다. 여러 대의 화면 앞에서 새가 되어 하늘을 나는 듯한 비행 영상을 체험합니다.",
+      "thumbnail": "./assets/ref/gyeongju-birdpark/2bbc8b8b8b2b.jpg",
+      "images": [
+        "./assets/ref/gyeongju-birdpark/2bbc8b8b8b2b.jpg",
+        "./assets/ref/gyeongju-birdpark/07f4b69811ff.jpg",
+        "./assets/ref/gyeongju-birdpark/bf84ae98b1ec.jpg"
+      ],
+      "tags": [
+        "경주",
+        "버드파크",
+        "비행 체험"
+      ],
+      "details": {},
+      "ref": [
+        "경주 버드파크"
+      ],
+      "note": "2026-11-13 B 사진 자료실 폴더로 새로 만든 사례. 제목·설명·연도·발주처는 사진을 보고 쓴 추정 — 확인 필요 / 연도는 B 자료실 사진의 가장 이른 날짜 기준",
+      "videos": [
+        {
+          "src": "assets/ref/gyeongju-birdpark/out-af7c38584da6.mp4",
+          "poster": "assets/ref/gyeongju-birdpark/t/out-af7c38584da6.jpg",
+          "label": "현장 영상 CAM00389 · 전체 2분 19초"
+        },
+        {
+          "src": "assets/ref/gyeongju-birdpark/out-a9d22e690891.mp4",
+          "poster": "assets/ref/gyeongju-birdpark/t/out-a9d22e690891.jpg",
+          "label": "현장 영상 CAM00570 · 전체 0분 57초"
+        }
+      ]
+    },
+    {
+      "id": "case-046",
+      "title": "강릉 메타버스 체험관 2층 다인승 시뮬레이터",
+      "category": "simulator",
+      "sub": "스포츠 체험",
+      "year": 2025,
+      "location": "강릉 메타버스 체험관",
+      "client": "",
+      "description": "강릉 메타버스 체험관 2층에 설치한 다인승 탑승 시뮬레이터입니다. 큰 화면 앞 계단식 좌석이 영상에 맞춰 움직입니다. 체험관에서 상영하는 강릉의 열 가지 경관을 담은 파노라마 영상 「강릉십경」도 함께 제작했습니다.",
+      "thumbnail": "./assets/ref/gangneung-2f/659cd01ba34e.jpg",
+      "images": [
+        "./assets/ref/gangneung-2f/659cd01ba34e.jpg",
+        "./assets/ref/gangneung-2f/129aa9602c4b.jpg",
+        "./assets/ref/gangneung-2f/6845f4dbf02b.jpg",
+        "./assets/ref/gangneung10/v1-f2.jpg",
+        "./assets/ref/gangneung10/v1-f1.jpg",
+        "./assets/ref/gangneung10/v1-f3.jpg",
+        "./assets/ref/gangneung10/v1-f4.jpg",
+        "./assets/ref/gangneung10/v1-f5.jpg"
+      ],
+      "tags": [
+        "강릉",
+        "메타버스",
+        "다인승",
+        "강릉십경"
+      ],
+      "details": {},
+      "ref": [
+        "강릉 메타버스 체험관 2층"
+      ],
+      "note": "2026-11-13 B 사진 자료실 폴더로 새로 만든 사례. 제목·설명·연도·발주처는 사진을 보고 쓴 추정 — 확인 필요 / 연도는 B 자료실 사진의 가장 이른 날짜 기준",
+      "videos": [
+        {
+          "src": "assets/ref/gangneung10/v1.mp4",
+          "poster": "assets/ref/gangneung10/t/v1-poster.jpg",
+          "label": "「강릉십경」 파노라마 영상 · 앞 3분 (체험관 상영 영상)"
+        },
+        {
+          "src": "assets/ref/gangneung-2f/out-1901228e864e.mp4",
+          "poster": "assets/ref/gangneung-2f/t/out-1901228e864e.jpg",
+          "label": "현장 영상 20260727_144801 · 앞 3분 0초"
+        },
+        {
+          "src": "assets/ref/gangneung-2f/out-dad7117755eb.mp4",
+          "poster": "assets/ref/gangneung-2f/t/out-dad7117755eb.jpg",
+          "label": "현장 영상 20260120_174749 · 전체 2분 21초"
+        }
+      ]
+    },
+    {
+      "id": "case-047",
+      "title": "안양 스마트 체험관 다인승 탑승 시뮬레이터",
+      "category": "simulator",
+      "sub": "탑승 체험",
+      "year": 2025,
+      "location": "안양",
+      "client": "",
+      "description": "안양 스마트 체험관에 설치한 다인승 탑승 시뮬레이터입니다. 큰 화면 앞 좌석이 영상에 맞춰 움직이며, 입구부터 체험 공간까지 미래 도시 분위기로 꾸몄습니다.",
+      "thumbnail": "./assets/ref/anyang-smart/6403472dd271.jpg",
+      "images": [
+        "./assets/ref/anyang-smart/6403472dd271.jpg",
+        "./assets/ref/anyang-smart/26067fe45449.jpg",
+        "./assets/ref/anyang-smart/57fa5f505912.jpg",
+        "./assets/ref/anyang-smart/15df5e27ba0d.jpg",
+        "./assets/ref/anyang-smart/bcea4f7185cc.jpg",
+        "./assets/ref/anyang-smart/ab44cfa6ee1d.jpg",
+        "./assets/ref/anyang-smart/7d89fc7ca9ab.jpg",
+        "./assets/ref/anyang-smart/6690ed1d869d.jpg"
+      ],
+      "tags": [
+        "안양",
+        "VR",
+        "시뮬레이터"
+      ],
+      "details": {},
+      "ref": [
+        "안양 스마트"
+      ],
+      "note": "2026-11-13 대표님 확인: 완료된 현장. 연도는 B 자료실 사진 날짜(2025) 기준. 사업명·발주처 확인 필요",
+      "videos": [
+        {
+          "src": "assets/ref/anyang-smart/out-28509a77e0e4.mp4",
+          "poster": "assets/ref/anyang-smart/t/out-28509a77e0e4.jpg",
+          "label": "현장 영상 KakaoTalk_20251021_232913942 · 전체 0분 28초"
+        }
+      ]
+    },
+    {
+      "id": "case-048",
+      "title": "2018 강릉 녹색 체험 도시",
+      "category": "interactive",
+      "sub": "벽·바닥 영상 전시",
+      "year": 2018,
+      "location": "강릉",
+      "client": "",
+      "description": "2018년 강릉 녹색 체험 도시 현장 작업입니다.",
+      "thumbnail": "./assets/ref/gangneung-green-2018/f7d66d2f6b10.jpg",
+      "images": [
+        "./assets/ref/gangneung-green-2018/f7d66d2f6b10.jpg",
+        "./assets/ref/gangneung-green-2018/ca904999bc5a.jpg"
+      ],
+      "tags": [
+        "강릉",
+        "2018"
+      ],
+      "details": {},
+      "ref": [
+        "2018 강릉 녹색 체험 도시"
+      ],
+      "note": "2026-11-13 B 사진 자료실 폴더로 새로 만든 사례. 제목·설명·연도·발주처는 사진을 보고 쓴 추정 — 확인 필요 / 연도는 B 자료실 사진의 가장 이른 날짜 기준"
+    },
+    {
+      "id": "case-053",
+      "title": "한국해양과학기술원(KIOST) 입체 영상",
+      "category": "theater",
+      "sub": "입체 애니메이션 제작",
+      "year": null,
+      "location": "",
+      "client": "",
+      "description": "한국해양과학기술원 전시관에서 상영하는 입체 애니메이션입니다. 해양 탐사 로봇이 바닷속을 누비며 해양 과학을 소개합니다.",
+      "thumbnail": "./assets/img/portfolio/case-053-fv11.jpg",
+      "images": [
+        "./assets/img/portfolio/case-053-fv11.jpg",
+        "./assets/img/portfolio/case-053-fv12.jpg",
+        "./assets/img/portfolio/case-053-fv13.jpg",
+        "./assets/img/portfolio/case-053-fv14.jpg",
+        "./assets/img/portfolio/case-053-fv15.jpg",
+        "./assets/img/portfolio/case-053-fv16.jpg",
+        "./assets/img/portfolio/case-053-fv17.jpg",
+        "./assets/img/portfolio/case-053-fv18.jpg",
+        "./assets/img/portfolio/case-053-fv19.jpg",
+        "./assets/img/portfolio/case-053-fv110.jpg"
+      ],
+      "tags": [
+        "KIOST",
+        "해양",
+        "입체영상"
+      ],
+      "details": {},
+      "ref": [],
+      "note": "2026-11-13 F:\\Video\\kiost 자료로 만듦. 설명은 화면을 보고 쓴 추정, 연도·발주처 확인 필요",
+      "videos": [
+        {
+          "src": "assets/ref/kiost/v1.mp4",
+          "poster": "assets/ref/kiost/t/v1-poster.jpg",
+          "label": "KIOST 입체 영상 · 앞 3분"
+        }
+      ]
+    },
+    {
+      "id": "case-054",
+      "title": "2012 고성 디오라마 영상",
+      "category": "theater",
+      "sub": "특수 화면 영상",
+      "year": 2012,
+      "location": "",
+      "client": "",
+      "description": "2012년 고성 공룡 전시의 디오라마에 맞춰 만든 영상입니다. 공룡 시대의 화산·숲·바다 장면을 담았습니다.",
+      "thumbnail": "./assets/img/portfolio/case-054-fd1.jpg",
+      "images": [
+        "./assets/img/portfolio/case-054-fd1.jpg",
+        "./assets/img/portfolio/case-054-fd2.jpg",
+        "./assets/img/portfolio/case-054-fd3.jpg",
+        "./assets/img/portfolio/case-054-fd4.jpg",
+        "./assets/img/portfolio/case-054-fd5.jpg",
+        "./assets/img/portfolio/case-054-fd6.jpg",
+        "./assets/img/portfolio/case-054-fd7.jpg",
+        "./assets/img/portfolio/case-054-fd8.jpg",
+        "./assets/img/portfolio/case-054-fd9.jpg",
+        "./assets/img/portfolio/case-054-fd10.jpg"
+      ],
+      "tags": [
+        "고성",
+        "공룡",
+        "디오라마",
+        "2012"
+      ],
+      "details": {},
+      "ref": [],
+      "note": "2026-11-13 F:\\Video\\고성 디오라마. 대표님 말씀대로 영상은 빼고 장면 그림만. 설명 추정 — 확인 필요"
+    },
+    {
+      "id": "case-056",
+      "title": "K컬처 초광폭 미디어 영상 (광화문 이순신 · 인천공항)",
+      "category": "interactive",
+      "sub": "전시 영상",
+      "year": 2025,
+      "location": "광화문 · 인천공항",
+      "client": "",
+      "description": "가로로 긴 대형 화면에 맞춘 K컬처 영상입니다. 광화문 이순신 영상은 사천해전 장면을 7680×1080 화면에, 인천공항 영상은 하늘을 나는 비행기를 8880×1800 화면에 담았습니다.",
+      "images": [
+        "./assets/ref/kculture/sacheon-f2.jpg",
+        "./assets/ref/kculture/sacheon-f1.jpg",
+        "./assets/ref/kculture/sacheon-f3.jpg",
+        "./assets/ref/kculture/incheon-f2.jpg",
+        "./assets/ref/kculture/incheon-f1.jpg",
+        "./assets/ref/kculture/incheon-f3.jpg"
+      ],
+      "tags": [
+        "K컬처",
+        "이순신",
+        "인천공항",
+        "초광폭 화면"
+      ],
+      "details": {
+        "technology": "초광폭 화면 7680×1080 · 8880×1800"
+      },
+      "videos": [
+        {
+          "src": "assets/ref/kculture/sacheon.mp4",
+          "poster": "assets/ref/kculture/t/sacheon-poster.jpg",
+          "label": "광화문 이순신 「사천해전」 · 전체 5분 40초"
+        },
+        {
+          "src": "assets/ref/kculture/incheon.mp4",
+          "poster": "assets/ref/kculture/t/incheon-poster.jpg",
+          "label": "인천공항 영상 · 전체 30초"
+        }
+      ],
+      "note": "2026-11-13 F:\\Video 자료로 만듦. 제목·설명은 화면을 보고 쓴 추정 — 사업명·발주처 확인 필요 / 연도는 F:\\Video 파일 날짜 기준",
+      "thumbnail": "./assets/ref/kculture/sacheon-f2.jpg"
+    },
+    {
+      "id": "case-057",
+      "title": "문화재청 무형문화재 입체 영상 (하회별신굿탈놀이 · 줄타기)",
+      "category": "interactive",
+      "sub": "전시 영상",
+      "year": 2014,
+      "location": "",
+      "client": "문화재청",
+      "description": "하회별신굿탈놀이와 줄타기를 입체(3D) 영상으로 촬영·제작했습니다. 하회마을 서낭당의 별신굿 장면과 줄타기 공연을 생생하게 담았습니다.",
+      "images": [
+        "./assets/ref/cha2013/hahoe-f2.jpg",
+        "./assets/ref/cha2013/hahoe-f1.jpg",
+        "./assets/ref/cha2013/hahoe-f3.jpg",
+        "./assets/ref/cha2013/jultagi-f2.jpg",
+        "./assets/ref/cha2013/jultagi-f1.jpg",
+        "./assets/ref/cha2013/jultagi-f3.jpg"
+      ],
+      "tags": [
+        "문화재청",
+        "무형문화재",
+        "입체영상",
+        "하회별신굿탈놀이",
+        "줄타기"
+      ],
+      "details": {
+        "technology": "입체(3D) 촬영 · 좌우(SBS) 영상"
+      },
+      "videos": [
+        {
+          "src": "assets/ref/cha2013/hahoe.mp4",
+          "poster": "assets/ref/cha2013/t/hahoe-poster.jpg",
+          "label": "하회별신굿탈놀이 · 앞 3분 (입체 영상의 왼쪽 화면)"
+        },
+        {
+          "src": "assets/ref/cha2013/jultagi.mp4",
+          "poster": "assets/ref/cha2013/t/jultagi-poster.jpg",
+          "label": "줄타기 · 앞 3분 (입체 영상의 왼쪽 화면)"
+        }
+      ],
+      "note": "2026-11-13 F:\\Video 자료로 만듦. 제목·설명은 화면을 보고 쓴 추정 — 사업명·발주처 확인 필요 / 폴더 이름은 2013문화재청, 파일 날짜는 2014",
+      "thumbnail": "./assets/ref/cha2013/hahoe-f2.jpg"
+    },
+    {
+      "id": "case-058",
+      "title": "한옥 전통건축 소개 영상",
+      "category": "interactive",
+      "sub": "전시 영상",
+      "year": 2022,
+      "location": "",
+      "client": "",
+      "description": "자연과 함께 숨 쉬는 전통건축 한옥을 소개하는 영상입니다. 실제 한옥 촬영과 먹 번짐 그래픽, 평면도를 함께 보여 줍니다.",
+      "images": [
+        "./assets/ref/hanok2022/v1-f2.jpg",
+        "./assets/ref/hanok2022/v1-f1.jpg",
+        "./assets/ref/hanok2022/v1-f3.jpg",
+        "./assets/ref/hanok2022/v1-f4.jpg",
+        "./assets/ref/hanok2022/v1-f5.jpg"
+      ],
+      "tags": [
+        "한옥",
+        "전통건축"
+      ],
+      "details": {},
+      "videos": [
+        {
+          "src": "assets/ref/hanok2022/v1.mp4",
+          "poster": "assets/ref/hanok2022/t/v1-poster.jpg",
+          "label": "한옥 전통건축 소개 영상 · 앞 3분"
+        }
+      ],
+      "note": "2026-11-13 F:\\Video 자료로 만듦. 제목·설명은 화면을 보고 쓴 추정 — 사업명·발주처 확인 필요",
+      "thumbnail": "./assets/ref/hanok2022/v1-f2.jpg"
     }
   ]
 }

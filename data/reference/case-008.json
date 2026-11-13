@@ -1,1 +1,616 @@
-{"case": "case-008", "folder": "안양생태이야기관", "photos": [{"src": "assets/ref/anyang-eco/9c93fec9e8e9.jpg", "thumb": "assets/ref/anyang-eco/t/9c93fec9e8e9.jpg", "date": "2019-07-05", "group": "2019.07", "name": "20190705_141018"}, {"src": "assets/ref/anyang-eco/96bb93bc8b57.jpg", "thumb": "assets/ref/anyang-eco/t/96bb93bc8b57.jpg", "date": "2019-07-05", "group": "2019.07", "name": "20190705_141027"}, {"src": "assets/ref/anyang-eco/c281a4035daa.jpg", "thumb": "assets/ref/anyang-eco/t/c281a4035daa.jpg", "date": "2019-07-05", "group": "2019.07", "name": "20190705_141033"}, {"src": "assets/ref/anyang-eco/4fe28667cf7a.jpg", "thumb": "assets/ref/anyang-eco/t/4fe28667cf7a.jpg", "date": "2019-07-05", "group": "2019.07", "name": "20190705_141357"}, {"src": "assets/ref/anyang-eco/9ebba7605fa9.jpg", "thumb": "assets/ref/anyang-eco/t/9ebba7605fa9.jpg", "date": "2019-07-05", "group": "2019.07", "name": "20190705_141409"}, {"src": "assets/ref/anyang-eco/6bc75c27a056.jpg", "thumb": "assets/ref/anyang-eco/t/6bc75c27a056.jpg", "date": "2019-07-05", "group": "2019.07", "name": "20190705_141516"}, {"src": "assets/ref/anyang-eco/4eb2ba0402f2.jpg", "thumb": "assets/ref/anyang-eco/t/4eb2ba0402f2.jpg", "date": "2019-07-05", "group": "2019.07", "name": "20190705_141529"}, {"src": "assets/ref/anyang-eco/c558bb544ce4.jpg", "thumb": "assets/ref/anyang-eco/t/c558bb544ce4.jpg", "date": "2019-07-05", "group": "2019.07", "name": "20190705_141534"}, {"src": "assets/ref/anyang-eco/044b53dfaf0b.jpg", "thumb": "assets/ref/anyang-eco/t/044b53dfaf0b.jpg", "date": "2022-11-22", "group": "2022.11", "name": "20221122_123812"}, {"src": "assets/ref/anyang-eco/e6a2e848ec07.jpg", "thumb": "assets/ref/anyang-eco/t/e6a2e848ec07.jpg", "date": "2022-11-22", "group": "2022.11", "name": "20221122_144112"}, {"src": "assets/ref/anyang-eco/f295a58e4799.jpg", "thumb": "assets/ref/anyang-eco/t/f295a58e4799.jpg", "date": "2022-11-22", "group": "2022.11", "name": "20221122_144125"}, {"src": "assets/ref/anyang-eco/12de5b4a60ad.jpg", "thumb": "assets/ref/anyang-eco/t/12de5b4a60ad.jpg", "date": "2022-11-22", "group": "2022.11", "name": "20221122_144142"}, {"src": "assets/ref/anyang-eco/4363000402f7.jpg", "thumb": "assets/ref/anyang-eco/t/4363000402f7.jpg", "date": "2022-11-25", "group": "2022.11", "name": "20221125_155738"}, {"src": "assets/ref/anyang-eco/8e619d3c0fb2.jpg", "thumb": "assets/ref/anyang-eco/t/8e619d3c0fb2.jpg", "date": "2022-11-25", "group": "2022.11", "name": "20221125_155759"}, {"src": "assets/ref/anyang-eco/2b1c4ca1c2cf.jpg", "thumb": "assets/ref/anyang-eco/t/2b1c4ca1c2cf.jpg", "date": "2022-12-05", "group": "2022.12", "name": "20221205_093242"}, {"src": "assets/ref/anyang-eco/09105bc6278f.jpg", "thumb": "assets/ref/anyang-eco/t/09105bc6278f.jpg", "date": "2022-12-05", "group": "2022.12", "name": "20221205_093431"}, {"src": "assets/ref/anyang-eco/ee8a6ef86a16.jpg", "thumb": "assets/ref/anyang-eco/t/ee8a6ef86a16.jpg", "date": "2022-12-05", "group": "2022.12", "name": "20221205_103153"}, {"src": "assets/ref/anyang-eco/7ceffdb24c4f.jpg", "thumb": "assets/ref/anyang-eco/t/7ceffdb24c4f.jpg", "date": "2022-12-05", "group": "2022.12", "name": "20221205_143826"}, {"src": "assets/ref/anyang-eco/20247aceb5de.jpg", "thumb": "assets/ref/anyang-eco/t/20247aceb5de.jpg", "date": "2022-12-05", "group": "2022.12", "name": "20221205_143832"}, {"src": "assets/ref/anyang-eco/6707f2fe21e8.jpg", "thumb": "assets/ref/anyang-eco/t/6707f2fe21e8.jpg", "date": "2022-12-05", "group": "2022.12", "name": "20221205_152118"}, {"src": "assets/ref/anyang-eco/c875cc544663.jpg", "thumb": "assets/ref/anyang-eco/t/c875cc544663.jpg", "date": "2022-12-05", "group": "2022.12", "name": "20221205_152125"}, {"src": "assets/ref/anyang-eco/08ee8978b0c8.jpg", "thumb": "assets/ref/anyang-eco/t/08ee8978b0c8.jpg", "date": "2022-12-05", "group": "2022.12", "name": "20221205_152139"}, {"src": "assets/ref/anyang-eco/ed53db728938.jpg", "thumb": "assets/ref/anyang-eco/t/ed53db728938.jpg", "date": "2022-12-05", "group": "2022.12", "name": "20221205_154628"}, {"src": "assets/ref/anyang-eco/45cd24787b21.jpg", "thumb": "assets/ref/anyang-eco/t/45cd24787b21.jpg", "date": "2022-12-08", "group": "2022.12", "name": "20221208_150855"}, {"src": "assets/ref/anyang-eco/c4fca4edc504.jpg", "thumb": "assets/ref/anyang-eco/t/c4fca4edc504.jpg", "date": "2022-12-08", "group": "2022.12", "name": "20221208_150914"}, {"src": "assets/ref/anyang-eco/435f8d834d53.jpg", "thumb": "assets/ref/anyang-eco/t/435f8d834d53.jpg", "date": "2022-12-12", "group": "2022.12", "name": "20221212_134301"}, {"src": "assets/ref/anyang-eco/b05380164c7e.jpg", "thumb": "assets/ref/anyang-eco/t/b05380164c7e.jpg", "date": "2022-12-12", "group": "2022.12", "name": "20221212_150540"}, {"src": "assets/ref/anyang-eco/a28f0742f294.jpg", "thumb": "assets/ref/anyang-eco/t/a28f0742f294.jpg", "date": "2022-12-12", "group": "2022.12", "name": "20221212_150702"}, {"src": "assets/ref/anyang-eco/04bf394f4563.jpg", "thumb": "assets/ref/anyang-eco/t/04bf394f4563.jpg", "date": "2022-12-12", "group": "2022.12", "name": "20221212_150708"}, {"src": "assets/ref/anyang-eco/66ce29e0af34.jpg", "thumb": "assets/ref/anyang-eco/t/66ce29e0af34.jpg", "date": "2022-12-13", "group": "2022.12", "name": "20221213_114215"}, {"src": "assets/ref/anyang-eco/beda538cd584.jpg", "thumb": "assets/ref/anyang-eco/t/beda538cd584.jpg", "date": "2022-12-13", "group": "2022.12", "name": "20221213_114535"}, {"src": "assets/ref/anyang-eco/fd5a82edf10b.jpg", "thumb": "assets/ref/anyang-eco/t/fd5a82edf10b.jpg", "date": "2022-12-13", "group": "2022.12", "name": "20221213_121338"}, {"src": "assets/ref/anyang-eco/8b39b2b4b812.jpg", "thumb": "assets/ref/anyang-eco/t/8b39b2b4b812.jpg", "date": "2022-12-19", "group": "2022.12", "name": "20221219_155840"}, {"src": "assets/ref/anyang-eco/383f4a0f70f3.jpg", "thumb": "assets/ref/anyang-eco/t/383f4a0f70f3.jpg", "date": "2022-12-19", "group": "2022.12", "name": "20221219_171838"}, {"src": "assets/ref/anyang-eco/d72b07561587.jpg", "thumb": "assets/ref/anyang-eco/t/d72b07561587.jpg", "date": "2022-12-26", "group": "2022.12", "name": "20221226_161629"}, {"src": "assets/ref/anyang-eco/4b31f3085b47.jpg", "thumb": "assets/ref/anyang-eco/t/4b31f3085b47.jpg", "date": "2022-12-26", "group": "2022.12", "name": "20221226_161641"}, {"src": "assets/ref/anyang-eco/e2ea8d1bc929.jpg", "thumb": "assets/ref/anyang-eco/t/e2ea8d1bc929.jpg", "date": "2023-01-11", "group": "2023.01", "name": "20230111_172104"}, {"src": "assets/ref/anyang-eco/b677c9d00c4d.jpg", "thumb": "assets/ref/anyang-eco/t/b677c9d00c4d.jpg", "date": "2023-01-11", "group": "2023.01", "name": "20230111_172206"}, {"src": "assets/ref/anyang-eco/37bdfb0e97e7.jpg", "thumb": "assets/ref/anyang-eco/t/37bdfb0e97e7.jpg", "date": "2023-01-11", "group": "2023.01", "name": "20230111_172215"}, {"src": "assets/ref/anyang-eco/b2677d7bc8d6.jpg", "thumb": "assets/ref/anyang-eco/t/b2677d7bc8d6.jpg", "date": "2023-01-11", "group": "2023.01", "name": "20230111_180738"}, {"src": "assets/ref/anyang-eco/dac475caff40.jpg", "thumb": "assets/ref/anyang-eco/t/dac475caff40.jpg", "date": "2023-01-11", "group": "2023.01", "name": "20230111_180752"}, {"src": "assets/ref/anyang-eco/65327a31ab2a.jpg", "thumb": "assets/ref/anyang-eco/t/65327a31ab2a.jpg", "date": "2023-01-11", "group": "2023.01", "name": "20230111_180758"}, {"src": "assets/ref/anyang-eco/581a27fae224.jpg", "thumb": "assets/ref/anyang-eco/t/581a27fae224.jpg", "date": "2023-01-16", "group": "2023.01", "name": "20230116_134433"}, {"src": "assets/ref/anyang-eco/a5f9802cc548.jpg", "thumb": "assets/ref/anyang-eco/t/a5f9802cc548.jpg", "date": "2023-01-16", "group": "2023.01", "name": "20230116_134438"}, {"src": "assets/ref/anyang-eco/ec28a2a52048.jpg", "thumb": "assets/ref/anyang-eco/t/ec28a2a52048.jpg", "date": "2023-01-18", "group": "2023.01", "name": "20230118_112012"}], "videos": [{"src": "assets/ref/anyang-eco/7c8c6b992fc1.mp4", "thumb": "assets/ref/anyang-eco/t/7c8c6b992fc1.jpg", "date": "2023-01-18", "name": "20230118_130421", "duration": 43.0, "group": "2023.01"}, {"src": "assets/ref/anyang-eco/c19d14c2d643.mp4", "thumb": "assets/ref/anyang-eco/t/c19d14c2d643.jpg", "date": "2022-12-19", "name": "20221219_164022", "duration": 33.1, "group": "2022.12"}, {"src": "assets/ref/anyang-eco/f92f77db18af.mp4", "thumb": "assets/ref/anyang-eco/t/f92f77db18af.jpg", "date": "2022-11-22", "name": "20221122_161603", "duration": 19.1, "group": "2022.11"}]}
+{
+  "case": "case-008",
+  "folder": "안양생태이야기관",
+  "photos": [
+    {
+      "src": "assets/ref/anyang-eco/9c93fec9e8e9.jpg",
+      "thumb": "assets/ref/anyang-eco/t/9c93fec9e8e9.jpg",
+      "date": "2019-07-05",
+      "group": "현장 2019.07",
+      "name": "20190705_141018"
+    },
+    {
+      "src": "assets/ref/anyang-eco/96bb93bc8b57.jpg",
+      "thumb": "assets/ref/anyang-eco/t/96bb93bc8b57.jpg",
+      "date": "2019-07-05",
+      "group": "현장 2019.07",
+      "name": "20190705_141027"
+    },
+    {
+      "src": "assets/ref/anyang-eco/c281a4035daa.jpg",
+      "thumb": "assets/ref/anyang-eco/t/c281a4035daa.jpg",
+      "date": "2019-07-05",
+      "group": "현장 2019.07",
+      "name": "20190705_141033"
+    },
+    {
+      "src": "assets/ref/anyang-eco/4fe28667cf7a.jpg",
+      "thumb": "assets/ref/anyang-eco/t/4fe28667cf7a.jpg",
+      "date": "2019-07-05",
+      "group": "현장 2019.07",
+      "name": "20190705_141357"
+    },
+    {
+      "src": "assets/ref/anyang-eco/9ebba7605fa9.jpg",
+      "thumb": "assets/ref/anyang-eco/t/9ebba7605fa9.jpg",
+      "date": "2019-07-05",
+      "group": "현장 2019.07",
+      "name": "20190705_141409"
+    },
+    {
+      "src": "assets/ref/anyang-eco/6bc75c27a056.jpg",
+      "thumb": "assets/ref/anyang-eco/t/6bc75c27a056.jpg",
+      "date": "2019-07-05",
+      "group": "현장 2019.07",
+      "name": "20190705_141516"
+    },
+    {
+      "src": "assets/ref/anyang-eco/4eb2ba0402f2.jpg",
+      "thumb": "assets/ref/anyang-eco/t/4eb2ba0402f2.jpg",
+      "date": "2019-07-05",
+      "group": "현장 2019.07",
+      "name": "20190705_141529"
+    },
+    {
+      "src": "assets/ref/anyang-eco/cbfd39fc73ad.jpg",
+      "thumb": "assets/ref/anyang-eco/t/cbfd39fc73ad.jpg",
+      "date": "2022-10-06",
+      "group": "현장 작업 2022.10",
+      "name": "20221006_082505"
+    },
+    {
+      "src": "assets/ref/anyang-eco/36833601d979.jpg",
+      "thumb": "assets/ref/anyang-eco/t/36833601d979.jpg",
+      "date": "2022-10-06",
+      "group": "현장 작업 2022.10",
+      "name": "20221006_082511"
+    },
+    {
+      "src": "assets/ref/anyang-eco/33a0a5f8346c.jpg",
+      "thumb": "assets/ref/anyang-eco/t/33a0a5f8346c.jpg",
+      "date": "2022-10-06",
+      "group": "현장 작업 2022.10",
+      "name": "20221006_082515"
+    },
+    {
+      "src": "assets/ref/anyang-eco/cd4058eef00a.jpg",
+      "thumb": "assets/ref/anyang-eco/t/cd4058eef00a.jpg",
+      "date": "2022-10-06",
+      "group": "현장 작업 2022.10",
+      "name": "20221006_082542"
+    },
+    {
+      "src": "assets/ref/anyang-eco/5828a159281d.jpg",
+      "thumb": "assets/ref/anyang-eco/t/5828a159281d.jpg",
+      "date": "2022-10-06",
+      "group": "현장 작업 2022.10",
+      "name": "20221006_101124"
+    },
+    {
+      "src": "assets/ref/anyang-eco/9ba7ed186180.jpg",
+      "thumb": "assets/ref/anyang-eco/t/9ba7ed186180.jpg",
+      "date": "2022-10-06",
+      "group": "현장 작업 2022.10",
+      "name": "20221006_101255"
+    },
+    {
+      "src": "assets/ref/anyang-eco/ec60d4a3ba67.jpg",
+      "thumb": "assets/ref/anyang-eco/t/ec60d4a3ba67.jpg",
+      "date": "2022-10-06",
+      "group": "현장 작업 2022.10",
+      "name": "20221006_105749"
+    },
+    {
+      "src": "assets/ref/anyang-eco/4bc841258494.jpg",
+      "thumb": "assets/ref/anyang-eco/t/4bc841258494.jpg",
+      "date": "2022-10-06",
+      "group": "현장 작업 2022.10",
+      "name": "20221006_105757"
+    },
+    {
+      "src": "assets/ref/anyang-eco/2915eccaceaf.jpg",
+      "thumb": "assets/ref/anyang-eco/t/2915eccaceaf.jpg",
+      "date": "2022-10-06",
+      "group": "현장 작업 2022.10",
+      "name": "20221006_132714"
+    },
+    {
+      "src": "assets/ref/anyang-eco/279b29f0aacc.jpg",
+      "thumb": "assets/ref/anyang-eco/t/279b29f0aacc.jpg",
+      "date": "2022-10-06",
+      "group": "현장 작업 2022.10",
+      "name": "20221006_132720"
+    },
+    {
+      "src": "assets/ref/anyang-eco/4e03fc1b68a1.jpg",
+      "thumb": "assets/ref/anyang-eco/t/4e03fc1b68a1.jpg",
+      "date": "2022-10-06",
+      "group": "현장 작업 2022.10",
+      "name": "20221006_135649"
+    },
+    {
+      "src": "assets/ref/anyang-eco/b2cb6b4c8c5e.jpg",
+      "thumb": "assets/ref/anyang-eco/t/b2cb6b4c8c5e.jpg",
+      "date": "2022-10-06",
+      "group": "현장 작업 2022.10",
+      "name": "20221006_135834"
+    },
+    {
+      "src": "assets/ref/anyang-eco/016a2398f535.jpg",
+      "thumb": "assets/ref/anyang-eco/t/016a2398f535.jpg",
+      "date": "2022-10-06",
+      "group": "현장 작업 2022.10",
+      "name": "20221006_142714"
+    },
+    {
+      "src": "assets/ref/anyang-eco/34b0d3708097.jpg",
+      "thumb": "assets/ref/anyang-eco/t/34b0d3708097.jpg",
+      "date": "2022-10-12",
+      "group": "현장 작업 2022.10",
+      "name": "20221012_101325"
+    },
+    {
+      "src": "assets/ref/anyang-eco/721f548f3c77.jpg",
+      "thumb": "assets/ref/anyang-eco/t/721f548f3c77.jpg",
+      "date": "2022-10-12",
+      "group": "현장 작업 2022.10",
+      "name": "20221012_120451"
+    },
+    {
+      "src": "assets/ref/anyang-eco/a01af6682503.jpg",
+      "thumb": "assets/ref/anyang-eco/t/a01af6682503.jpg",
+      "date": "2022-10-12",
+      "group": "현장 작업 2022.10",
+      "name": "20221012_120527"
+    },
+    {
+      "src": "assets/ref/anyang-eco/17532c828e6a.jpg",
+      "thumb": "assets/ref/anyang-eco/t/17532c828e6a.jpg",
+      "date": "2022-10-18",
+      "group": "현장 작업 2022.10",
+      "name": "20221018_202025"
+    },
+    {
+      "src": "assets/ref/anyang-eco/c396582e5f8b.jpg",
+      "thumb": "assets/ref/anyang-eco/t/c396582e5f8b.jpg",
+      "date": "2022-10-18",
+      "group": "현장 작업 2022.10",
+      "name": "20221018_202046"
+    },
+    {
+      "src": "assets/ref/anyang-eco/832fa56fead5.jpg",
+      "thumb": "assets/ref/anyang-eco/t/832fa56fead5.jpg",
+      "date": "2022-10-18",
+      "group": "현장 작업 2022.10",
+      "name": "20221018_202058"
+    },
+    {
+      "src": "assets/ref/anyang-eco/7263eee78f5f.jpg",
+      "thumb": "assets/ref/anyang-eco/t/7263eee78f5f.jpg",
+      "date": "2022-10-18",
+      "group": "현장 작업 2022.10",
+      "name": "20221018_202122"
+    },
+    {
+      "src": "assets/ref/anyang-eco/ed79e31c501d.jpg",
+      "thumb": "assets/ref/anyang-eco/t/ed79e31c501d.jpg",
+      "date": "2022-10-18",
+      "group": "현장 작업 2022.10",
+      "name": "20221018_202138"
+    },
+    {
+      "src": "assets/ref/anyang-eco/d4baf907ec4d.jpg",
+      "thumb": "assets/ref/anyang-eco/t/d4baf907ec4d.jpg",
+      "date": "2022-10-18",
+      "group": "현장 작업 2022.10",
+      "name": "20221018_202150"
+    },
+    {
+      "src": "assets/ref/anyang-eco/5dff1849e46b.jpg",
+      "thumb": "assets/ref/anyang-eco/t/5dff1849e46b.jpg",
+      "date": "2022-10-27",
+      "group": "현장 작업 2022.10",
+      "name": "20221027_095221"
+    },
+    {
+      "src": "assets/ref/anyang-eco/d922bfba3ddc.jpg",
+      "thumb": "assets/ref/anyang-eco/t/d922bfba3ddc.jpg",
+      "date": "2022-10-27",
+      "group": "현장 작업 2022.10",
+      "name": "20221027_095253"
+    },
+    {
+      "src": "assets/ref/anyang-eco/8fe6e92aa9a1.jpg",
+      "thumb": "assets/ref/anyang-eco/t/8fe6e92aa9a1.jpg",
+      "date": "2022-10-27",
+      "group": "현장 작업 2022.10",
+      "name": "20221027_145628"
+    },
+    {
+      "src": "assets/ref/anyang-eco/230d6381939d.jpg",
+      "thumb": "assets/ref/anyang-eco/t/230d6381939d.jpg",
+      "date": "2022-11-18",
+      "group": "현장 작업 2022.11",
+      "name": "20221118_132203"
+    },
+    {
+      "src": "assets/ref/anyang-eco/cae5524295a7.jpg",
+      "thumb": "assets/ref/anyang-eco/t/cae5524295a7.jpg",
+      "date": "2022-11-18",
+      "group": "현장 작업 2022.11",
+      "name": "20221118_132211"
+    },
+    {
+      "src": "assets/ref/anyang-eco/b85cb9eb11dd.jpg",
+      "thumb": "assets/ref/anyang-eco/t/b85cb9eb11dd.jpg",
+      "date": "2022-11-18",
+      "group": "현장 작업 2022.11",
+      "name": "20221118_132217"
+    },
+    {
+      "src": "assets/ref/anyang-eco/763f87fd49de.jpg",
+      "thumb": "assets/ref/anyang-eco/t/763f87fd49de.jpg",
+      "date": "2022-11-18",
+      "group": "현장 작업 2022.11",
+      "name": "20221118_132221"
+    },
+    {
+      "src": "assets/ref/anyang-eco/a699bea1f2ef.jpg",
+      "thumb": "assets/ref/anyang-eco/t/a699bea1f2ef.jpg",
+      "date": "2022-11-18",
+      "group": "현장 작업 2022.11",
+      "name": "20221118_132234"
+    },
+    {
+      "src": "assets/ref/anyang-eco/ec8717f01af4.jpg",
+      "thumb": "assets/ref/anyang-eco/t/ec8717f01af4.jpg",
+      "date": "2022-11-18",
+      "group": "현장 작업 2022.11",
+      "name": "20221118_132245"
+    },
+    {
+      "src": "assets/ref/anyang-eco/044b53dfaf0b.jpg",
+      "thumb": "assets/ref/anyang-eco/t/044b53dfaf0b.jpg",
+      "date": "2022-11-22",
+      "group": "현장 2022.11",
+      "name": "20221122_123812"
+    },
+    {
+      "src": "assets/ref/anyang-eco/e6a2e848ec07.jpg",
+      "thumb": "assets/ref/anyang-eco/t/e6a2e848ec07.jpg",
+      "date": "2022-11-22",
+      "group": "현장 2022.11",
+      "name": "20221122_144112"
+    },
+    {
+      "src": "assets/ref/anyang-eco/f295a58e4799.jpg",
+      "thumb": "assets/ref/anyang-eco/t/f295a58e4799.jpg",
+      "date": "2022-11-22",
+      "group": "현장 2022.11",
+      "name": "20221122_144125"
+    },
+    {
+      "src": "assets/ref/anyang-eco/12de5b4a60ad.jpg",
+      "thumb": "assets/ref/anyang-eco/t/12de5b4a60ad.jpg",
+      "date": "2022-11-22",
+      "group": "현장 2022.11",
+      "name": "20221122_144142"
+    },
+    {
+      "src": "assets/ref/anyang-eco/4363000402f7.jpg",
+      "thumb": "assets/ref/anyang-eco/t/4363000402f7.jpg",
+      "date": "2022-11-25",
+      "group": "현장 2022.11",
+      "name": "20221125_155738"
+    },
+    {
+      "src": "assets/ref/anyang-eco/8e619d3c0fb2.jpg",
+      "thumb": "assets/ref/anyang-eco/t/8e619d3c0fb2.jpg",
+      "date": "2022-11-25",
+      "group": "현장 2022.11",
+      "name": "20221125_155759"
+    },
+    {
+      "src": "assets/ref/anyang-eco/2b1c4ca1c2cf.jpg",
+      "thumb": "assets/ref/anyang-eco/t/2b1c4ca1c2cf.jpg",
+      "date": "2022-12-05",
+      "group": "현장 2022.12",
+      "name": "20221205_093242"
+    },
+    {
+      "src": "assets/ref/anyang-eco/09105bc6278f.jpg",
+      "thumb": "assets/ref/anyang-eco/t/09105bc6278f.jpg",
+      "date": "2022-12-05",
+      "group": "현장 2022.12",
+      "name": "20221205_093431"
+    },
+    {
+      "src": "assets/ref/anyang-eco/ee8a6ef86a16.jpg",
+      "thumb": "assets/ref/anyang-eco/t/ee8a6ef86a16.jpg",
+      "date": "2022-12-05",
+      "group": "현장 2022.12",
+      "name": "20221205_103153"
+    },
+    {
+      "src": "assets/ref/anyang-eco/7ceffdb24c4f.jpg",
+      "thumb": "assets/ref/anyang-eco/t/7ceffdb24c4f.jpg",
+      "date": "2022-12-05",
+      "group": "현장 2022.12",
+      "name": "20221205_143826"
+    },
+    {
+      "src": "assets/ref/anyang-eco/20247aceb5de.jpg",
+      "thumb": "assets/ref/anyang-eco/t/20247aceb5de.jpg",
+      "date": "2022-12-05",
+      "group": "현장 2022.12",
+      "name": "20221205_143832"
+    },
+    {
+      "src": "assets/ref/anyang-eco/6707f2fe21e8.jpg",
+      "thumb": "assets/ref/anyang-eco/t/6707f2fe21e8.jpg",
+      "date": "2022-12-05",
+      "group": "현장 2022.12",
+      "name": "20221205_152118"
+    },
+    {
+      "src": "assets/ref/anyang-eco/c875cc544663.jpg",
+      "thumb": "assets/ref/anyang-eco/t/c875cc544663.jpg",
+      "date": "2022-12-05",
+      "group": "현장 2022.12",
+      "name": "20221205_152125"
+    },
+    {
+      "src": "assets/ref/anyang-eco/08ee8978b0c8.jpg",
+      "thumb": "assets/ref/anyang-eco/t/08ee8978b0c8.jpg",
+      "date": "2022-12-05",
+      "group": "현장 2022.12",
+      "name": "20221205_152139"
+    },
+    {
+      "src": "assets/ref/anyang-eco/ed53db728938.jpg",
+      "thumb": "assets/ref/anyang-eco/t/ed53db728938.jpg",
+      "date": "2022-12-05",
+      "group": "현장 2022.12",
+      "name": "20221205_154628"
+    },
+    {
+      "src": "assets/ref/anyang-eco/45cd24787b21.jpg",
+      "thumb": "assets/ref/anyang-eco/t/45cd24787b21.jpg",
+      "date": "2022-12-08",
+      "group": "현장 2022.12",
+      "name": "20221208_150855"
+    },
+    {
+      "src": "assets/ref/anyang-eco/c4fca4edc504.jpg",
+      "thumb": "assets/ref/anyang-eco/t/c4fca4edc504.jpg",
+      "date": "2022-12-08",
+      "group": "현장 2022.12",
+      "name": "20221208_150914"
+    },
+    {
+      "src": "assets/ref/anyang-eco/435f8d834d53.jpg",
+      "thumb": "assets/ref/anyang-eco/t/435f8d834d53.jpg",
+      "date": "2022-12-12",
+      "group": "현장 2022.12",
+      "name": "20221212_134301"
+    },
+    {
+      "src": "assets/ref/anyang-eco/b05380164c7e.jpg",
+      "thumb": "assets/ref/anyang-eco/t/b05380164c7e.jpg",
+      "date": "2022-12-12",
+      "group": "현장 2022.12",
+      "name": "20221212_150540"
+    },
+    {
+      "src": "assets/ref/anyang-eco/a28f0742f294.jpg",
+      "thumb": "assets/ref/anyang-eco/t/a28f0742f294.jpg",
+      "date": "2022-12-12",
+      "group": "현장 2022.12",
+      "name": "20221212_150702"
+    },
+    {
+      "src": "assets/ref/anyang-eco/04bf394f4563.jpg",
+      "thumb": "assets/ref/anyang-eco/t/04bf394f4563.jpg",
+      "date": "2022-12-12",
+      "group": "현장 2022.12",
+      "name": "20221212_150708"
+    },
+    {
+      "src": "assets/ref/anyang-eco/66ce29e0af34.jpg",
+      "thumb": "assets/ref/anyang-eco/t/66ce29e0af34.jpg",
+      "date": "2022-12-13",
+      "group": "현장 2022.12",
+      "name": "20221213_114215"
+    },
+    {
+      "src": "assets/ref/anyang-eco/beda538cd584.jpg",
+      "thumb": "assets/ref/anyang-eco/t/beda538cd584.jpg",
+      "date": "2022-12-13",
+      "group": "현장 2022.12",
+      "name": "20221213_114535"
+    },
+    {
+      "src": "assets/ref/anyang-eco/fd5a82edf10b.jpg",
+      "thumb": "assets/ref/anyang-eco/t/fd5a82edf10b.jpg",
+      "date": "2022-12-13",
+      "group": "현장 2022.12",
+      "name": "20221213_121338"
+    },
+    {
+      "src": "assets/ref/anyang-eco/b9e78d1cc4ba.jpg",
+      "thumb": "assets/ref/anyang-eco/t/b9e78d1cc4ba.jpg",
+      "date": "2022-12-13",
+      "group": "현장 작업 2022.12",
+      "name": "20221213_145159"
+    },
+    {
+      "src": "assets/ref/anyang-eco/502c35b1caa1.jpg",
+      "thumb": "assets/ref/anyang-eco/t/502c35b1caa1.jpg",
+      "date": "2022-12-13",
+      "group": "현장 작업 2022.12",
+      "name": "20221213_145204"
+    },
+    {
+      "src": "assets/ref/anyang-eco/8a9bf68193a9.jpg",
+      "thumb": "assets/ref/anyang-eco/t/8a9bf68193a9.jpg",
+      "date": "2022-12-15",
+      "group": "현장 작업 2022.12",
+      "name": "20221215_025307"
+    },
+    {
+      "src": "assets/ref/anyang-eco/5e29c0cef301.jpg",
+      "thumb": "assets/ref/anyang-eco/t/5e29c0cef301.jpg",
+      "date": "2022-12-15",
+      "group": "현장 작업 2022.12",
+      "name": "20221215_025324"
+    },
+    {
+      "src": "assets/ref/anyang-eco/8b39b2b4b812.jpg",
+      "thumb": "assets/ref/anyang-eco/t/8b39b2b4b812.jpg",
+      "date": "2022-12-19",
+      "group": "현장 2022.12",
+      "name": "20221219_155840"
+    },
+    {
+      "src": "assets/ref/anyang-eco/383f4a0f70f3.jpg",
+      "thumb": "assets/ref/anyang-eco/t/383f4a0f70f3.jpg",
+      "date": "2022-12-19",
+      "group": "현장 2022.12",
+      "name": "20221219_171838"
+    },
+    {
+      "src": "assets/ref/anyang-eco/d72b07561587.jpg",
+      "thumb": "assets/ref/anyang-eco/t/d72b07561587.jpg",
+      "date": "2022-12-26",
+      "group": "현장 2022.12",
+      "name": "20221226_161629"
+    },
+    {
+      "src": "assets/ref/anyang-eco/4b31f3085b47.jpg",
+      "thumb": "assets/ref/anyang-eco/t/4b31f3085b47.jpg",
+      "date": "2022-12-26",
+      "group": "현장 2022.12",
+      "name": "20221226_161641"
+    },
+    {
+      "src": "assets/ref/anyang-eco/e2ea8d1bc929.jpg",
+      "thumb": "assets/ref/anyang-eco/t/e2ea8d1bc929.jpg",
+      "date": "2023-01-11",
+      "group": "현장 2023.01",
+      "name": "20230111_172104"
+    },
+    {
+      "src": "assets/ref/anyang-eco/b677c9d00c4d.jpg",
+      "thumb": "assets/ref/anyang-eco/t/b677c9d00c4d.jpg",
+      "date": "2023-01-11",
+      "group": "현장 2023.01",
+      "name": "20230111_172206"
+    },
+    {
+      "src": "assets/ref/anyang-eco/37bdfb0e97e7.jpg",
+      "thumb": "assets/ref/anyang-eco/t/37bdfb0e97e7.jpg",
+      "date": "2023-01-11",
+      "group": "현장 2023.01",
+      "name": "20230111_172215"
+    },
+    {
+      "src": "assets/ref/anyang-eco/b2677d7bc8d6.jpg",
+      "thumb": "assets/ref/anyang-eco/t/b2677d7bc8d6.jpg",
+      "date": "2023-01-11",
+      "group": "현장 2023.01",
+      "name": "20230111_180738"
+    },
+    {
+      "src": "assets/ref/anyang-eco/dac475caff40.jpg",
+      "thumb": "assets/ref/anyang-eco/t/dac475caff40.jpg",
+      "date": "2023-01-11",
+      "group": "현장 2023.01",
+      "name": "20230111_180752"
+    },
+    {
+      "src": "assets/ref/anyang-eco/65327a31ab2a.jpg",
+      "thumb": "assets/ref/anyang-eco/t/65327a31ab2a.jpg",
+      "date": "2023-01-11",
+      "group": "현장 2023.01",
+      "name": "20230111_180758"
+    },
+    {
+      "src": "assets/ref/anyang-eco/581a27fae224.jpg",
+      "thumb": "assets/ref/anyang-eco/t/581a27fae224.jpg",
+      "date": "2023-01-16",
+      "group": "현장 2023.01",
+      "name": "20230116_134433"
+    },
+    {
+      "src": "assets/ref/anyang-eco/a5f9802cc548.jpg",
+      "thumb": "assets/ref/anyang-eco/t/a5f9802cc548.jpg",
+      "date": "2023-01-16",
+      "group": "현장 2023.01",
+      "name": "20230116_134438"
+    },
+    {
+      "src": "assets/ref/anyang-eco/ec28a2a52048.jpg",
+      "thumb": "assets/ref/anyang-eco/t/ec28a2a52048.jpg",
+      "date": "2023-01-18",
+      "group": "현장 2023.01",
+      "name": "20230118_112012"
+    },
+    {
+      "src": "assets/ref/anyang-eco/7f408020c9d1.jpg",
+      "thumb": "assets/ref/anyang-eco/t/7f408020c9d1.jpg",
+      "date": "2024-06-14",
+      "group": "현장 2024.06",
+      "name": "20240614_161048"
+    }
+  ],
+  "videos": [
+    {
+      "src": "assets/ref/anyang-eco/f92f77db18af.mp4",
+      "thumb": "assets/ref/anyang-eco/t/f92f77db18af.jpg",
+      "date": "2022-11-22",
+      "group": "현장 2022.11",
+      "name": "20221122_161603",
+      "duration": 19
+    },
+    {
+      "src": "assets/ref/anyang-eco/c19d14c2d643.mp4",
+      "thumb": "assets/ref/anyang-eco/t/c19d14c2d643.jpg",
+      "date": "2022-12-19",
+      "group": "현장 2022.12",
+      "name": "20221219_164022",
+      "duration": 33
+    },
+    {
+      "src": "assets/ref/anyang-eco/7c8c6b992fc1.mp4",
+      "thumb": "assets/ref/anyang-eco/t/7c8c6b992fc1.jpg",
+      "date": "2023-01-18",
+      "group": "현장 2023.01",
+      "name": "20230118_130421",
+      "duration": 43
+    },
+    {
+      "src": "assets/ref/anyang-eco/5fa19d06ee1a.mp4",
+      "thumb": "assets/ref/anyang-eco/t/5fa19d06ee1a.jpg",
+      "date": "2023-01-19",
+      "group": "현장 작업 2023.01",
+      "name": "20230119_100537",
+      "duration": 60
+    },
+    {
+      "src": "assets/ref/anyang-eco/8f942ce47931.mp4",
+      "thumb": "assets/ref/anyang-eco/t/8f942ce47931.jpg",
+      "date": "2024-06-12",
+      "group": "현장 2024.06",
+      "name": "20240612_100800",
+      "duration": 38
+    },
+    {
+      "src": "assets/ref/anyang-eco/48a2ce51ba32.mp4",
+      "thumb": "assets/ref/anyang-eco/t/48a2ce51ba32.jpg",
+      "date": "2024-06-12",
+      "group": "현장 2024.06",
+      "name": "20240612_100851",
+      "duration": 60
+    }
+  ]
+}

@@ -1,0 +1,592 @@
+{
+  "case": "case-044",
+  "folder": "평창 기념재단",
+  "photos": [
+    {
+      "src": "assets/ref/pyeongchang-foundation/cbf7cee8ff37.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/cbf7cee8ff37.jpg",
+      "date": "2021-01-21",
+      "group": "현장 작업 2021.01",
+      "name": "KakaoTalk_20220409_123346241_04"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/58b0bc02499e.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/58b0bc02499e.jpg",
+      "date": "2021-01-21",
+      "group": "현장 작업 2021.01",
+      "name": "KakaoTalk_20220409_123346241_05"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/f6749e171bc9.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/f6749e171bc9.jpg",
+      "date": "2021-02-06",
+      "group": "현장 2021.02",
+      "name": "20210206_131107"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/47456235a987.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/47456235a987.jpg",
+      "date": "2021-02-06",
+      "group": "현장 2021.02",
+      "name": "20210206_131215"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/2c6bbfedee61.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/2c6bbfedee61.jpg",
+      "date": "2021-02-06",
+      "group": "현장 2021.02",
+      "name": "20210206_131232"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/c608c168368a.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/c608c168368a.jpg",
+      "date": "2021-02-06",
+      "group": "현장 2021.02",
+      "name": "20210206_131235"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/251b70cc3d0e.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/251b70cc3d0e.jpg",
+      "date": "2021-02-06",
+      "group": "현장 2021.02",
+      "name": "20210206_135551"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/2455479eb1cf.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/2455479eb1cf.jpg",
+      "date": "2021-02-06",
+      "group": "현장 작업 2021.02",
+      "name": "KakaoTalk_20220409_122920268_07"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/a601913cde46.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/a601913cde46.jpg",
+      "date": "2021-02-24",
+      "group": "현장 작업 2021.02",
+      "name": "KakaoTalk_20220409_122920268_01"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/553fce0bc172.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/553fce0bc172.jpg",
+      "date": "2021-02-24",
+      "group": "현장 작업 2021.02",
+      "name": "KakaoTalk_20220409_122920268_02"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/10a101553c2f.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/10a101553c2f.jpg",
+      "date": "2021-02-24",
+      "group": "현장 작업 2021.02",
+      "name": "KakaoTalk_20220409_122920268_03"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/9599059b059d.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/9599059b059d.jpg",
+      "date": "2021-02-24",
+      "group": "현장 작업 2021.02",
+      "name": "KakaoTalk_20220409_122920268_04"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/0a2c0f72033d.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/0a2c0f72033d.jpg",
+      "date": "2021-02-24",
+      "group": "현장 작업 2021.02",
+      "name": "KakaoTalk_20220409_122920268_05"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/bbc0d6f0a383.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/bbc0d6f0a383.jpg",
+      "date": "2021-02-24",
+      "group": "현장 작업 2021.02",
+      "name": "KakaoTalk_20220409_122920268_06"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/e5330413f670.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/e5330413f670.jpg",
+      "date": "2021-02-25",
+      "group": "현장 작업 2021.02",
+      "name": "KakaoTalk_20220409_122834615_26"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/2a6d4f6f0405.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/2a6d4f6f0405.jpg",
+      "date": "2021-02-25",
+      "group": "현장 작업 2021.02",
+      "name": "KakaoTalk_20220409_122834615_27"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/88f4f2f3e7fa.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/88f4f2f3e7fa.jpg",
+      "date": "2021-02-25",
+      "group": "현장 작업 2021.02",
+      "name": "KakaoTalk_20220409_122834615_28"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/beaf231fc292.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/beaf231fc292.jpg",
+      "date": "2021-02-25",
+      "group": "현장 작업 2021.02",
+      "name": "KakaoTalk_20220409_122834615_29"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/5aead92531e3.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/5aead92531e3.jpg",
+      "date": "2021-02-25",
+      "group": "현장 작업 2021.02",
+      "name": "KakaoTalk_20220409_122920268"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/8149383ec59a.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/8149383ec59a.jpg",
+      "date": "2021-06-17",
+      "group": "현장 작업 2021.06",
+      "name": "KakaoTalk_20220409_122834615_23"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/5d9b05a57435.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/5d9b05a57435.jpg",
+      "date": "2021-06-17",
+      "group": "현장 작업 2021.06",
+      "name": "KakaoTalk_20220409_122834615_24"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/3a6f467dee23.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/3a6f467dee23.jpg",
+      "date": "2021-09-16",
+      "group": "현장 작업 2021.09",
+      "name": "KakaoTalk_20220409_122834615_21"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/192571e96e3e.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/192571e96e3e.jpg",
+      "date": "2021-10-05",
+      "group": "현장 작업 2021.10",
+      "name": "KakaoTalk_20220409_122834615_20"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/09bf03b78b9b.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/09bf03b78b9b.jpg",
+      "date": "2021-11-06",
+      "group": "현장 작업 2021.11",
+      "name": "KakaoTalk_20220409_122834615_19"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/5d80801afd1f.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/5d80801afd1f.jpg",
+      "date": "2021-12-08",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122752066_26"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/1d0890be4cb5.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/1d0890be4cb5.jpg",
+      "date": "2021-12-08",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122834615"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/5724fa7a8565.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/5724fa7a8565.jpg",
+      "date": "2021-12-08",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122834615_01"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/ae1aa255ce47.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/ae1aa255ce47.jpg",
+      "date": "2021-12-08",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122834615_02"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/460813f6fbfa.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/460813f6fbfa.jpg",
+      "date": "2021-12-08",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122834615_03"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/cf9ed743aeb2.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/cf9ed743aeb2.jpg",
+      "date": "2021-12-08",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122834615_04"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/6a30e3e62a7b.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/6a30e3e62a7b.jpg",
+      "date": "2021-12-08",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122834615_05"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/3c264de05f66.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/3c264de05f66.jpg",
+      "date": "2021-12-08",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122834615_06"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/68e848196b82.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/68e848196b82.jpg",
+      "date": "2021-12-08",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122834615_07"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/a24e92309a0b.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/a24e92309a0b.jpg",
+      "date": "2021-12-08",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122834615_09"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/a6793651e2b4.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/a6793651e2b4.jpg",
+      "date": "2021-12-08",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122834615_10"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/e626d4b45632.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/e626d4b45632.jpg",
+      "date": "2021-12-08",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122834615_11"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/e19b16708aee.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/e19b16708aee.jpg",
+      "date": "2021-12-08",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122834615_12"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/465d3840aa9e.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/465d3840aa9e.jpg",
+      "date": "2021-12-08",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122834615_13"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/0b983d299dc4.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/0b983d299dc4.jpg",
+      "date": "2021-12-08",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122834615_14"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/8a647e3c497b.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/8a647e3c497b.jpg",
+      "date": "2021-12-08",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122834615_15"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/be681a330afb.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/be681a330afb.jpg",
+      "date": "2021-12-08",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122834615_16"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/9911d6579b96.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/9911d6579b96.jpg",
+      "date": "2021-12-08",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122834615_17"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/930a578eeb1b.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/930a578eeb1b.jpg",
+      "date": "2021-12-08",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122834615_18"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/af6785302d04.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/af6785302d04.jpg",
+      "date": "2021-12-14",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122752066_25"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/2f4f54971588.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/2f4f54971588.jpg",
+      "date": "2021-12-15",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122752066_23"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/6fc72e88a7d2.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/6fc72e88a7d2.jpg",
+      "date": "2021-12-15",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122752066_24"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/82c0f70e9de4.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/82c0f70e9de4.jpg",
+      "date": "2021-12-16",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122752066_10"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/e72b51ba6dac.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/e72b51ba6dac.jpg",
+      "date": "2021-12-16",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122752066_11"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/8364ca8491ae.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/8364ca8491ae.jpg",
+      "date": "2021-12-16",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122752066_12"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/68fe7634cac0.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/68fe7634cac0.jpg",
+      "date": "2021-12-16",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122752066_13"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/fb6ce342c160.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/fb6ce342c160.jpg",
+      "date": "2021-12-16",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122752066_14"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/e15406f2c5fe.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/e15406f2c5fe.jpg",
+      "date": "2021-12-16",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122752066_15"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/05e76ee4e13d.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/05e76ee4e13d.jpg",
+      "date": "2021-12-16",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122752066_16"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/db892a85845f.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/db892a85845f.jpg",
+      "date": "2021-12-16",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122752066_17"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/33c1549e7bb2.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/33c1549e7bb2.jpg",
+      "date": "2021-12-16",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122752066_18"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/244fe4337d87.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/244fe4337d87.jpg",
+      "date": "2021-12-16",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122752066_19"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/83e278d5cf39.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/83e278d5cf39.jpg",
+      "date": "2021-12-16",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122752066_20"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/ea3c3278b7c8.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/ea3c3278b7c8.jpg",
+      "date": "2021-12-16",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122752066_21"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/cd5dc23b6648.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/cd5dc23b6648.jpg",
+      "date": "2021-12-16",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122752066_22"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/cc1db8bc7959.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/cc1db8bc7959.jpg",
+      "date": "2021-12-19",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122752066_06"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/4f5a439f9345.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/4f5a439f9345.jpg",
+      "date": "2021-12-19",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122752066_07"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/9577c9960fc1.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/9577c9960fc1.jpg",
+      "date": "2021-12-19",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122752066_08"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/a6fa9a31e457.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/a6fa9a31e457.jpg",
+      "date": "2021-12-21",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122752066"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/bc4185833e15.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/bc4185833e15.jpg",
+      "date": "2021-12-21",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122752066_01"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/8b2a76a66ba1.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/8b2a76a66ba1.jpg",
+      "date": "2021-12-21",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122752066_02"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/177c9aa4e668.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/177c9aa4e668.jpg",
+      "date": "2021-12-21",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122752066_03"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/0a80dd9825af.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/0a80dd9825af.jpg",
+      "date": "2021-12-21",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122752066_04"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/02df0320e6e6.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/02df0320e6e6.jpg",
+      "date": "2021-12-21",
+      "group": "현장 작업 2021.12",
+      "name": "KakaoTalk_20220409_122752066_05"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/6dcfec03c014.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/6dcfec03c014.jpg",
+      "date": "2022-07-18",
+      "group": "현장 2022.07",
+      "name": "20220718_144326"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/ecff3bba2688.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/ecff3bba2688.jpg",
+      "date": "2022-07-20",
+      "group": "현장 2022.07",
+      "name": "20220720_101158"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/92088ac8e2c8.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/92088ac8e2c8.jpg",
+      "date": "2022-08-16",
+      "group": "현장 작업 2022.08",
+      "name": "1660639047764"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/8bf5f746cf1c.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/8bf5f746cf1c.jpg",
+      "date": "2023-05-02",
+      "group": "현장 2023.05",
+      "name": "20230502_134915"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/0aae43bc2cc6.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/0aae43bc2cc6.jpg",
+      "date": "2023-05-02",
+      "group": "현장 2023.05",
+      "name": "20230502_134932"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/67fc7b661b4d.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/67fc7b661b4d.jpg",
+      "date": "2023-05-02",
+      "group": "현장 2023.05",
+      "name": "20230502_135628"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/23ff0226a8d8.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/23ff0226a8d8.jpg",
+      "date": "2023-05-02",
+      "group": "현장 2023.05",
+      "name": "KakaoTalk_20230511_181440106"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/0b59b30204cc.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/0b59b30204cc.jpg",
+      "date": "2023-05-02",
+      "group": "현장 2023.05",
+      "name": "KakaoTalk_20230511_181440106_01"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/732cc26eee79.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/732cc26eee79.jpg",
+      "date": "2023-05-02",
+      "group": "현장 2023.05",
+      "name": "KakaoTalk_20230511_181440106_02"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/e2bb91b3071f.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/e2bb91b3071f.jpg",
+      "date": "2023-05-02",
+      "group": "현장 2023.05",
+      "name": "KakaoTalk_20230511_181440106_03"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/2910b5ecde6a.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/2910b5ecde6a.jpg",
+      "date": "2023-05-02",
+      "group": "현장 2023.05",
+      "name": "KakaoTalk_20230511_181440106_05"
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/dae3ec6d1e47.jpg",
+      "thumb": "assets/ref/pyeongchang-foundation/t/dae3ec6d1e47.jpg",
+      "date": "2023-05-02",
+      "group": "현장 2023.05",
+      "name": "KakaoTalk_20230511_181440106_08"
+    }
+  ],
+  "videos": [
+    {
+      "src": "assets/ref/pyeongchang-foundation/6e3480031e3e.mp4",
+      "thumb": "assets/ref/pyeongchang-foundation/t/6e3480031e3e.jpg",
+      "date": "2021-12-16",
+      "group": "현장 작업 2021.12",
+      "name": "20211216_143133",
+      "duration": 17
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/445da7ab5413.mp4",
+      "thumb": "assets/ref/pyeongchang-foundation/t/445da7ab5413.jpg",
+      "date": "2022-09-16",
+      "group": "현장 2022.09",
+      "name": "2022_09_16 15_28",
+      "duration": 7
+    },
+    {
+      "src": "assets/ref/pyeongchang-foundation/5258c8c71aa8.mp4",
+      "thumb": "assets/ref/pyeongchang-foundation/t/5258c8c71aa8.jpg",
+      "date": "",
+      "group": "현장 날짜 없음",
+      "name": "평창봅슬레이3면-1",
+      "duration": 9
+    }
+  ]
+}

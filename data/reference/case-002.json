@@ -1,1 +1,245 @@
-{"case": "case-002", "folder": "평창", "photos": [{"src": "assets/ref/pyeongchang/0c1b43dfa6dd.jpg", "thumb": "assets/ref/pyeongchang/t/0c1b43dfa6dd.jpg", "date": "2021-02-06", "group": "2021.02", "name": "20210206_131107"}, {"src": "assets/ref/pyeongchang/94d209350bad.jpg", "thumb": "assets/ref/pyeongchang/t/94d209350bad.jpg", "date": "2021-02-06", "group": "2021.02", "name": "20210206_131215"}, {"src": "assets/ref/pyeongchang/2f9cfe5a22b9.jpg", "thumb": "assets/ref/pyeongchang/t/2f9cfe5a22b9.jpg", "date": "2021-02-06", "group": "2021.02", "name": "20210206_131232"}, {"src": "assets/ref/pyeongchang/c2c50005c3b8.jpg", "thumb": "assets/ref/pyeongchang/t/c2c50005c3b8.jpg", "date": "2021-02-06", "group": "2021.02", "name": "20210206_131235"}, {"src": "assets/ref/pyeongchang/ea0914ade87c.jpg", "thumb": "assets/ref/pyeongchang/t/ea0914ade87c.jpg", "date": "2021-02-06", "group": "2021.02", "name": "20210206_135551"}, {"src": "assets/ref/pyeongchang/21b4afed9f36.jpg", "thumb": "assets/ref/pyeongchang/t/21b4afed9f36.jpg", "date": "2022-07-18", "group": "2022.07", "name": "20220718_144326"}, {"src": "assets/ref/pyeongchang/e972cc280c8e.jpg", "thumb": "assets/ref/pyeongchang/t/e972cc280c8e.jpg", "date": "2022-07-20", "group": "2022.07", "name": "20220720_101158"}, {"src": "assets/ref/pyeongchang/77bcc8201e57.jpg", "thumb": "assets/ref/pyeongchang/t/77bcc8201e57.jpg", "date": "2023-05-02", "group": "2023.05", "name": "KakaoTalk_20230511_181440106"}, {"src": "assets/ref/pyeongchang/135b1c1afe7b.jpg", "thumb": "assets/ref/pyeongchang/t/135b1c1afe7b.jpg", "date": "2023-05-02", "group": "2023.05", "name": "KakaoTalk_20230511_181440106_01"}, {"src": "assets/ref/pyeongchang/41d8c63cc6e2.jpg", "thumb": "assets/ref/pyeongchang/t/41d8c63cc6e2.jpg", "date": "2023-05-02", "group": "2023.05", "name": "KakaoTalk_20230511_181440106_02"}, {"src": "assets/ref/pyeongchang/29f3fe609f2a.jpg", "thumb": "assets/ref/pyeongchang/t/29f3fe609f2a.jpg", "date": "2023-05-02", "group": "2023.05", "name": "KakaoTalk_20230511_181440106_03"}, {"src": "assets/ref/pyeongchang/c0915f8a973a.jpg", "thumb": "assets/ref/pyeongchang/t/c0915f8a973a.jpg", "date": "2023-05-02", "group": "2023.05", "name": "KakaoTalk_20230511_181440106_04"}, {"src": "assets/ref/pyeongchang/3580ca1be846.jpg", "thumb": "assets/ref/pyeongchang/t/3580ca1be846.jpg", "date": "2023-05-02", "group": "2023.05", "name": "KakaoTalk_20230511_181440106_05"}, {"src": "assets/ref/pyeongchang/ac7a67929fca.jpg", "thumb": "assets/ref/pyeongchang/t/ac7a67929fca.jpg", "date": "2023-05-02", "group": "2023.05", "name": "KakaoTalk_20230511_181440106_06"}, {"src": "assets/ref/pyeongchang/1b904bc72308.jpg", "thumb": "assets/ref/pyeongchang/t/1b904bc72308.jpg", "date": "2023-05-02", "group": "2023.05", "name": "KakaoTalk_20230511_181440106_07"}, {"src": "assets/ref/pyeongchang/da7fa566c17e.jpg", "thumb": "assets/ref/pyeongchang/t/da7fa566c17e.jpg", "date": "2023-05-02", "group": "2023.05", "name": "KakaoTalk_20230511_181440106_08"}], "videos": [{"src": "assets/ref/pyeongchang/633b33941001.mp4", "thumb": "assets/ref/pyeongchang/t/633b33941001.jpg", "date": "2023-05-11", "name": "KakaoTalk_20230511_181518691", "duration": 60, "group": "2023.05"}, {"src": "assets/ref/pyeongchang/b00297628921.mp4", "thumb": "assets/ref/pyeongchang/t/b00297628921.jpg", "date": "2023-05-29", "name": "KakaoTalk_20230511_181518691_1", "duration": 60, "group": "2023.05"}, {"src": "assets/ref/pyeongchang/90173e9adad4.mp4", "thumb": "assets/ref/pyeongchang/t/90173e9adad4.jpg", "date": "", "name": "평창봅슬레이3면-1", "duration": 8.8, "group": "날짜 없음"}]}
+{
+  "case": "case-002",
+  "folder": "평창 동계올림픽",
+  "photos": [
+    {
+      "src": "assets/ref/pyeongchang/a85b144a0111.jpg",
+      "thumb": "assets/ref/pyeongchang/t/a85b144a0111.jpg",
+      "date": "2017-10-31",
+      "group": "현장 2017.10",
+      "name": "1515122405166"
+    },
+    {
+      "src": "assets/ref/pyeongchang/5fd3125df6a2.jpg",
+      "thumb": "assets/ref/pyeongchang/t/5fd3125df6a2.jpg",
+      "date": "2017-10-31",
+      "group": "현장 2017.10",
+      "name": "20171031_182357"
+    },
+    {
+      "src": "assets/ref/pyeongchang/86bce6d0eb61.jpg",
+      "thumb": "assets/ref/pyeongchang/t/86bce6d0eb61.jpg",
+      "date": "2017-10-31",
+      "group": "현장 2017.10",
+      "name": "20171031_182422"
+    },
+    {
+      "src": "assets/ref/pyeongchang/9543d73433af.jpg",
+      "thumb": "assets/ref/pyeongchang/t/9543d73433af.jpg",
+      "date": "2017-10-31",
+      "group": "현장 2017.10",
+      "name": "20171031_182712"
+    },
+    {
+      "src": "assets/ref/pyeongchang/34a28b0b4c1d.jpg",
+      "thumb": "assets/ref/pyeongchang/t/34a28b0b4c1d.jpg",
+      "date": "2017-10-31",
+      "group": "현장 2017.10",
+      "name": "20171031_182722"
+    },
+    {
+      "src": "assets/ref/pyeongchang/d48716723508.jpg",
+      "thumb": "assets/ref/pyeongchang/t/d48716723508.jpg",
+      "date": "2017-10-31",
+      "group": "현장 2017.10",
+      "name": "20171031_182946"
+    },
+    {
+      "src": "assets/ref/pyeongchang/64aa97bdc788.jpg",
+      "thumb": "assets/ref/pyeongchang/t/64aa97bdc788.jpg",
+      "date": "2017-10-31",
+      "group": "현장 2017.10",
+      "name": "20171031_183056"
+    },
+    {
+      "src": "assets/ref/pyeongchang/9cd2d5d7bf4c.jpg",
+      "thumb": "assets/ref/pyeongchang/t/9cd2d5d7bf4c.jpg",
+      "date": "2017-11-29",
+      "group": "현장 2017.11",
+      "name": "20171129_133307"
+    },
+    {
+      "src": "assets/ref/pyeongchang/c654b8e134ba.jpg",
+      "thumb": "assets/ref/pyeongchang/t/c654b8e134ba.jpg",
+      "date": "2017-11-29",
+      "group": "현장 2017.11",
+      "name": "20171129_152914"
+    },
+    {
+      "src": "assets/ref/pyeongchang/6bea236d0311.jpg",
+      "thumb": "assets/ref/pyeongchang/t/6bea236d0311.jpg",
+      "date": "2017-11-29",
+      "group": "현장 2017.11",
+      "name": "20171129_153217"
+    },
+    {
+      "src": "assets/ref/pyeongchang/aa69d42c7977.jpg",
+      "thumb": "assets/ref/pyeongchang/t/aa69d42c7977.jpg",
+      "date": "2018-01-16",
+      "group": "현장 2018.01",
+      "name": "20180116_144635"
+    },
+    {
+      "src": "assets/ref/pyeongchang/75b20f7fa41f.jpg",
+      "thumb": "assets/ref/pyeongchang/t/75b20f7fa41f.jpg",
+      "date": "2018-01-16",
+      "group": "현장 2018.01",
+      "name": "20180116_144639"
+    },
+    {
+      "src": "assets/ref/pyeongchang/77982dd07c9d.jpg",
+      "thumb": "assets/ref/pyeongchang/t/77982dd07c9d.jpg",
+      "date": "2018-01-16",
+      "group": "현장 2018.01",
+      "name": "20180116_144643"
+    },
+    {
+      "src": "assets/ref/pyeongchang/11d6d939d48d.jpg",
+      "thumb": "assets/ref/pyeongchang/t/11d6d939d48d.jpg",
+      "date": "2018-01-16",
+      "group": "현장 2018.01",
+      "name": "20180116_144647"
+    },
+    {
+      "src": "assets/ref/pyeongchang/e52a067e71d3.jpg",
+      "thumb": "assets/ref/pyeongchang/t/e52a067e71d3.jpg",
+      "date": "2018-06-22",
+      "group": "현장 2018.06",
+      "name": "20180622_102836"
+    },
+    {
+      "src": "assets/ref/pyeongchang/bfa46228bb63.jpg",
+      "thumb": "assets/ref/pyeongchang/t/bfa46228bb63.jpg",
+      "date": "2018-06-22",
+      "group": "현장 2018.06",
+      "name": "20180622_102840"
+    },
+    {
+      "src": "assets/ref/pyeongchang/b9c698441aa6.jpg",
+      "thumb": "assets/ref/pyeongchang/t/b9c698441aa6.jpg",
+      "date": "2018-06-26",
+      "group": "현장 2018.06",
+      "name": "20180626_140528"
+    },
+    {
+      "src": "assets/ref/pyeongchang/0776dc92dcf4.jpg",
+      "thumb": "assets/ref/pyeongchang/t/0776dc92dcf4.jpg",
+      "date": "2018-06-26",
+      "group": "현장 2018.06",
+      "name": "20180626_140539"
+    },
+    {
+      "src": "assets/ref/pyeongchang/21214e5fba2c.jpg",
+      "thumb": "assets/ref/pyeongchang/t/21214e5fba2c.jpg",
+      "date": "2018-06-26",
+      "group": "현장 2018.06",
+      "name": "20180626_140542"
+    },
+    {
+      "src": "assets/ref/pyeongchang/05a73dcce1f2.jpg",
+      "thumb": "assets/ref/pyeongchang/t/05a73dcce1f2.jpg",
+      "date": "2018-06-26",
+      "group": "현장 2018.06",
+      "name": "20180626_140549"
+    },
+    {
+      "src": "assets/ref/pyeongchang/39490ab237fc.jpg",
+      "thumb": "assets/ref/pyeongchang/t/39490ab237fc.jpg",
+      "date": "2018-07-06",
+      "group": "현장 2018.07",
+      "name": "20180706_155351"
+    },
+    {
+      "src": "assets/ref/pyeongchang/160ecfa43edf.jpg",
+      "thumb": "assets/ref/pyeongchang/t/160ecfa43edf.jpg",
+      "date": "2019-10-19",
+      "group": "현장 2019.10",
+      "name": "20191019_102628"
+    },
+    {
+      "src": "assets/ref/pyeongchang/3fa12b5d3b92.jpg",
+      "thumb": "assets/ref/pyeongchang/t/3fa12b5d3b92.jpg",
+      "date": "2019-10-19",
+      "group": "현장 2019.10",
+      "name": "20191019_102645"
+    },
+    {
+      "src": "assets/ref/pyeongchang/77245012df1b.jpg",
+      "thumb": "assets/ref/pyeongchang/t/77245012df1b.jpg",
+      "date": "2019-10-19",
+      "group": "현장 2019.10",
+      "name": "20191019_102656"
+    },
+    {
+      "src": "assets/ref/pyeongchang/be0b56e39f26.jpg",
+      "thumb": "assets/ref/pyeongchang/t/be0b56e39f26.jpg",
+      "date": "2019-10-19",
+      "group": "현장 2019.10",
+      "name": "20191019_102702"
+    },
+    {
+      "src": "assets/ref/pyeongchang/f32767bd9560.jpg",
+      "thumb": "assets/ref/pyeongchang/t/f32767bd9560.jpg",
+      "date": "",
+      "group": "현장 날짜 없음",
+      "name": "196fae29c71772613928417169aa981daa4c0125f3ca110c52b6b2894157adb2"
+    },
+    {
+      "src": "assets/ref/pyeongchang/198071b38d48.jpg",
+      "thumb": "assets/ref/pyeongchang/t/198071b38d48.jpg",
+      "date": "",
+      "group": "현장 날짜 없음",
+      "name": "88d6e585726e3952144db53b0778a23c953a2dda341d0c936af40a51c9cdffb6"
+    }
+  ],
+  "videos": [
+    {
+      "src": "assets/ref/pyeongchang/c3957a0a6080.mp4",
+      "thumb": "assets/ref/pyeongchang/t/c3957a0a6080.jpg",
+      "date": "2017-10-18",
+      "group": "현장 2017.10",
+      "name": "스키점프_1508328718885",
+      "duration": 26
+    },
+    {
+      "src": "assets/ref/pyeongchang/9fe355b4ee20.mp4",
+      "thumb": "assets/ref/pyeongchang/t/9fe355b4ee20.jpg",
+      "date": "2017-11-29",
+      "group": "현장 2017.11",
+      "name": "20171129_133346",
+      "duration": 58
+    },
+    {
+      "src": "assets/ref/pyeongchang/fe8b4c9b260a.mp4",
+      "thumb": "assets/ref/pyeongchang/t/fe8b4c9b260a.jpg",
+      "date": "2017-11-29",
+      "group": "현장 2017.11",
+      "name": "20171129_152915",
+      "duration": 42
+    },
+    {
+      "src": "assets/ref/pyeongchang/5bd12373b0b5.mp4",
+      "thumb": "assets/ref/pyeongchang/t/5bd12373b0b5.jpg",
+      "date": "2017-11-29",
+      "group": "현장 2017.11",
+      "name": "20171129_153251",
+      "duration": 60
+    },
+    {
+      "src": "assets/ref/pyeongchang/3045584468dd.mp4",
+      "thumb": "assets/ref/pyeongchang/t/3045584468dd.jpg",
+      "date": "",
+      "group": "현장 날짜 없음",
+      "name": "FHD",
+      "duration": 60
+    },
+    {
+      "src": "assets/ref/pyeongchang/e81dfe89d472.mp4",
+      "thumb": "assets/ref/pyeongchang/t/e81dfe89d472.jpg",
+      "date": "",
+      "group": "현장 날짜 없음",
+      "name": "a6d319a37b1a110e9d6a9122c494e449bab7850a01b208750f869a2d2f9dfe11",
+      "duration": 60
+    }
+  ]
+}
