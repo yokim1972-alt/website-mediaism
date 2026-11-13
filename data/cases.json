@@ -1242,25 +1242,406 @@
       "year": 2016,
       "location": "",
       "client": "문화재청",
-      "description": "돈암서원·소수서원·필암서원을 레이저로 측정한 도면을 바탕으로 건물 하나하나를 실제와 같게 만든 VR 영상입니다. 단청과 서까래 구조까지 고증해 서원 전체를 가상으로 걸어볼 수 있습니다.",
-      "thumbnail": "./assets/img/portfolio/case-039-1.jpg",
+      "description": "돈암서원·소수서원·필암서원을 레이저로 측정한 도면을 바탕으로 건물 하나하나를 실제와 같게 3D로 만든 작업입니다. 단청과 서까래 구조까지 고증했습니다. 아래에 서원별로 완성된 건물 3D 그림을 모았습니다.",
+      "thumbnail": "./assets/ref/seowon/donam_01.jpg",
       "images": [
-        "./assets/img/portfolio/case-039-1.jpg",
-        "./assets/ref/seowon/sw01.jpg",
-        "./assets/ref/seowon/sw02.jpg",
-        "./assets/ref/seowon/sw03.jpg",
-        "./assets/ref/seowon/sw04.jpg",
-        "./assets/ref/seowon/sw05.jpg",
-        "./assets/ref/seowon/sw06.jpg",
-        "./assets/ref/seowon/sw07.jpg",
-        "./assets/ref/seowon/sw08.jpg",
-        "./assets/ref/seowon/sw09.jpg",
-        "./assets/ref/seowon/sw10.jpg"
+        "./assets/ref/seowon/donam_01.jpg",
+        "./assets/ref/seowon/sosu_01.jpg",
+        "./assets/ref/seowon/pilam_01.jpg"
       ],
       "tags": [
         "VR",
         "문화재",
         "서원"
+      ],
+      "imageGroups": [
+        {
+          "title": "돈암서원",
+          "images": [
+            {
+              "src": "assets/ref/seowon/donam_01.jpg",
+              "caption": "거경제"
+            },
+            {
+              "src": "assets/ref/seowon/donam_02.jpg",
+              "caption": "거경제"
+            },
+            {
+              "src": "assets/ref/seowon/donam_03.jpg",
+              "caption": "거경제"
+            },
+            {
+              "src": "assets/ref/seowon/donam_04.jpg",
+              "caption": "내삼문"
+            },
+            {
+              "src": "assets/ref/seowon/donam_05.jpg",
+              "caption": "내삼문"
+            },
+            {
+              "src": "assets/ref/seowon/donam_06.jpg",
+              "caption": "산앙루"
+            },
+            {
+              "src": "assets/ref/seowon/donam_07.jpg",
+              "caption": "산앙루"
+            },
+            {
+              "src": "assets/ref/seowon/donam_08.jpg",
+              "caption": "숭례사"
+            },
+            {
+              "src": "assets/ref/seowon/donam_09.jpg",
+              "caption": "숭례사"
+            },
+            {
+              "src": "assets/ref/seowon/donam_10.jpg",
+              "caption": "숭례사"
+            },
+            {
+              "src": "assets/ref/seowon/donam_11.jpg",
+              "caption": "양성당"
+            },
+            {
+              "src": "assets/ref/seowon/donam_12.jpg",
+              "caption": "양성당"
+            },
+            {
+              "src": "assets/ref/seowon/donam_13.jpg",
+              "caption": "양성당"
+            },
+            {
+              "src": "assets/ref/seowon/donam_14.jpg",
+              "caption": "입덕문"
+            },
+            {
+              "src": "assets/ref/seowon/donam_15.jpg",
+              "caption": "입덕문"
+            },
+            {
+              "src": "assets/ref/seowon/donam_16.jpg",
+              "caption": "입덕문"
+            },
+            {
+              "src": "assets/ref/seowon/donam_17.jpg",
+              "caption": "장판각"
+            },
+            {
+              "src": "assets/ref/seowon/donam_18.jpg",
+              "caption": "장판각"
+            },
+            {
+              "src": "assets/ref/seowon/donam_19.jpg",
+              "caption": "장판각"
+            },
+            {
+              "src": "assets/ref/seowon/donam_20.jpg",
+              "caption": "정의재"
+            },
+            {
+              "src": "assets/ref/seowon/donam_21.jpg",
+              "caption": "정의재"
+            },
+            {
+              "src": "assets/ref/seowon/donam_22.jpg",
+              "caption": "정회당"
+            },
+            {
+              "src": "assets/ref/seowon/donam_23.jpg",
+              "caption": "정회당"
+            },
+            {
+              "src": "assets/ref/seowon/donam_24.jpg",
+              "caption": "정회당"
+            }
+          ]
+        },
+        {
+          "title": "소수서원",
+          "images": [
+            {
+              "src": "assets/ref/seowon/sosu_01.jpg",
+              "caption": "강학당"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_02.jpg",
+              "caption": "강학당"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_03.jpg",
+              "caption": "강학당"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_04.jpg",
+              "caption": "강학당"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_05.jpg",
+              "caption": "강학당"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_06.jpg",
+              "caption": "문성공묘"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_07.jpg",
+              "caption": "문성공묘"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_08.jpg",
+              "caption": "문성공묘"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_09.jpg",
+              "caption": "사료관"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_10.jpg",
+              "caption": "사료관"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_11.jpg",
+              "caption": "사료관"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_12.jpg",
+              "caption": "영정각"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_14.jpg",
+              "caption": "영정각"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_15.jpg",
+              "caption": "영정각"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_16.jpg",
+              "caption": "영정각"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_17.jpg",
+              "caption": "장서각"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_18.jpg",
+              "caption": "장서각"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_19.jpg",
+              "caption": "장서각"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_20.jpg",
+              "caption": "전사청"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_21.jpg",
+              "caption": "전사청"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_22.jpg",
+              "caption": "전사청"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_23.jpg",
+              "caption": "전사청"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_24.jpg",
+              "caption": "지락재"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_25.jpg",
+              "caption": "지락재"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_26.jpg",
+              "caption": "지락재"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_27.jpg",
+              "caption": "지락재"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_28.jpg",
+              "caption": "직방재"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_29.jpg",
+              "caption": "직방재"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_30.jpg",
+              "caption": "직방재"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_31.jpg",
+              "caption": "직방재"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_32.jpg",
+              "caption": "학구재"
+            },
+            {
+              "src": "assets/ref/seowon/sosu_33.jpg",
+              "caption": "학구재"
+            }
+          ]
+        },
+        {
+          "title": "필암서원",
+          "images": [
+            {
+              "src": "assets/ref/seowon/pilam_01.jpg",
+              "caption": "한장사"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_02.jpg",
+              "caption": "한장사"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_03.jpg",
+              "caption": "한장사"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_04.jpg",
+              "caption": "경장각"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_05.jpg",
+              "caption": "경장각"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_06.jpg",
+              "caption": "경장각"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_07.jpg",
+              "caption": "경장각"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_08.jpg",
+              "caption": "숭의재"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_09.jpg",
+              "caption": "숭의재"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_10.jpg",
+              "caption": "숭의재"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_11.jpg",
+              "caption": "숭의재"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_12.jpg",
+              "caption": "우동사"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_13.jpg",
+              "caption": "우동사"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_14.jpg",
+              "caption": "우동사"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_15.jpg",
+              "caption": "우동사"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_16.jpg",
+              "caption": "장판각"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_18.jpg",
+              "caption": "장판각"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_19.jpg",
+              "caption": "장판각"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_20.jpg",
+              "caption": "장판각"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_21.jpg",
+              "caption": "전사청"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_22.jpg",
+              "caption": "전사청"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_23.jpg",
+              "caption": "진덕재"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_24.jpg",
+              "caption": "진덕재"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_25.jpg",
+              "caption": "진덕재"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_26.jpg",
+              "caption": "진덕재"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_27.jpg",
+              "caption": "청절당"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_28.jpg",
+              "caption": "청절당"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_29.jpg",
+              "caption": "청절당"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_30.jpg",
+              "caption": "한장사"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_31.jpg",
+              "caption": "한장사"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_32.jpg",
+              "caption": "한장사"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_33.jpg",
+              "caption": "한장사"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_34.jpg",
+              "caption": "확연루"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_35.jpg",
+              "caption": "확연루"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_36.jpg",
+              "caption": "확연루"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_38.jpg",
+              "caption": "확연루"
+            },
+            {
+              "src": "assets/ref/seowon/pilam_39.jpg",
+              "caption": "확연루"
+            }
+          ]
+        }
       ]
     },
     {

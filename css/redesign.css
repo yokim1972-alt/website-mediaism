@@ -225,3 +225,11 @@
 .case-video-label { text-align: center; }
 .gallery-main { display: flex; align-items: center; justify-content: center; }
 .gallery-main img { width: auto; max-width: 100%; height: auto; max-height: 640px; object-fit: contain; }
+
+/* 묶음별 그림 (서원별 건물 등) */
+.case-group { margin: var(--spacing-xl) 0; }
+.case-group-title { font-size: 1.25rem; margin-bottom: var(--spacing-md); padding-bottom: 8px; border-bottom: 2px solid var(--color-primary, #14b8a6); }
+.case-group-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+.case-group-item { margin: 0; cursor: zoom-in; }
+.case-group-item img { width: 100%; height: auto; display: block; border-radius: 6px; }
+.case-group-item figcaption { font-size: 0.85rem; color: #aaa; margin-top: 4px; text-align: center; }

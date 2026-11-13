@@ -1,6 +1,6 @@
 // Case Detail Page — 작업 사례 상세
-import { render } from '../main.js?v=202611130123';
-import { getIcon } from '../icons.js?v=202611130123';
+import { render } from '../main.js?v=202611130134';
+import { getIcon } from '../icons.js?v=202611130134';
 
 const REF_PASSWORD = 'media123'; // 현장 자료 열람 비밀번호 (보안용이 아니라 문만 닫아 둔 것)
 
@@ -102,6 +102,19 @@ export async function renderCaseDetailPage(params) {
                         </div>
                     `}
                 </div>
+
+                ${(caseItem.imageGroups || []).map((g, gi) => `
+                <!-- 묶음별 그림 (예: 서원별 건물) -->
+                <section class="case-group">
+                    <h3 class="case-group-title">${g.title}</h3>
+                    <div class="case-group-grid">
+                        ${(g.images || []).map((im, ii) => `
+                        <figure class="case-group-item" data-group="${gi}" data-index="${ii}">
+                            <img src="${im.src}" alt="${g.title} ${im.caption || ''}" loading="lazy" />
+                            ${im.caption ? `<figcaption>${im.caption}</figcaption>` : ''}
+                        </figure>`).join('')}
+                    </div>
+                </section>`).join('')}
 
                 <!-- Case Description -->
                 <div class="case-detail-content">
@@ -268,6 +281,13 @@ export async function renderCaseDetailPage(params) {
     });
 
     // 대표 사진: 큰 사진 클릭 → 라이트박스, 작은 사진 클릭 → 큰 사진 바꿈
+    document.querySelectorAll('.case-group-item').forEach(el => {
+        el.addEventListener('click', () => {
+            const g = (caseItem.imageGroups || [])[+el.dataset.group];
+            if (!g) return;
+            showLightbox(g.images.map(im => ({ type: 'image', src: im.src, caption: `${g.title} · ${im.caption || ''}` })), +el.dataset.index);
+        });
+    });
     const galleryMain = document.getElementById('galleryMain');
     if (galleryMain) {
         const mainImg = galleryMain.querySelector('img');
