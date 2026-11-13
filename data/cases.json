@@ -1263,6 +1263,18 @@
         "VR",
         "문화재",
         "서원"
+      ],
+      "videos": [
+        {
+          "src": "assets/ref/seowon/seowon.mp4",
+          "poster": "assets/ref/seowon/t/seowon-poster.jpg",
+          "label": "「한국의 서원」 VR 영상 · 전체 12분 35초"
+        },
+        {
+          "src": "assets/ref/seowon/byeongsan.mp4",
+          "poster": "assets/ref/seowon/t/byeongsan-poster.jpg",
+          "label": "사적 260호 병산서원 3D 스캔 영상 · 22초"
+        }
       ]
     },
     {

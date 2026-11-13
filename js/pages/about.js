@@ -1,6 +1,6 @@
 // About Page — 회사소개
-import { render } from '../main.js?v=202611130118';
-import { getIcon } from '../icons.js?v=202611130118';
+import { render } from '../main.js?v=202611130121';
+import { getIcon } from '../icons.js?v=202611130121';
 
 export async function renderAboutPage() {
     const companyData = await window.loadData('company');
