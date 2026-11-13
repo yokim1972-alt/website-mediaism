@@ -26,6 +26,11 @@
       "short": "AR·VR"
     },
     {
+      "id": "3dbook",
+      "name": "입체북",
+      "short": "입체북"
+    },
+    {
       "id": "control",
       "name": "제어 장비·소프트웨어",
       "short": "제어 장비"
@@ -301,9 +306,14 @@
           "label": "현장 영상 FHD · 전체 1분 59초"
         },
         {
-          "src": "assets/ref/pyeongchang/out-5bd12373b0b5.mp4",
-          "poster": "assets/ref/pyeongchang/t/out-5bd12373b0b5.jpg",
-          "label": "현장 영상 20171129_153251 · 전체 1분 9초"
+          "src": "assets/ref/pyeongchang/fe8b4c9b260a.mp4",
+          "poster": "assets/ref/pyeongchang/t/fe8b4c9b260a.jpg",
+          "label": "현장 영상 20171129_152915 · 42초"
+        },
+        {
+          "src": "assets/ref/pyeongchang/e81dfe89d472.mp4",
+          "poster": "assets/ref/pyeongchang/t/e81dfe89d472.jpg",
+          "label": "현장 영상 · 60초"
         }
       ]
     },
@@ -319,12 +329,13 @@
       "thumbnail": "./assets/ref/pyeongchang/66dae952a9a4.jpg",
       "images": [
         "./assets/ref/pyeongchang/66dae952a9a4.jpg",
-        "./assets/ref/pyeongchang/5657b35861ee.jpg",
-        "./assets/ref/pyeongchang/b6bd6da28a78.jpg",
+        "./assets/ref/pyeongchang/1465ad9307c8.jpg",
+        "./assets/ref/pyeongchang/824e58443a31.jpg",
+        "./assets/ref/pyeongchang/d19e04995bf6.jpg",
+        "./assets/ref/pyeongchang/18cae176ae9b.jpg",
         "./assets/ref/pyeongchang/ab969ce14a1e.jpg",
-        "./assets/ref/pyeongchang/42c849207bbe.jpg",
-        "./assets/ref/pyeongchang/e144f61558ba.jpg",
-        "./assets/ref/pyeongchang/c0045e9ce876.jpg"
+        "./assets/ref/pyeongchang/b6ea7dba0763.jpg",
+        "./assets/ref/pyeongchang/5657b35861ee.jpg"
       ],
       "tags": [
         "올림픽",
@@ -341,6 +352,18 @@
       },
       "ref": [
         "평창"
+      ],
+      "videos": [
+        {
+          "src": "assets/ref/pyeongchang/9fe355b4ee20.mp4",
+          "poster": "assets/ref/pyeongchang/t/9fe355b4ee20.jpg",
+          "label": "현장 영상 20171129_133346 · 58초"
+        },
+        {
+          "src": "assets/ref/pyeongchang/out-5bd12373b0b5.mp4",
+          "poster": "assets/ref/pyeongchang/t/5bd12373b0b5.jpg",
+          "label": "현장 영상 20171129_153251 · 60초"
+        }
       ]
     },
     {
@@ -373,11 +396,16 @@
       "location": "평창올림픽 관련 시설",
       "client": "평창올림픽 조직위원회",
       "description": "어떻게하면 탑승자에게 스키점프의 느낌을 전달할 수 있나에서오는 고민은 하강 각도 35도에 이르는 시뮬레이터 구조를 고안하게되었다. 키넥트를 활용한 동작 센서는 사용자의 자세를 검출해 점수를 반영한다. 100kg에 견딜 수 있도록 4점식 안전벨트와 지지대를 특수용접으로 보강했다.",
-      "thumbnail": "./assets/ref/pyeongchang/dc553763faac.jpg",
+      "thumbnail": "./assets/ref/pyeongchang/210eb39af757.jpg",
       "images": [
-        "./assets/ref/pyeongchang/dc553763faac.jpg",
-        "./assets/ref/pyeongchang/86b14abb7723.jpg",
-        "./assets/ref/pyeongchang/db6abfd5089b.jpg"
+        "./assets/ref/pyeongchang/210eb39af757.jpg",
+        "./assets/ref/pyeongchang/c0045e9ce876.jpg",
+        "./assets/ref/pyeongchang/794b2986d5f5.jpg",
+        "./assets/ref/pyeongchang/af62da0475fb.jpg",
+        "./assets/ref/pyeongchang/8edd63d4773b.jpg",
+        "./assets/ref/pyeongchang/0d265c00c26c.jpg",
+        "./assets/ref/pyeongchang/e64adfff226c.jpg",
+        "./assets/ref/pyeongchang/c25a8d6a0fcc.jpg"
       ],
       "tags": [
         "올림픽",
@@ -388,6 +416,11 @@
         "평창"
       ],
       "videos": [
+        {
+          "src": "assets/ref/pyeongchang/c3957a0a6080.mp4",
+          "poster": "assets/ref/pyeongchang/t/c3957a0a6080.jpg",
+          "label": "현장 영상 스키점프_1508328718885 · 26초"
+        },
         {
           "src": "assets/ref/pyeongchang/out-732ef5ce971d.mp4",
           "poster": "assets/ref/pyeongchang/t/out-732ef5ce971d.jpg",
@@ -738,15 +771,15 @@
       "location": "안양생태이야기관",
       "client": "",
       "description": "4명씩 2세트, 모두 8명이 VR 안경을 쓰고 타는 시뮬레이터입니다. 배를 탄 것처럼 출렁이는 움직임을 3축 구조로 만들었습니다. 16대의 무선 VR 안경에 VR360 영상을 넣어 두고, 바깥의 통합 제어 장치에서 재생·정지·소리를 한꺼번에 조작합니다.",
-      "thumbnail": "./assets/ref/anyang-eco/4363000402f7.jpg",
+      "thumbnail": "./assets/ref/anyang-eco/65327a31ab2a.jpg",
       "images": [
-        "./assets/ref/anyang-eco/4363000402f7.jpg",
-        "./assets/ref/anyang-eco/8e619d3c0fb2.jpg",
-        "./assets/ref/anyang-eco/8b39b2b4b812.jpg",
-        "./assets/ref/anyang-eco/383f4a0f70f3.jpg",
-        "./assets/ref/anyang-eco/4fe28667cf7a.jpg",
-        "./assets/ref/anyang-eco/6bc75c27a056.jpg",
-        "./assets/ref/anyang-eco/435f8d834d53.jpg"
+        "./assets/ref/anyang-eco/65327a31ab2a.jpg",
+        "./assets/ref/anyang-eco/b2677d7bc8d6.jpg",
+        "./assets/ref/anyang-eco/37bdfb0e97e7.jpg",
+        "./assets/ref/anyang-eco/ed53db728938.jpg",
+        "./assets/ref/anyang-eco/08ee8978b0c8.jpg",
+        "./assets/ref/anyang-eco/d72b07561587.jpg",
+        "./assets/ref/anyang-eco/b9e78d1cc4ba.jpg"
       ],
       "tags": [
         "VR",
@@ -822,8 +855,15 @@
       "location": "정선",
       "client": "",
       "description": "동강의 물길을 VR 안경을 쓰고 체험하는 시뮬레이터입니다. 실제 동강을 직접 답사해 찍은 자료를 바탕으로 영상을 만들고, 4인승 움직이는 좌석과 VR 안경을 묶어 설치했습니다.",
-      "thumbnail": "./assets/ref/jeongseon-donggang/87b64d61af43.jpg",
+      "thumbnail": "./assets/ref/jeongseon-donggang/8b2117e5e25b.jpg",
       "images": [
+        "./assets/ref/jeongseon-donggang/8b2117e5e25b.jpg",
+        "./assets/ref/jeongseon-donggang/69f5da1398da.jpg",
+        "./assets/ref/jeongseon-donggang/f4e225bdf35e.jpg",
+        "./assets/ref/jeongseon-donggang/7cebfc31df7a.jpg",
+        "./assets/ref/jeongseon-donggang/95991f3eb4fc.jpg",
+        "./assets/ref/jeongseon-donggang/2f7cdffaf1cf.jpg",
+        "./assets/ref/jeongseon-donggang/91c013366708.jpg",
         "./assets/ref/jeongseon-donggang/87b64d61af43.jpg",
         "./assets/ref/jeongseon-donggang/f61fb271b1bd.jpg",
         "./assets/ref/jeongseon-donggang/daeed4acb324.jpg",
@@ -1222,7 +1262,19 @@
       "description": "돈암서원·소수서원·필암서원을 레이저로 측정한 도면을 바탕으로 건물 하나하나를 실제와 같게 만든 VR 영상입니다. 단청과 서까래 구조까지 고증해 서원 전체를 가상으로 걸어볼 수 있습니다.",
       "thumbnail": "./assets/img/portfolio/case-039-1.jpg",
       "images": [
-        "./assets/img/portfolio/case-039-1.jpg"
+        "./assets/img/portfolio/case-039-1.jpg",
+        "./assets/ref/seowon/sw01.jpg",
+        "./assets/ref/seowon/sw02.jpg",
+        "./assets/ref/seowon/sw03.jpg",
+        "./assets/ref/seowon/sw04.jpg",
+        "./assets/ref/seowon/sw05.jpg",
+        "./assets/ref/seowon/sw06.jpg",
+        "./assets/ref/seowon/sw07.jpg",
+        "./assets/ref/seowon/sw08.jpg",
+        "./assets/ref/seowon/sw09.jpg",
+        "./assets/ref/seowon/sw10.jpg",
+        "./assets/ref/seowon/sw11.jpg",
+        "./assets/ref/seowon/sw12.jpg"
       ],
       "tags": [
         "VR",
@@ -1716,15 +1768,15 @@
       "location": "평창",
       "client": "평창기념재단",
       "description": "평창 동계올림픽 기념 공간에 설치한 썰매·스포츠 체험 시뮬레이터입니다. 실제 썰매 모양의 탑승물에 타고 앞 화면의 영상에 맞춰 움직이며 경기를 체험합니다.",
-      "thumbnail": "./assets/ref/pyeongchang-foundation/f6749e171bc9.jpg",
+      "thumbnail": "./assets/ref/pyeongchang-foundation/8bf5f746cf1c.jpg",
       "images": [
-        "./assets/ref/pyeongchang-foundation/f6749e171bc9.jpg",
-        "./assets/ref/pyeongchang-foundation/47456235a987.jpg",
+        "./assets/ref/pyeongchang-foundation/8bf5f746cf1c.jpg",
+        "./assets/ref/pyeongchang-foundation/dae3ec6d1e47.jpg",
+        "./assets/ref/pyeongchang-foundation/0aae43bc2cc6.jpg",
         "./assets/ref/pyeongchang-foundation/67fc7b661b4d.jpg",
-        "./assets/ref/pyeongchang-foundation/23ff0226a8d8.jpg",
-        "./assets/ref/pyeongchang-foundation/10a101553c2f.jpg",
-        "./assets/ref/pyeongchang-foundation/9599059b059d.jpg",
-        "./assets/ref/pyeongchang-foundation/2a6d4f6f0405.jpg"
+        "./assets/ref/pyeongchang-foundation/2910b5ecde6a.jpg",
+        "./assets/ref/pyeongchang-foundation/e2bb91b3071f.jpg",
+        "./assets/ref/pyeongchang-foundation/bbc0d6f0a383.jpg"
       ],
       "tags": [
         "평창",
@@ -1850,16 +1902,16 @@
       "location": "안양",
       "client": "",
       "description": "안양 스마트 체험관에 설치한 다인승 탑승 시뮬레이터입니다. 큰 화면 앞 좌석이 영상에 맞춰 움직이며, 입구부터 체험 공간까지 미래 도시 분위기로 꾸몄습니다.",
-      "thumbnail": "./assets/ref/anyang-smart/6403472dd271.jpg",
+      "thumbnail": "./assets/ref/anyang-smart/15df5e27ba0d.jpg",
       "images": [
-        "./assets/ref/anyang-smart/6403472dd271.jpg",
-        "./assets/ref/anyang-smart/26067fe45449.jpg",
-        "./assets/ref/anyang-smart/57fa5f505912.jpg",
         "./assets/ref/anyang-smart/15df5e27ba0d.jpg",
-        "./assets/ref/anyang-smart/bcea4f7185cc.jpg",
+        "./assets/ref/anyang-smart/57fa5f505912.jpg",
         "./assets/ref/anyang-smart/ab44cfa6ee1d.jpg",
-        "./assets/ref/anyang-smart/7d89fc7ca9ab.jpg",
-        "./assets/ref/anyang-smart/6690ed1d869d.jpg"
+        "./assets/ref/anyang-smart/bcea4f7185cc.jpg",
+        "./assets/ref/anyang-smart/26067fe45449.jpg",
+        "./assets/ref/anyang-smart/6403472dd271.jpg",
+        "./assets/ref/anyang-smart/6690ed1d869d.jpg",
+        "./assets/ref/anyang-smart/7d89fc7ca9ab.jpg"
       ],
       "tags": [
         "안양",
@@ -2164,6 +2216,108 @@
       ],
       "note": "2026-11-13 case-025(시뮬레이터)에서 영상만 따로 뺌",
       "thumbnail": "./assets/ref/jeongseon-donggang/5d58957806a9.jpg"
+    },
+    {
+      "id": "case-061",
+      "title": "삼성출판사 적청 입체북 (공룡 · 바다 생물)",
+      "category": "3dbook",
+      "sub": "적청 입체 그림책",
+      "year": null,
+      "location": "",
+      "client": "삼성출판사",
+      "description": "삼성출판사에서 펴낸 종이 입체 그림책에 들어간 그림입니다. 책에 딸린 적청 안경(빨강·파랑 셀로판 안경)을 쓰고 보면 공룡과 바다 생물이 종이 밖으로 튀어나와 보입니다. 공룡 모형 사진과 3D로 만든 바다 생물 장면을 적청 입체 그림으로 완성했습니다. 아래 그림은 적청 안경을 쓰고 보면 입체로 보입니다.",
+      "thumbnail": "./assets/ref/3dbook/b001.jpg",
+      "images": [
+        "./assets/ref/3dbook/b001.jpg",
+        "./assets/ref/3dbook/b002.jpg",
+        "./assets/ref/3dbook/b003.jpg",
+        "./assets/ref/3dbook/b004.jpg",
+        "./assets/ref/3dbook/b005.jpg",
+        "./assets/ref/3dbook/b006.jpg",
+        "./assets/ref/3dbook/b007.jpg",
+        "./assets/ref/3dbook/b008.jpg",
+        "./assets/ref/3dbook/b009.jpg",
+        "./assets/ref/3dbook/b010.jpg",
+        "./assets/ref/3dbook/b012.jpg",
+        "./assets/ref/3dbook/b013.jpg",
+        "./assets/ref/3dbook/b014.jpg",
+        "./assets/ref/3dbook/b015.jpg",
+        "./assets/ref/3dbook/b016.jpg",
+        "./assets/ref/3dbook/b017.jpg",
+        "./assets/ref/3dbook/b019.jpg",
+        "./assets/ref/3dbook/b020.jpg",
+        "./assets/ref/3dbook/b021.jpg",
+        "./assets/ref/3dbook/b022.jpg",
+        "./assets/ref/3dbook/b023.jpg",
+        "./assets/ref/3dbook/b024.jpg",
+        "./assets/ref/3dbook/b025.jpg",
+        "./assets/ref/3dbook/b026.jpg",
+        "./assets/ref/3dbook/b027.jpg",
+        "./assets/ref/3dbook/b028.jpg",
+        "./assets/ref/3dbook/b029.jpg",
+        "./assets/ref/3dbook/b030.jpg",
+        "./assets/ref/3dbook/b031.jpg",
+        "./assets/ref/3dbook/b032.jpg",
+        "./assets/ref/3dbook/b033.jpg",
+        "./assets/ref/3dbook/b034.jpg",
+        "./assets/ref/3dbook/b035.jpg",
+        "./assets/ref/3dbook/b036.jpg",
+        "./assets/ref/3dbook/b037.jpg",
+        "./assets/ref/3dbook/b038.jpg",
+        "./assets/ref/3dbook/b039.jpg",
+        "./assets/ref/3dbook/b040.jpg",
+        "./assets/ref/3dbook/b041.jpg",
+        "./assets/ref/3dbook/b042.jpg",
+        "./assets/ref/3dbook/b043.jpg",
+        "./assets/ref/3dbook/b044.jpg",
+        "./assets/ref/3dbook/b045.jpg",
+        "./assets/ref/3dbook/b046.jpg",
+        "./assets/ref/3dbook/b047.jpg",
+        "./assets/ref/3dbook/b048.jpg",
+        "./assets/ref/3dbook/b049.jpg",
+        "./assets/ref/3dbook/b051.jpg",
+        "./assets/ref/3dbook/b052.jpg",
+        "./assets/ref/3dbook/b053.jpg",
+        "./assets/ref/3dbook/b055.jpg",
+        "./assets/ref/3dbook/b056.jpg",
+        "./assets/ref/3dbook/b057.jpg",
+        "./assets/ref/3dbook/b058.jpg",
+        "./assets/ref/3dbook/b059.jpg",
+        "./assets/ref/3dbook/b060.jpg",
+        "./assets/ref/3dbook/b061.jpg",
+        "./assets/ref/3dbook/b062.jpg",
+        "./assets/ref/3dbook/b063.jpg",
+        "./assets/ref/3dbook/b064.jpg",
+        "./assets/ref/3dbook/b065.jpg",
+        "./assets/ref/3dbook/b066.jpg",
+        "./assets/ref/3dbook/b067.jpg",
+        "./assets/ref/3dbook/b068.jpg",
+        "./assets/ref/3dbook/b069.jpg",
+        "./assets/ref/3dbook/b071.jpg",
+        "./assets/ref/3dbook/b072.jpg",
+        "./assets/ref/3dbook/b073.jpg",
+        "./assets/ref/3dbook/b074.jpg",
+        "./assets/ref/3dbook/b075.jpg",
+        "./assets/ref/3dbook/b076.jpg",
+        "./assets/ref/3dbook/b077.jpg",
+        "./assets/ref/3dbook/b078.jpg",
+        "./assets/ref/3dbook/b079.jpg",
+        "./assets/ref/3dbook/b080.jpg",
+        "./assets/ref/3dbook/b081.jpg",
+        "./assets/ref/3dbook/b082.jpg",
+        "./assets/ref/3dbook/b083.jpg"
+      ],
+      "tags": [
+        "입체북",
+        "적청 입체",
+        "삼성출판사",
+        "공룡",
+        "바다"
+      ],
+      "details": {
+        "technology": "적청(애너글리프) 입체 그림"
+      },
+      "note": "2026-11-13 D:\\2D Prj\\멀티아이텍 의 완성 적청 그림(공룡 입체완료, 삼성-바다 big입체이미지/입체)만 가로 800으로. 연도 확인 필요"
     }
   ]
 }

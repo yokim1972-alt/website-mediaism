@@ -52,25 +52,11 @@
       "name": "20171031_183056"
     },
     {
-      "src": "assets/ref/pyeongchang/9cd2d5d7bf4c.jpg",
-      "thumb": "assets/ref/pyeongchang/t/9cd2d5d7bf4c.jpg",
-      "date": "2017-11-29",
-      "group": "현장 2017.11",
-      "name": "20171129_133307"
-    },
-    {
       "src": "assets/ref/pyeongchang/c654b8e134ba.jpg",
       "thumb": "assets/ref/pyeongchang/t/c654b8e134ba.jpg",
       "date": "2017-11-29",
       "group": "현장 2017.11",
       "name": "20171129_152914"
-    },
-    {
-      "src": "assets/ref/pyeongchang/6bea236d0311.jpg",
-      "thumb": "assets/ref/pyeongchang/t/6bea236d0311.jpg",
-      "date": "2017-11-29",
-      "group": "현장 2017.11",
-      "name": "20171129_153217"
     },
     {
       "src": "assets/ref/pyeongchang/aa69d42c7977.jpg",
@@ -194,36 +180,12 @@
   ],
   "videos": [
     {
-      "src": "assets/ref/pyeongchang/c3957a0a6080.mp4",
-      "thumb": "assets/ref/pyeongchang/t/c3957a0a6080.jpg",
-      "date": "2017-10-18",
-      "group": "현장 2017.10",
-      "name": "스키점프_1508328718885",
-      "duration": 26
-    },
-    {
-      "src": "assets/ref/pyeongchang/9fe355b4ee20.mp4",
-      "thumb": "assets/ref/pyeongchang/t/9fe355b4ee20.jpg",
-      "date": "2017-11-29",
-      "group": "현장 2017.11",
-      "name": "20171129_133346",
-      "duration": 58
-    },
-    {
       "src": "assets/ref/pyeongchang/fe8b4c9b260a.mp4",
       "thumb": "assets/ref/pyeongchang/t/fe8b4c9b260a.jpg",
       "date": "2017-11-29",
       "group": "현장 2017.11",
       "name": "20171129_152915",
       "duration": 42
-    },
-    {
-      "src": "assets/ref/pyeongchang/5bd12373b0b5.mp4",
-      "thumb": "assets/ref/pyeongchang/t/5bd12373b0b5.jpg",
-      "date": "2017-11-29",
-      "group": "현장 2017.11",
-      "name": "20171129_153251",
-      "duration": 60
     },
     {
       "src": "assets/ref/pyeongchang/3045584468dd.mp4",
