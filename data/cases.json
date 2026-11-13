@@ -822,10 +822,8 @@
       "location": "정선",
       "client": "",
       "description": "동강의 물길을 VR 안경을 쓰고 체험하는 시뮬레이터입니다. 실제 동강을 직접 답사해 찍은 자료를 바탕으로 영상을 만들고, 4인승 움직이는 좌석과 VR 안경을 묶어 설치했습니다.",
-      "thumbnail": "./assets/ref/jeongseon-donggang/5d58957806a9.jpg",
+      "thumbnail": "./assets/ref/jeongseon-donggang/87b64d61af43.jpg",
       "images": [
-        "./assets/ref/jeongseon-donggang/5d58957806a9.jpg",
-        "./assets/ref/jeongseon-donggang/d0c8b0648600.jpg",
         "./assets/ref/jeongseon-donggang/87b64d61af43.jpg",
         "./assets/ref/jeongseon-donggang/f61fb271b1bd.jpg",
         "./assets/ref/jeongseon-donggang/daeed4acb324.jpg",
@@ -854,14 +852,19 @@
       "note": "정식 사업명·발주처 확인 필요",
       "videos": [
         {
-          "src": "assets/ref/jeongseon-donggang/out-92a599828273.mp4",
-          "poster": "assets/ref/jeongseon-donggang/t/out-92a599828273.jpg",
-          "label": "현장 영상 20260720_121444 · 전체 1분 22초"
+          "src": "assets/ref/jeongseon-donggang/out-42ea01bc200f.mp4",
+          "poster": "assets/ref/jeongseon-donggang/t/42ea01bc200f.jpg",
+          "label": "시뮬레이터 운행 영상 20250730_143508 · 전체 46초"
         },
         {
-          "src": "assets/ref/jeongseon-donggang/out-42ea01bc200f.mp4",
-          "poster": "assets/ref/jeongseon-donggang/t/out-42ea01bc200f.jpg",
-          "label": "현장 영상 20250730_143508 · 전체 0분 46초"
+          "src": "assets/ref/jeongseon-donggang/26da295b9462.mp4",
+          "poster": "assets/ref/jeongseon-donggang/t/26da295b9462.jpg",
+          "label": "시뮬레이터 운행 영상 20250730_143834 · 전체 22초"
+        },
+        {
+          "src": "assets/ref/jeongseon-donggang/fc7a791ccb4a.mp4",
+          "poster": "assets/ref/jeongseon-donggang/t/fc7a791ccb4a.jpg",
+          "label": "시뮬레이터 운행 영상 20260709_131924 · 전체 27초"
         }
       ]
     },

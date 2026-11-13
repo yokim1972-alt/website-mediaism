@@ -84,11 +84,11 @@ class Router {
 const router = new Router();
 
 // Import Pages
-import { renderHomePage } from './pages/home.js?v=202611130100';
-import { renderAboutPage } from './pages/about.js?v=202611130100';
-import { renderSolutionsPage } from './pages/solutions.js?v=202611130100';
-import { renderCasesPage } from './pages/cases.js?v=202611130100';
-import { renderCaseDetailPage } from './pages/case-detail.js?v=202611130100';
+import { renderHomePage } from './pages/home.js?v=202611130102';
+import { renderAboutPage } from './pages/about.js?v=202611130102';
+import { renderSolutionsPage } from './pages/solutions.js?v=202611130102';
+import { renderCasesPage } from './pages/cases.js?v=202611130102';
+import { renderCaseDetailPage } from './pages/case-detail.js?v=202611130102';
 
 // Register Routes
 router.register('/', renderHomePage);
