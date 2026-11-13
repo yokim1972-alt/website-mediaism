@@ -1258,12 +1258,154 @@
       "ref": [
         "고성"
       ],
-      "video": {
-        "src": "assets/ref/goseong/ar-01.mp4",
-        "poster": "assets/ref/goseong/t/ar-01.jpg",
-        "label": "AR 티라노사우루스 완성 영상"
-      },
-      "note": "2026-11-13 고성 사례(case-020)에서 AR 자료를 떼어 만듦. 설명 문구는 사진·기존 설명 바탕 추정 — 확인 필요"
+      "note": "2026-11-13 고성 사례(case-020)에서 AR 자료를 떼어 만듦. 설명 문구는 사진·기존 설명 바탕 추정 — 확인 필요",
+      "videos": [
+        {
+          "src": "assets/ref/goseong/ar-01.mp4",
+          "poster": "assets/ref/goseong/t/ar-01.jpg",
+          "label": "AR 티라노사우루스 · 21초"
+        },
+        {
+          "src": "assets/ref/goseong/ar-02.mp4",
+          "poster": "assets/ref/goseong/t/ar-02.jpg",
+          "label": "AR 공룡알 · 20초"
+        },
+        {
+          "src": "assets/ref/goseong/ar-03.mp4",
+          "poster": "assets/ref/goseong/t/ar-03.jpg",
+          "label": "AR 타르보사우루스 · 15초"
+        },
+        {
+          "src": "assets/ref/goseong/ar-04.mp4",
+          "poster": "assets/ref/goseong/t/ar-04.jpg",
+          "label": "AR 안킬로사우루스 · 23초"
+        },
+        {
+          "src": "assets/ref/goseong/ar-05.mp4",
+          "poster": "assets/ref/goseong/t/ar-05.jpg",
+          "label": "AR 오비랍토르 · 15초"
+        },
+        {
+          "src": "assets/ref/goseong/ar-06.mp4",
+          "poster": "assets/ref/goseong/t/ar-06.jpg",
+          "label": "주제관 AR 익룡 · 19초"
+        },
+        {
+          "src": "assets/ref/goseong/a828c62a104e.mp4",
+          "poster": "assets/ref/goseong/t/a828c62a104e.jpg",
+          "label": "현장 AR 화면 녹화 2020_03_23_17_28_08_807 · 13초"
+        },
+        {
+          "src": "assets/ref/goseong/f831caf7fc32.mp4",
+          "poster": "assets/ref/goseong/t/f831caf7fc32.jpg",
+          "label": "현장 AR 화면 녹화 2020_03_30_18_07_58_552 · 52초"
+        },
+        {
+          "src": "assets/ref/goseong/cb8127b23a63.mp4",
+          "poster": "assets/ref/goseong/t/cb8127b23a63.jpg",
+          "label": "현장 AR 화면 녹화 2020_03_30_18_09_33_955 · 30초"
+        },
+        {
+          "src": "assets/ref/goseong/8d304fe2537b.mp4",
+          "poster": "assets/ref/goseong/t/8d304fe2537b.jpg",
+          "label": "현장 AR 화면 녹화 2020_04_17_13_59_07_899 · 15초"
+        },
+        {
+          "src": "assets/ref/goseong/f73e66690d3d.mp4",
+          "poster": "assets/ref/goseong/t/f73e66690d3d.jpg",
+          "label": "현장 AR 화면 녹화 2020_04_17_14_34_55_832 · 19초"
+        },
+        {
+          "src": "assets/ref/goseong/8505a93395ad.mp4",
+          "poster": "assets/ref/goseong/t/8505a93395ad.jpg",
+          "label": "현장 AR 화면 녹화 2020_04_17_14_38_32_124 · 9초"
+        },
+        {
+          "src": "assets/ref/goseong/ba12e916311d.mp4",
+          "poster": "assets/ref/goseong/t/ba12e916311d.jpg",
+          "label": "현장 AR 화면 녹화 2020_04_17_14_48_36_039 · 36초"
+        },
+        {
+          "src": "assets/ref/goseong/5d51706bf74d.mp4",
+          "poster": "assets/ref/goseong/t/5d51706bf74d.jpg",
+          "label": "현장 AR 화면 녹화 2020_04_17_14_56_05_852 · 19초"
+        },
+        {
+          "src": "assets/ref/goseong/09407d532ac4.mp4",
+          "poster": "assets/ref/goseong/t/09407d532ac4.jpg",
+          "label": "현장 AR 화면 녹화 2020_04_17_14_56_52_610 · 20초"
+        },
+        {
+          "src": "assets/ref/goseong/911d23c99015.mp4",
+          "poster": "assets/ref/goseong/t/911d23c99015.jpg",
+          "label": "현장 AR 화면 녹화 2020_05_04_17_50_07_298 · 2초"
+        },
+        {
+          "src": "assets/ref/goseong/a72ab3b88e29.mp4",
+          "poster": "assets/ref/goseong/t/a72ab3b88e29.jpg",
+          "label": "현장 AR 화면 녹화 2020_05_11_18_25_48_432 · 3초"
+        },
+        {
+          "src": "assets/ref/goseong/aa7509cc3d13.mp4",
+          "poster": "assets/ref/goseong/t/aa7509cc3d13.jpg",
+          "label": "현장 AR 화면 녹화 2020_05_11_18_25_51_721 · 3초"
+        },
+        {
+          "src": "assets/ref/goseong/d8abb3a4116c.mp4",
+          "poster": "assets/ref/goseong/t/d8abb3a4116c.jpg",
+          "label": "현장 AR 화면 녹화 2020_05_11_18_25_56_814 · 7초"
+        },
+        {
+          "src": "assets/ref/goseong/dbd51e22ab4f.mp4",
+          "poster": "assets/ref/goseong/t/dbd51e22ab4f.jpg",
+          "label": "현장 영상 고성공룡엑스포인터랙티브월 · 74초"
+        },
+        {
+          "src": "assets/ref/goseong/91b0d2f66dd5.mp4",
+          "poster": "assets/ref/goseong/t/91b0d2f66dd5.jpg",
+          "label": "현장 영상 20200707 백악기 수족관 · 180초"
+        },
+        {
+          "src": "assets/ref/goseong/9b77814a0e81.mp4",
+          "poster": "assets/ref/goseong/t/9b77814a0e81.jpg",
+          "label": "현장 영상 kakaotalk_1597134971592 · 15초"
+        },
+        {
+          "src": "assets/ref/goseong/b1af111e5a6e.mp4",
+          "poster": "assets/ref/goseong/t/b1af111e5a6e.jpg",
+          "label": "현장 영상 kakaotalk_1597134980668 · 15초"
+        },
+        {
+          "src": "assets/ref/goseong/3091a21e964e.mp4",
+          "poster": "assets/ref/goseong/t/3091a21e964e.jpg",
+          "label": "현장 영상 kakaotalk_1597135012032 · 66초"
+        },
+        {
+          "src": "assets/ref/goseong/da4bbb2ae6ee.mp4",
+          "poster": "assets/ref/goseong/t/da4bbb2ae6ee.jpg",
+          "label": "현장 AR 화면 녹화 2020_09_15_15_01_53_117 · 3초"
+        },
+        {
+          "src": "assets/ref/goseong/27caa79a170a.mp4",
+          "poster": "assets/ref/goseong/t/27caa79a170a.jpg",
+          "label": "현장 AR 화면 녹화 2020_10_13_13_58_29_230 · 3초"
+        },
+        {
+          "src": "assets/ref/goseong/de0ab795c07e.mp4",
+          "poster": "assets/ref/goseong/t/de0ab795c07e.jpg",
+          "label": "현장 영상 KakaoTalk_20220409_123406686 · 6초"
+        },
+        {
+          "src": "assets/ref/goseong/cc3258de363b.mp4",
+          "poster": "assets/ref/goseong/t/cc3258de363b.jpg",
+          "label": "현장 영상 KakaoTalk_20220409_123428508 · 19초"
+        },
+        {
+          "src": "assets/ref/goseong/c9a092b20987.mp4",
+          "poster": "assets/ref/goseong/t/c9a092b20987.jpg",
+          "label": "현장 영상 20220516_154446 · 88초"
+        }
+      ]
     },
     {
       "id": "case-042",
