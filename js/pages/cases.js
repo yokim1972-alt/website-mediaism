@@ -1,6 +1,6 @@
 // Cases Page — 작업 사례 (분류·연도로 걸러 보기)
-import { render } from '../main.js?v=202611130117';
-import { getIcon } from '../icons.js?v=202611130117';
+import { render } from '../main.js?v=202611130118';
+import { getIcon } from '../icons.js?v=202611130118';
 
 // 임시값은 화면에 표시하지 않음
 function isRealValue(v) {
