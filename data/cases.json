@@ -2359,105 +2359,169 @@
     },
     {
       "id": "case-061",
-      "title": "삼성출판사 적청 입체북 (공룡 · 바다 생물)",
+      "title": "삼성출판사 적청 입체북 (공룡 · 바다 생물 · 별자리 · 우주)",
       "category": "3dbook",
       "sub": "적청 입체 그림책",
       "year": null,
       "location": "",
       "client": "삼성출판사",
-      "description": "삼성출판사에서 펴낸 종이 입체 그림책에 들어간 그림입니다. 책에 딸린 적청 안경(빨강·파랑 셀로판 안경)을 쓰고 보면 공룡과 바다 생물이 종이 밖으로 튀어나와 보입니다. 공룡 모형 사진과 3D로 만든 바다 생물 장면을 적청 입체 그림으로 완성했습니다. 아래 그림은 적청 안경을 쓰고 보면 입체로 보입니다.",
-      "thumbnail": "./assets/ref/3dbook/b001.jpg",
+      "description": "삼성출판사에서 펴낸 종이 입체 그림책입니다. 책에 딸린 적청 안경(빨강·파랑 셀로판 안경)을 쓰고 보면 공룡, 바다 생물, 별자리, 우주 탐사선이 종이 밖으로 튀어나와 보입니다. 책 본문 그림은 출판사 저작물이라 현장 자료(비밀번호)에만 두었고, 여기에는 표지와 공모전용으로 따로 만든 샘플 그림만 올립니다.",
+      "thumbnail": "./assets/ref/3dbook/p_074.jpg",
       "images": [
-        "./assets/ref/3dbook/b001.jpg",
-        "./assets/ref/3dbook/b002.jpg",
-        "./assets/ref/3dbook/b003.jpg",
-        "./assets/ref/3dbook/b004.jpg",
-        "./assets/ref/3dbook/b005.jpg",
-        "./assets/ref/3dbook/b006.jpg",
-        "./assets/ref/3dbook/b007.jpg",
-        "./assets/ref/3dbook/b008.jpg",
-        "./assets/ref/3dbook/b009.jpg",
-        "./assets/ref/3dbook/b010.jpg",
-        "./assets/ref/3dbook/b012.jpg",
-        "./assets/ref/3dbook/b013.jpg",
-        "./assets/ref/3dbook/b014.jpg",
-        "./assets/ref/3dbook/b015.jpg",
-        "./assets/ref/3dbook/b016.jpg",
-        "./assets/ref/3dbook/b017.jpg",
-        "./assets/ref/3dbook/b019.jpg",
-        "./assets/ref/3dbook/b020.jpg",
-        "./assets/ref/3dbook/b021.jpg",
-        "./assets/ref/3dbook/b022.jpg",
-        "./assets/ref/3dbook/b023.jpg",
-        "./assets/ref/3dbook/b024.jpg",
-        "./assets/ref/3dbook/b025.jpg",
-        "./assets/ref/3dbook/b026.jpg",
-        "./assets/ref/3dbook/b027.jpg",
-        "./assets/ref/3dbook/b028.jpg",
-        "./assets/ref/3dbook/b029.jpg",
-        "./assets/ref/3dbook/b030.jpg",
-        "./assets/ref/3dbook/b031.jpg",
-        "./assets/ref/3dbook/b032.jpg",
-        "./assets/ref/3dbook/b033.jpg",
-        "./assets/ref/3dbook/b034.jpg",
-        "./assets/ref/3dbook/b035.jpg",
-        "./assets/ref/3dbook/b036.jpg",
-        "./assets/ref/3dbook/b037.jpg",
-        "./assets/ref/3dbook/b038.jpg",
-        "./assets/ref/3dbook/b039.jpg",
-        "./assets/ref/3dbook/b040.jpg",
-        "./assets/ref/3dbook/b041.jpg",
-        "./assets/ref/3dbook/b042.jpg",
-        "./assets/ref/3dbook/b043.jpg",
-        "./assets/ref/3dbook/b044.jpg",
-        "./assets/ref/3dbook/b045.jpg",
-        "./assets/ref/3dbook/b046.jpg",
-        "./assets/ref/3dbook/b047.jpg",
-        "./assets/ref/3dbook/b048.jpg",
-        "./assets/ref/3dbook/b049.jpg",
-        "./assets/ref/3dbook/b051.jpg",
-        "./assets/ref/3dbook/b052.jpg",
-        "./assets/ref/3dbook/b053.jpg",
-        "./assets/ref/3dbook/b055.jpg",
-        "./assets/ref/3dbook/b056.jpg",
-        "./assets/ref/3dbook/b057.jpg",
-        "./assets/ref/3dbook/b058.jpg",
-        "./assets/ref/3dbook/b059.jpg",
-        "./assets/ref/3dbook/b060.jpg",
-        "./assets/ref/3dbook/b061.jpg",
-        "./assets/ref/3dbook/b062.jpg",
-        "./assets/ref/3dbook/b063.jpg",
-        "./assets/ref/3dbook/b064.jpg",
-        "./assets/ref/3dbook/b065.jpg",
-        "./assets/ref/3dbook/b066.jpg",
-        "./assets/ref/3dbook/b067.jpg",
-        "./assets/ref/3dbook/b068.jpg",
-        "./assets/ref/3dbook/b069.jpg",
-        "./assets/ref/3dbook/b071.jpg",
-        "./assets/ref/3dbook/b072.jpg",
-        "./assets/ref/3dbook/b073.jpg",
-        "./assets/ref/3dbook/b074.jpg",
-        "./assets/ref/3dbook/b075.jpg",
-        "./assets/ref/3dbook/b076.jpg",
-        "./assets/ref/3dbook/b077.jpg",
-        "./assets/ref/3dbook/b078.jpg",
-        "./assets/ref/3dbook/b079.jpg",
-        "./assets/ref/3dbook/b080.jpg",
-        "./assets/ref/3dbook/b081.jpg",
-        "./assets/ref/3dbook/b082.jpg",
-        "./assets/ref/3dbook/b083.jpg"
+        "./assets/ref/3dbook/p_074.jpg",
+        "./assets/ref/3dbook/p_078.jpg",
+        "./assets/ref/3dbook/p_079.jpg"
       ],
       "tags": [
         "입체북",
         "적청 입체",
         "삼성출판사",
         "공룡",
-        "바다"
+        "바다",
+        "별자리",
+        "우주"
       ],
       "details": {
         "technology": "적청(애너글리프) 입체 그림"
       },
-      "note": "2026-11-13 D:\\2D Prj\\멀티아이텍 의 완성 적청 그림(공룡 입체완료, 삼성-바다 big입체이미지/입체)만 가로 800으로. 연도 확인 필요"
+      "note": "2026-11-13 D:\\2D Prj\\멀티아이텍 의 완성 적청 그림(공룡 입체완료, 삼성-바다 big입체이미지/입체)만 가로 800으로. 연도 확인 필요",
+      "imageGroups": [
+        {
+          "title": "책 표지",
+          "images": [
+            {
+              "src": "assets/ref/3dbook/p_074.jpg",
+              "caption": "공룡 입체북"
+            },
+            {
+              "src": "assets/ref/3dbook/p_078.jpg",
+              "caption": "바다 생물 입체북"
+            },
+            {
+              "src": "assets/ref/3dbook/p_079.jpg",
+              "caption": "별자리 입체북"
+            }
+          ]
+        },
+        {
+          "title": "3D 공룡 (공모전 샘플)",
+          "images": [
+            {
+              "src": "assets/ref/3dbook/p_080.jpg",
+              "caption": "Allosaurus_displ"
+            },
+            {
+              "src": "assets/ref/3dbook/p_081.jpg",
+              "caption": "Amargasaurus"
+            },
+            {
+              "src": "assets/ref/3dbook/p_082.jpg",
+              "caption": "Ankylosaurus"
+            },
+            {
+              "src": "assets/ref/3dbook/p_083.jpg",
+              "caption": "Brachiosaurs2 B"
+            },
+            {
+              "src": "assets/ref/3dbook/p_084.jpg",
+              "caption": "Dilophosaurus"
+            },
+            {
+              "src": "assets/ref/3dbook/p_085.jpg",
+              "caption": "Gallimimus"
+            },
+            {
+              "src": "assets/ref/3dbook/p_086.jpg",
+              "caption": "IG"
+            },
+            {
+              "src": "assets/ref/3dbook/p_087.jpg",
+              "caption": "Maiasaura"
+            },
+            {
+              "src": "assets/ref/3dbook/p_088.jpg",
+              "caption": "Oviraptor"
+            },
+            {
+              "src": "assets/ref/3dbook/p_089.jpg",
+              "caption": "pachycephalosaurus"
+            }
+          ]
+        },
+        {
+          "title": "좌우 안경 입체 (공모전 샘플)",
+          "images": [
+            {
+              "src": "assets/ref/3dbook/p_090.jpg",
+              "caption": ""
+            },
+            {
+              "src": "assets/ref/3dbook/p_091.jpg",
+              "caption": ""
+            },
+            {
+              "src": "assets/ref/3dbook/p_092.jpg",
+              "caption": ""
+            },
+            {
+              "src": "assets/ref/3dbook/p_093.jpg",
+              "caption": ""
+            },
+            {
+              "src": "assets/ref/3dbook/p_094.jpg",
+              "caption": ""
+            },
+            {
+              "src": "assets/ref/3dbook/p_095.jpg",
+              "caption": ""
+            },
+            {
+              "src": "assets/ref/3dbook/p_096.jpg",
+              "caption": ""
+            },
+            {
+              "src": "assets/ref/3dbook/p_097.jpg",
+              "caption": ""
+            },
+            {
+              "src": "assets/ref/3dbook/p_098.jpg",
+              "caption": ""
+            },
+            {
+              "src": "assets/ref/3dbook/p_099.jpg",
+              "caption": ""
+            },
+            {
+              "src": "assets/ref/3dbook/p_100.jpg",
+              "caption": ""
+            },
+            {
+              "src": "assets/ref/3dbook/p_101.jpg",
+              "caption": ""
+            },
+            {
+              "src": "assets/ref/3dbook/p_102.jpg",
+              "caption": ""
+            },
+            {
+              "src": "assets/ref/3dbook/p_103.jpg",
+              "caption": ""
+            },
+            {
+              "src": "assets/ref/3dbook/p_104.jpg",
+              "caption": ""
+            },
+            {
+              "src": "assets/ref/3dbook/p_105.jpg",
+              "caption": ""
+            },
+            {
+              "src": "assets/ref/3dbook/p_106.jpg",
+              "caption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
