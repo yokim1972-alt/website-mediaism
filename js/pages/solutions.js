@@ -1,6 +1,6 @@
 // Solutions Page — 하는 일 (큰 분류 5개, 각 분류 안에 하위 항목)
-import { render } from '../main.js?v=202611130114';
-import { getIcon } from '../icons.js?v=202611130114';
+import { render } from '../main.js?v=202611130117';
+import { getIcon } from '../icons.js?v=202611130117';
 
 export async function renderSolutionsPage(params) {
     const solutionsData = await window.loadData('solutions');
