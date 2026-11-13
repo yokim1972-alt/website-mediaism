@@ -1,6 +1,6 @@
 // Case Detail Page — 작업 사례 상세
-import { render } from '../main.js?v=202611130134';
-import { getIcon } from '../icons.js?v=202611130134';
+import { render } from '../main.js?v=202611130140';
+import { getIcon } from '../icons.js?v=202611130140';
 
 const REF_PASSWORD = 'media123'; // 현장 자료 열람 비밀번호 (보안용이 아니라 문만 닫아 둔 것)
 
@@ -79,7 +79,7 @@ export async function renderCaseDetailPage(params) {
                 </div>`).join('')}
 
                 <!-- Case Gallery -->
-                <div class="case-gallery">
+                ${(caseItem.imageGroups || []).length ? '' : `<div class="case-gallery">
                     ${images.length > 0 ? `
                         <div class="gallery-main" id="galleryMain">
                             <img src="${images[0]}" alt="${caseItem.title}" />
@@ -101,7 +101,7 @@ export async function renderCaseDetailPage(params) {
                             </div>
                         </div>
                     `}
-                </div>
+                </div>`}
 
                 ${(caseItem.imageGroups || []).map((g, gi) => `
                 <!-- 묶음별 그림 (예: 서원별 건물) -->
