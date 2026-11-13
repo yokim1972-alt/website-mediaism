@@ -916,42 +916,6 @@
       "note": "정식 사업명·발주처 확인 필요"
     },
     {
-      "id": "case-027",
-      "title": "2024 가릉 메타버스 체험관",
-      "category": "arvr",
-      "sub": "VR 탑승 체험",
-      "year": 2024,
-      "location": "",
-      "client": "",
-      "description": "VR 안경과 움직이는 장치를 함께 쓰는 메타버스 체험관입니다. 걷기·달리기 장치와 탑승 장치, 안경 없이 입체로 보이는 화면을 설치해 여러 가지 가상 세계를 체험합니다.",
-      "thumbnail": "./assets/ref/gareung-metaverse/4e4f516f68d8.jpg",
-      "images": [
-        "./assets/ref/gareung-metaverse/4e4f516f68d8.jpg",
-        "./assets/ref/gareung-metaverse/ff7431fe1555.jpg",
-        "./assets/ref/gareung-metaverse/d89b6e1b02dc.jpg"
-      ],
-      "tags": [
-        "메타버스",
-        "VR"
-      ],
-      "ref": [
-        "2024 가릉메타버스 체험관"
-      ],
-      "note": "'가릉' 정확한 장소명·발주처 확인 필요",
-      "videos": [
-        {
-          "src": "assets/ref/gareung-metaverse/out-78cc104ef8bc.mp4",
-          "poster": "assets/ref/gareung-metaverse/t/out-78cc104ef8bc.jpg",
-          "label": "현장 영상 20240116_133121 · 전체 1분 46초"
-        },
-        {
-          "src": "assets/ref/gareung-metaverse/out-eb39c9f4fa34.mp4",
-          "poster": "assets/ref/gareung-metaverse/t/out-eb39c9f4fa34.jpg",
-          "label": "현장 영상 20240108_134606 · 전체 1분 12초"
-        }
-      ]
-    },
-    {
       "id": "case-017",
       "title": "아기고래 구출대작전",
       "category": "theater",
