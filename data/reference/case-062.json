@@ -1,0 +1,189 @@
+{
+  "case": "case-062",
+  "folder": "멀티아이텍 · 삼성-바다",
+  "photos": [
+    {
+      "src": "assets/ref/3dbook/r_001.jpg",
+      "thumb": "assets/ref/3dbook/t/r_001.jpg",
+      "date": "",
+      "group": "바다 생물",
+      "name": "가시북"
+    },
+    {
+      "src": "assets/ref/3dbook/r_002.jpg",
+      "thumb": "assets/ref/3dbook/t/r_002.jpg",
+      "date": "",
+      "group": "바다 생물",
+      "name": "가오리"
+    },
+    {
+      "src": "assets/ref/3dbook/r_003.jpg",
+      "thumb": "assets/ref/3dbook/t/r_003.jpg",
+      "date": "",
+      "group": "바다 생물",
+      "name": "가오리"
+    },
+    {
+      "src": "assets/ref/3dbook/r_004.jpg",
+      "thumb": "assets/ref/3dbook/t/r_004.jpg",
+      "date": "",
+      "group": "바다 생물",
+      "name": "가오리"
+    },
+    {
+      "src": "assets/ref/3dbook/r_005.jpg",
+      "thumb": "assets/ref/3dbook/t/r_005.jpg",
+      "date": "",
+      "group": "바다 생물",
+      "name": "살러스켄"
+    },
+    {
+      "src": "assets/ref/3dbook/r_006.jpg",
+      "thumb": "assets/ref/3dbook/t/r_006.jpg",
+      "date": "",
+      "group": "바다 생물",
+      "name": "꽁치"
+    },
+    {
+      "src": "assets/ref/3dbook/r_007.jpg",
+      "thumb": "assets/ref/3dbook/t/r_007.jpg",
+      "date": "",
+      "group": "바다 생물",
+      "name": "나비고기"
+    },
+    {
+      "src": "assets/ref/3dbook/r_008.jpg",
+      "thumb": "assets/ref/3dbook/t/r_008.jpg",
+      "date": "",
+      "group": "바다 생물",
+      "name": "날치"
+    },
+    {
+      "src": "assets/ref/3dbook/r_009.jpg",
+      "thumb": "assets/ref/3dbook/t/r_009.jpg",
+      "date": "",
+      "group": "바다 생물",
+      "name": "돌고래"
+    },
+    {
+      "src": "assets/ref/3dbook/r_010.jpg",
+      "thumb": "assets/ref/3dbook/t/r_010.jpg",
+      "date": "",
+      "group": "바다 생물",
+      "name": "흰둥가리"
+    },
+    {
+      "src": "assets/ref/3dbook/r_011.jpg",
+      "thumb": "assets/ref/3dbook/t/r_011.jpg",
+      "date": "",
+      "group": "바다 생물",
+      "name": "문어"
+    },
+    {
+      "src": "assets/ref/3dbook/r_012.jpg",
+      "thumb": "assets/ref/3dbook/t/r_012.jpg",
+      "date": "",
+      "group": "바다 생물",
+      "name": "바다풀"
+    },
+    {
+      "src": "assets/ref/3dbook/r_013.jpg",
+      "thumb": "assets/ref/3dbook/t/r_013.jpg",
+      "date": "",
+      "group": "바다 생물",
+      "name": "바다거북"
+    },
+    {
+      "src": "assets/ref/3dbook/r_014.jpg",
+      "thumb": "assets/ref/3dbook/t/r_014.jpg",
+      "date": "",
+      "group": "바다 생물",
+      "name": "바다뱀"
+    },
+    {
+      "src": "assets/ref/3dbook/r_015.jpg",
+      "thumb": "assets/ref/3dbook/t/r_015.jpg",
+      "date": "",
+      "group": "바다 생물",
+      "name": "바다소"
+    },
+    {
+      "src": "assets/ref/3dbook/r_016.jpg",
+      "thumb": "assets/ref/3dbook/t/r_016.jpg",
+      "date": "",
+      "group": "바다 생물",
+      "name": "죠스다"
+    },
+    {
+      "src": "assets/ref/3dbook/r_017.jpg",
+      "thumb": "assets/ref/3dbook/t/r_017.jpg",
+      "date": "",
+      "group": "바다 생물",
+      "name": "불가사리"
+    },
+    {
+      "src": "assets/ref/3dbook/r_018.jpg",
+      "thumb": "assets/ref/3dbook/t/r_018.jpg",
+      "date": "",
+      "group": "바다 생물",
+      "name": "산호"
+    },
+    {
+      "src": "assets/ref/3dbook/r_019.jpg",
+      "thumb": "assets/ref/3dbook/t/r_019.jpg",
+      "date": "",
+      "group": "바다 생물",
+      "name": "성개"
+    },
+    {
+      "src": "assets/ref/3dbook/r_020.jpg",
+      "thumb": "assets/ref/3dbook/t/r_020.jpg",
+      "date": "",
+      "group": "바다 생물",
+      "name": "라이온피시"
+    },
+    {
+      "src": "assets/ref/3dbook/r_021.jpg",
+      "thumb": "assets/ref/3dbook/t/r_021.jpg",
+      "date": "",
+      "group": "바다 생물",
+      "name": "쏠종개"
+    },
+    {
+      "src": "assets/ref/3dbook/r_022.jpg",
+      "thumb": "assets/ref/3dbook/t/r_022.jpg",
+      "date": "",
+      "group": "바다 생물",
+      "name": "오징어"
+    },
+    {
+      "src": "assets/ref/3dbook/r_023.jpg",
+      "thumb": "assets/ref/3dbook/t/r_023.jpg",
+      "date": "",
+      "group": "바다 생물",
+      "name": "집게"
+    },
+    {
+      "src": "assets/ref/3dbook/r_024.jpg",
+      "thumb": "assets/ref/3dbook/t/r_024.jpg",
+      "date": "",
+      "group": "바다 생물",
+      "name": "해마"
+    },
+    {
+      "src": "assets/ref/3dbook/r_025.jpg",
+      "thumb": "assets/ref/3dbook/t/r_025.jpg",
+      "date": "",
+      "group": "바다 생물",
+      "name": "해파리"
+    },
+    {
+      "src": "assets/ref/3dbook/r_026.jpg",
+      "thumb": "assets/ref/3dbook/t/r_026.jpg",
+      "date": "",
+      "group": "바다 생물",
+      "name": "고래"
+    }
+  ],
+  "videos": []
+}
