@@ -1,6 +1,6 @@
 // Cases Page — 작업 사례 (분류·연도로 걸러 보기)
-import { render } from '../main.js?v=202611130032';
-import { getIcon } from '../icons.js?v=202611130032';
+import { render } from '../main.js?v=202611130054';
+import { getIcon } from '../icons.js?v=202611130054';
 
 // 임시값은 화면에 표시하지 않음
 function isRealValue(v) {
@@ -39,8 +39,8 @@ export async function renderCasesPage(params) {
             <div class="container">
                 <!-- Page Header -->
                 <div class="page-header">
-                    <h1 class="page-title">${isAI ? AI_INTRO.title : initialCat === 'arvr' ? ARVR_INTRO.title : '작업 사례'}</h1>
-                    <p class="page-subtitle">${isAI ? AI_INTRO.lead : initialCat === 'arvr' ? ARVR_INTRO.lead : '지금까지 만든 것들입니다. 분류와 연도로 골라 볼 수 있습니다.'}</p>
+                    <h1 class="page-title">${isAI ? AI_INTRO.title : '작업 사례'}</h1>
+                    <p class="page-subtitle">${isAI ? AI_INTRO.lead : '지금까지 만든 것들입니다. 분류와 연도로 골라 볼 수 있습니다.'}</p>
                 </div>
 
                 <!-- Filters -->

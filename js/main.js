@@ -73,9 +73,8 @@ class Router {
             const href = link.getAttribute('href').slice(1);
             // 정확히 같은 주소가 활성. 작업 사례(#/cases)는 분류 없이 볼 때와 사례 상세일 때 활성
             let active = href === full;
-            if (href === '/cases' && (full.startsWith('/case/') || (full.startsWith('/cases') && full !== '/cases/ai-content' && full !== '/cases/arvr'))) active = true;
+            if (href === '/cases' && (full.startsWith('/case/') || (full.startsWith('/cases') && full !== '/cases/ai-content'))) active = true;
             if (href === '/cases/ai-content' && full === '/cases/ai-content') active = true;
-            if (href === '/cases/arvr' && full === '/cases/arvr') active = true;
             link.classList.toggle('active', active);
         });
     }
@@ -85,11 +84,11 @@ class Router {
 const router = new Router();
 
 // Import Pages
-import { renderHomePage } from './pages/home.js?v=202611130032';
-import { renderAboutPage } from './pages/about.js?v=202611130032';
-import { renderSolutionsPage } from './pages/solutions.js?v=202611130032';
-import { renderCasesPage } from './pages/cases.js?v=202611130032';
-import { renderCaseDetailPage } from './pages/case-detail.js?v=202611130032';
+import { renderHomePage } from './pages/home.js?v=202611130054';
+import { renderAboutPage } from './pages/about.js?v=202611130054';
+import { renderSolutionsPage } from './pages/solutions.js?v=202611130054';
+import { renderCasesPage } from './pages/cases.js?v=202611130054';
+import { renderCaseDetailPage } from './pages/case-detail.js?v=202611130054';
 
 // Register Routes
 router.register('/', renderHomePage);
